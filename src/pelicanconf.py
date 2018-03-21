@@ -34,5 +34,5 @@ DEFAULT_PAGINATION = 5
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
- PROFILE_IMAGE = 'avatar.jpg'
- THEME="themes/hyde"
+PROFILE_IMAGE = 'avatar.jpg'
+THEME="themes/hyde"
