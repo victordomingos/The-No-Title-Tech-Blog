@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Victor Domingos'
-SITENAME = u'The No Title Tech Blog'
+SITENAME = u'The&nbsp;NoTitle Tech&nbsp;Blog<small><sup>&reg;</sup></small>'
 SITEURL = ''
 
 PATH = 'content'
@@ -26,10 +26,13 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Facebook', 'https://www.facebook.com/escritorvictordomingos/'),
+          ('Twitter', 'https://twitter.com/victordomingos'),)
 
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+
+ PROFILE_IMAGE = 'avatar.jpg'
+ THEME="themes/hyde"
