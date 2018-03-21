@@ -30,7 +30,7 @@ SOCIAL = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
           ('twitter', 'https://twitter.com/victordomingos'),
           ('linkedin', 'https://linkedin.com/in/victordomingos'),
           ('github', 'https://github.com/victordomingos'),
-          ('stackoverflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),)
+          ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),) 
 
 DEFAULT_PAGINATION = 5
 
