@@ -1,5 +1,5 @@
 Title: Mention on podcast
-Date: 2018-03-10 09:20
+Date: 2018-02-02 09:20
 Tags: python, tkinter, podcast, GUI
 Category: General
 Slug: mention_on_podcast
