@@ -1,1 +1,0 @@
-This folder will store the images for this website.
