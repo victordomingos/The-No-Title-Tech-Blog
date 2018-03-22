@@ -3,15 +3,17 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Victor Domingos'
-SITENAME = u'The&nbsp;NoTitle Tech&nbsp;Blog<small><sup>&reg;</sup></small>'
+SITENAME = u'TheNoTitle TechBlog<small><sup>&reg;</sup></small>'
 SITEURL = ''
 
 PATH = 'content'
 
-ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
-ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}/index.html'
-YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
-MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/index.html'
+
+#ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
+#ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}/index.html'
+#YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
+#MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/index.html'
+
 
 TIMEZONE = 'Europe/Lisbon'
 
@@ -37,7 +39,7 @@ SOCIAL = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
           ('github', 'https://github.com/victordomingos'),
           ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),)
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 2
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
