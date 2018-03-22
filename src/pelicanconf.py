@@ -8,13 +8,6 @@ SITEURL = ''
 
 PATH = 'content'
 
-
-#ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
-#ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}/index.html'
-#YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
-#MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/index.html'
-
-
 TIMEZONE = 'Europe/Lisbon'
 
 DEFAULT_LANG = u'English'
@@ -25,6 +18,10 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+
+DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = True
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -39,7 +36,7 @@ SOCIAL = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
           ('github', 'https://github.com/victordomingos'),
           ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),)
 
-DEFAULT_PAGINATION = 2
+DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
