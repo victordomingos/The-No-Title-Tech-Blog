@@ -5,6 +5,7 @@ git clone https://github.com/victordomingos/The-No-Title-Tech-Blog.git
 cd The-No-Title-Tech-Blog
 git checkout src
 cd src
+pelican content
 ls -lhosa
 MY_SRC_PATH=$(pwd)
 echo "The downloaded source code is at:"
