@@ -8,6 +8,11 @@ SITEURL = ''
 
 PATH = 'content'
 
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{slug}/index.html'
+YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/index.html'
+
 TIMEZONE = 'Europe/Lisbon'
 
 DEFAULT_LANG = u'English'
@@ -30,7 +35,7 @@ SOCIAL = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
           ('twitter', 'https://twitter.com/victordomingos'),
           ('linkedin', 'https://linkedin.com/in/victordomingos'),
           ('github', 'https://github.com/victordomingos'),
-          ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),) 
+          ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),)
 
 DEFAULT_PAGINATION = 5
 
@@ -39,3 +44,9 @@ RELATIVE_URLS = True
 
 PROFILE_IMAGE = 'avatar.jpg'
 THEME="themes/hyde"
+
+
+
+#DISQUS_SITENAME = ""
+
+
