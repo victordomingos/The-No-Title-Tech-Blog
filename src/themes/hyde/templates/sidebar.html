@@ -12,13 +12,22 @@
 			<p class="lead">{{ BIO }} </p>
 			<p></p>
 		</div>
-		<nav class="sidebar-nav">
-			{% for name, link in SOCIAL %}
+        <nav class="sidebar-nav">
+            {% if DISPLAY_PAGES_ON_MENU -%}
+            {% for pg in PAGES %}
+            <li class="active">
+                <a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a>
+            </li>
+            {% endfor %}
+            {% endif %}
+            
+            {% for name, link in SOCIAL %}
 			<a class="sidebar-nav-item" href="{{ link }}">
 				<i class="fa fa-{{ name }}"></i>
 			</a>
 			{% endfor %}
-			<a class="sidebar-nav-item" href="{{ FEED_ALL_RSS }}">
+
+            <a class="sidebar-nav-item" href="{{ FEED_ALL_RSS }}">
 				<i class="fa fa-feed"></i>
 			</a>
 		</nav>

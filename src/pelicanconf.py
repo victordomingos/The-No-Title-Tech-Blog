@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Victor Domingos'
 SITENAME = u'TheNoTitle TechBlog<small><sup>&reg;</sup></small>'
-SITEURL = ''
-
+SITEURL = 'http://victordomingos.com/no-title'
+BIO = 'Tales of a stranger in antigravity land.'
 PATH = 'content'
 
 TIMEZONE = 'Europe/Lisbon'
@@ -33,9 +33,12 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
           ('twitter', 'https://twitter.com/victordomingos'),
           ('linkedin', 'https://linkedin.com/in/victordomingos'),
-          ('github', 'https://github.com/victordomingos'),
-          ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),)
+          ('github', 'https://github.com/victordomingos'),)
 
+
+STATIC_PATHS = ['images',]
+PAGE_PATHS = ['pages',]
+ARTICLE_PATHS = ['articles',]
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
