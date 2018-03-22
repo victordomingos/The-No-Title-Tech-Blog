@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Victor Domingos'
-SITENAME = u'TheNoTitle TechBlog<small><sup>&reg;</sup></small>'
+SITENAME = u'The <strong>No Title<small><sup>&reg;</sup></small></strong>Tech Blog'
 SITEURL = 'http://victordomingos.com/no-title'
 BIO = 'Tales of a stranger in antigravity land.'
 PATH = 'content'
@@ -44,9 +44,11 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-PROFILE_IMAGE = 'avatar.jpg'
-THEME="themes/hyde"
 
+#PROFILE_IMAGE = 'avatar.jpg'
+#THEME="themes/hyde"
+
+THEME="themes/pelican-alchemy/alchemy"
 
 
 #DISQUS_SITENAME = ""
