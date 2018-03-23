@@ -1,3 +1,7 @@
+*Note: This folder contains a version of the Pelican Alchemy theme that has been customized for my website. I strongly encourage you to check out the original version, but please feel free to use this modified version if you prefer.*
+
+ 
+
 # Pelican Alchemy
 
 > A magical ✨ Pelican theme
