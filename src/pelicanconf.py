@@ -43,7 +43,8 @@ RELATIVE_URLS = True
 
 THEME = "themes/pelican-alchemy/alchemy"
 SITESUBTITLE = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
-SITEIMAGE = '/images/avatar.png width=60% height=60%'  # Image that appears in the header
+
+SITEIMAGE = '/images/avatar1.png  width=60% height=60%' # Image that appears in the header
 
 
 # Social widget
