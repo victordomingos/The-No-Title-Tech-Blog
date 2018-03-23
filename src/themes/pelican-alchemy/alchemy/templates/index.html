@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block title %}
-  {{ SITENAME }} | {{ SITESUBTITLE }}
+  {{ SITENAME|striptags }} | {{ SITESUBTITLE|striptags }}
 {% endblock %}
 
 {% block page_header %}
