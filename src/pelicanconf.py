@@ -73,7 +73,7 @@ HIDE_AUTHORS = True
 # https://realfavicongenerator.net/blog/new-favicon-package-less-is-more/
 #RFG_FAVICONS =
 
-TYPOGRIFY = True
+TYPOGRIFY = False
 
 SUMMARY_MAX_LENGTH = 50
 
