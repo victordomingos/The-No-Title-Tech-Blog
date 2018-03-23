@@ -1,10 +1,10 @@
-Title: import antigravity
+Title: >>> import antigravity
 Date: 2018-03-20 00:01
 Tags: python, fun
 Category: General
 Slug: import_antigravity
 Author: Victor Domingos
-Summary: This is the first blog post here, and it will serve just to test Pelican, a Python-based static website generation system. Hopefully, it will work without any explosion or traceback.
+Cover: images/import_antigravity.png
 
 This is the first blog post here, and it will serve just to test [Pelican](https://blog.getpelican.com){target=":_blank"}, a Python-based static website generation system. Hopefully, it will work without any explosion or traceback.
 
