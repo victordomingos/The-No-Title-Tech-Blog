@@ -1,5 +1,5 @@
 Title: import antigravity
-Date: 2018-03-10 09:20
+Date: 2018-03-20 00:01
 Tags: python, fun
 Category: General
 Slug: import_antigravity
