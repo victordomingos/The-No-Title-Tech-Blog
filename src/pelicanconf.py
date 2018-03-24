@@ -1,6 +1,9 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+
+from glob import glob
+
 
 AUTHOR = u'Victor Domingos'
 SITENAME = u'The <strong>No Title<small><sup>&reg;</sup></small></strong> Tech Blog'
@@ -44,7 +47,16 @@ RELATIVE_URLS = True
 THEME = "themes/pelican-alchemy/alchemy"
 SITESUBTITLE = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
 
-SITEIMAGE = '/images/avatar1.png  width=60% height=60%' # Image that appears in the header
+
+SITEIMAGE_FOLDER = '/images'  # Images to be used randomly in the header
+SITEIMAGES = [ img for img in glob(PATH+SITEIMAGE_FOLDER + '/avatars/*.png')]
+
+from pprint import pprint
+pprint(SITEIMAGES)
+SITEIMAGES_LEN = len(SITEIMAGES)
+SITEIMAGE_SIZE = 'width=60% height=60%'
+
+SITEIMAGE = '/images/avatar1.png  width=60% height=60%' # Default Image that appears in the header
 
 
 # Social widget
