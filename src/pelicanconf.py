@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
+
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
 from glob import glob
-
+from pathlib import Path
 
 AUTHOR = u'Victor Domingos'
 SITENAME = u'The <strong>No Title<small><sup>&reg;</sup></small></strong> Tech Blog'
@@ -39,7 +39,6 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 """
 
-
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
@@ -48,12 +47,15 @@ THEME = "themes/pelican-alchemy/alchemy"
 SITESUBTITLE = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
 
 
-SITEIMAGE_FOLDER = '/images'  # Images to be used randomly in the header
-SITEIMAGES = [ img for img in glob(PATH+SITEIMAGE_FOLDER + '/avatars/*.png')]
+SITEIMAGE_FOLDER = 'images/avatars'  # Images to be used randomly in the header
+SITEIMAGES = [ Path(*Path(img).parts[1:])
+               for img in glob(f'{PATH}/{SITEIMAGE_FOLDER}/*.png')]
+
+
 
 from pprint import pprint
+print(PATH+SITEIMAGE_FOLDER+'/avatars/*.png')
 pprint(SITEIMAGES)
-SITEIMAGES_LEN = len(SITEIMAGES)
 SITEIMAGE_SIZE = 'width=60% height=60%'
 
 SITEIMAGE = '/images/avatar1.png  width=60% height=60%' # Default Image that appears in the header
@@ -74,14 +76,14 @@ PYGMENTS_STYLE = "monokai"
 # code blocks with line numbers
 PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
 
-HIDE_AUTHORS = True 
+HIDE_AUTHORS = True
 
 # https://realfavicongenerator.net/blog/new-favicon-package-less-is-more/
 #RFG_FAVICONS = True
 
-TYPOGRIFY = True 
+TYPOGRIFY = True
 
-SUMMARY_MAX_LENGTH = 50
+SUMMARY_MAX_LENGTH = 150
 
 PAGE_ORDER_BY = 'reversed-basename'
 
