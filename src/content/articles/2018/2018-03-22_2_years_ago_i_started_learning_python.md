@@ -4,7 +4,7 @@ Tags: python, learning
 Category: General
 Slug: 
 Author: Victor Domingos
-Cover: images/my_first_python_code.png
+Cover: images/2018/my_first_python_code.png
 Summary:
 Status: draft
 
