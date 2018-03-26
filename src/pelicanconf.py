@@ -15,7 +15,7 @@ PATH = 'content'
 STATIC_PATHS = ['images',]
 PAGE_PATHS = ['pages',]
 ARTICLE_PATHS = ['articles',]
-DEFAULT_PAGINATION = 2
+DEFAULT_PAGINATION = 6
 
 TIMEZONE = 'Europe/Lisbon'
 DEFAULT_LANG = 'en'
