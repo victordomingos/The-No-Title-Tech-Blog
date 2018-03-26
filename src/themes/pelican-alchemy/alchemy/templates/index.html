@@ -18,7 +18,7 @@
 {% block content %}
   {% for article in articles_page.object_list %}
     <article class="row teaser">
-      <header class="col-sm-4 text-muted">
+      <header class="col-sm-3 text-muted">
         <ul>
           <li title="{{ article.date.isoformat() }}">
             <i class="fa fa-clock-o"></i>
@@ -38,7 +38,7 @@
           {% endif %}
         </ul>
       </header>
-      <div class="col-sm-8">
+      <div class="col-sm-9">
         <h4 class="title">
           <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
         </h4>

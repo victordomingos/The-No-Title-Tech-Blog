@@ -4,9 +4,7 @@ Tags: python, backup, macos, server, dropbox,
 Category: General
 Slug: python_to_the_rescue
 Author: Victor Domingos
-Summary: That moment when you need to set up an automatic backup system and you realise that your old server doesn't support Dropbox anymore.
-
-That moment when you need to set up an automatic backup system and you realise that your old server doesn't support Dropbox anymore. The sollution: getting your hands to work and write a program for that task.
+Summary: That moment when you need to set up an automatic backup system and you realise that your old server doesn't support Dropbox anymore. The sollution: getting your hands to work and write a program for that task.
 
 ## The problem
 In the middle of some corporate changes, my company had the need to relocate an old Mac mini server, which was responsible for one of its most important databases. It was a custom-made application based on Filemaker - a very old version of Filemaker running on Mac OS 10.6 Snow Leopard. Nobody seemed to be aware that there wasn't anymore a backup strategy in place. Until one night, when there was a big assault and lots of computers got stolen. Being a headless mini computer certainly helped that Mac to remain intact. But if it had been stolen, there would be a big loss in data that was essential for the company's business. 

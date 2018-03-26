@@ -51,14 +51,8 @@ SITEIMAGE_FOLDER = 'images/avatars'  # Images to be used randomly in the header
 SITEIMAGES = [ Path(*Path(img).parts[1:])
                for img in glob(f'{PATH}/{SITEIMAGE_FOLDER}/*.png')]
 
-
-
-from pprint import pprint
-print(PATH+SITEIMAGE_FOLDER+'/avatars/*.png')
-pprint(SITEIMAGES)
-SITEIMAGE_SIZE = 'width=60% height=60%'
-
-SITEIMAGE = '/images/avatar1.png  width=60% height=60%' # Default Image that appears in the header
+SITEIMAGE_SIZE = 'width=100% height=100%'
+SITEIMAGE = '/images/avatar1.png  width=80% height=80%' # Default Image that appears in the header
 
 
 # Social widget
@@ -67,9 +61,6 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
          ('linkedin', 'https://linkedin.com/in/victordomingos'),
          ('github', 'https://github.com/victordomingos'),
          ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),)
-
-#TAGS_SAVE_AS = ''
-#TAG_SAVE_AS = ''
 
 
 PYGMENTS_STYLE = "monokai"

@@ -4,9 +4,7 @@ Tags: python, tkinter, podcast, GUI
 Category: General
 Slug: mention_on_podcast
 Author: Victor Domingos
-Summary: In a recent episode of the Python Bytes podcast, some of my programming projects are briefly mentioned, as a concrete example of how complex Python and tkinter may be used to create complex and good looking desktop graphical user interfaces.
-
-In a recent episode of the [Python Bytes podcast](http://bit.ly/PyBytes63){:target=_blank}, some of my programming projects are briefly mentioned, as a concrete example of how complex Python and tkinter may be used to create complex and good looking desktop graphical user interfaces.
+Summary: In a recent episode of the [Python Bytes podcast](http://bit.ly/PyBytes63){:target=_blank}, some of my programming projects are briefly mentioned, as a concrete example of how complex Python and tkinter may be used to create complex and good looking desktop graphical user interfaces.
 
 ![Login box for the RepService application](images/repservice_login.jpg)
 
