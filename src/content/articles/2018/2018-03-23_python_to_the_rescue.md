@@ -4,6 +4,7 @@ Tags: python, backup, macos, server, dropbox,
 Category: General
 Slug: python_to_the_rescue
 Author: Victor Domingos
+Cover: images/2018/npk-backup.png
 Summary: That moment when you need to set up an automatic backup system and you realise that your old server doesn't support Dropbox anymore. The sollution: getting your hands to work and write a program for that task.
 
 ## The problem

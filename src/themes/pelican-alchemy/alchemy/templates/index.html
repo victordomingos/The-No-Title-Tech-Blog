@@ -19,15 +19,14 @@
   {% for article in articles_page.object_list %}
     <article class="row teaser">
       <header class="col-sm-3 text-muted">
-        <ul>
-          <li title="{{ article.date.isoformat() }}">
-            <i class="fa fa-clock-o"></i>
-            {{ article.locale_date }}
-          </li>
-          <li>
-            <i class="fa fa-folder-open-o"></i>
-            <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
-          </li>
+       {% if DISPLAY_DATE_ON_ARTICLE_LIST or (not HIDE_AUTHORS and article.authors ) %} 
+	<ul>
+	  {% if DISPLAY_DATE_ON_ARTICLE_LIST %}
+	    <li title="{{ article.date.isoformat() }}">
+              <i class="fa fa-clock-o"></i>
+	        {{ article.locale_date }}
+	    </li>
+	  {% endif %}
           {% if not HIDE_AUTHORS and article.authors %}
             <li>
               <i class="fa fa-user-o"></i>
@@ -37,6 +36,10 @@
             </li>
           {% endif %}
         </ul>
+	{% endif %}
+	{% if article.cover %}
+	  <img src="{{ SITEURL}}/{{ article.cover | thumbnail("800x_")  }}" width=100% />
+	{% endif %}
       </header>
       <div class="col-sm-9">
         <h4 class="title">

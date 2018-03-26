@@ -15,7 +15,7 @@ PATH = 'content'
 STATIC_PATHS = ['images',]
 PAGE_PATHS = ['pages',]
 ARTICLE_PATHS = ['articles',]
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 2
 
 TIMEZONE = 'Europe/Lisbon'
 DEFAULT_LANG = 'en'
@@ -46,13 +46,13 @@ RELATIVE_URLS = True
 THEME = "themes/pelican-alchemy/alchemy"
 SITESUBTITLE = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
 
-
+DISPLAY_DATE_ON_ARTICLE_LIST = False
 SITEIMAGE_FOLDER = 'images/avatars'  # Images to be used randomly in the header
 SITEIMAGES = [ Path(*Path(img).parts[1:])
                for img in glob(f'{PATH}/{SITEIMAGE_FOLDER}/*.png')]
 
 SITEIMAGE_SIZE = 'width=100% height=100%'
-SITEIMAGE = '/images/avatar1.png  width=80% height=80%' # Default Image that appears in the header
+SITEIMAGE = '/images/avatar1.png width=80% height=80%' # Default Image that appears in the header
 
 
 # Social widget
@@ -61,6 +61,9 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
          ('linkedin', 'https://linkedin.com/in/victordomingos'),
          ('github', 'https://github.com/victordomingos'),
          ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),)
+
+
+PLUGINS = ['advthumbnailer']
 
 
 PYGMENTS_STYLE = "monokai"
