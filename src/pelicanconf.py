@@ -8,7 +8,7 @@ from pathlib import Path
 AUTHOR = u'Victor Domingos'
 SITENAME = u'The <strong>No Title<small><sup>&reg;</sup></small></strong> Tech Blog'
 SITEURL = 'http://victordomingos.com/no-title'
-BIO = 'Tales of a stranger in antigravity land.'
+BIO = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
 DESCRIPTION = 'A personal blog about learning programming technologies, including programming Python, tkinter, html, css, sql, flask, and other stuff.'
 
 PATH = 'content'
