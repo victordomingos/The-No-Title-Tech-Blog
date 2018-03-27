@@ -37,14 +37,6 @@ DISPLAY_PAGES_ON_MENU = True
 #CHECK_MODIFIED_METHOD = 'mtime'
 #LOAD_CONTENT_CACHE = True
 
-# Blogroll
-"""
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-"""
-
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
