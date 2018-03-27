@@ -14,7 +14,7 @@ DESCRIPTION = 'A personal blog about learning programming technologies, includin
 PATH = 'content'
 STATIC_PATHS = ['images',]
 PAGE_PATHS = ['pages',]
-ARTICLE_PATHS = ['articles',]
+ARTICLE_PATHS = ['articles','projects']
 DEFAULT_PAGINATION = 6
 
 TIMEZONE = 'Europe/Lisbon'
@@ -22,11 +22,7 @@ DEFAULT_LANG = 'en'
 LOCALE = "en_GB"
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+FEED_ALL_ATOM = True
 
 DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_PAGES_ON_MENU = True
@@ -62,9 +58,7 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
          ('github', 'https://github.com/victordomingos'),
          ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),)
 
-
 # PLUGINS = ['advthumbnailer']
-
 
 PYGMENTS_STYLE = "monokai"
 # code blocks with line numbers
