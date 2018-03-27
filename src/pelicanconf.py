@@ -23,9 +23,22 @@ LOCALE = "en_GB"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = True
+FEED_ALL_RSS = 'feeds/all.rss.xml'
 
+# global metadata to all the contents
+DEFAULT_METADATA = {'author': 'Victor Domingos'}
+READERS = {'html': 'html', 'md': 'markdown'}
+
+SLUGIFY_SOURCE = 'basename'
 DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_PAGES_ON_MENU = True
+CACHE_CONTENT = True
+CONTENT_CACHING_LAYER = 'generator'
+CACHE_PATH = 'cache'
+GZIP_CACHE = True
+CHECK_MODIFIED_METHOD = 'mtime'
+LOAD_CONTENT_CACHE = True
+
 
 # Blogroll
 """
@@ -76,5 +89,13 @@ SUMMARY_MAX_LENGTH = 150
 PAGE_ORDER_BY = 'reversed-basename'
 
 WITH_FUTURE_DATES = False
-YEAR_ARCHIVE_SAVE_AS = 'articles/{date:%Y}/index.html'
-MONTH_ARCHIVE_SAVE_AS = 'articles/{date:%Y}/{date:%b}/index.html'
+ARTICLE_URL = 'articles/{date:%Y}/{slug}.html'
+ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}.html'
+PAGE_URL = 'pages/{slug}.html'
+PAGE_SAVE_AS = 'pages/{slug}.html'
+YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/{date:%b}/index.html'
+
+
+DRAFT_URL = 'drafts/{slug}.html'
+DRAFT_SAVE_AS = 'drafts/{slug}.html'
