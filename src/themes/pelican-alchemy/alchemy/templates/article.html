@@ -35,7 +35,7 @@
         {% endif %}
       </ul>
     </header>
-    {% if article.cover %}<img src="{{ article.cover }}" alt="">{% endif %} {{ article.summary }}
+    {% if article.cover %}<img src="{{  SITEURL  }}/{{ article.cover }}" alt="{{ article.title }}">{% endif %} {{ article.summary }}
     <div class="content">
       {{ article.content }}
   </div>
