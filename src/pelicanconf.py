@@ -12,9 +12,9 @@ BIO = 'Tales of a stranger in antigravity land.'
 DESCRIPTION = 'A personal blog about learning programming technologies, including programming Python, tkinter, html, css, sql, flask, and other stuff.'
 
 PATH = 'content'
-STATIC_PATHS = ['images',]
-PAGE_PATHS = ['pages',]
-ARTICLE_PATHS = ['articles','projects']
+STATIC_PATHS = ['images']
+PAGE_PATHS = ['pages']
+ARTICLE_PATHS = ['articles']
 DEFAULT_PAGINATION = 6
 
 TIMEZONE = 'Europe/Lisbon'
@@ -22,13 +22,11 @@ DEFAULT_LANG = 'en'
 LOCALE = "en_GB"
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = True
-FEED_ALL_RSS = 'feeds/all.rss.xml'
+FEED_ALL_ATOM = 'feeds/all_atom.xml'
+FEED_ALL_RSS = 'feeds/all_rss.xml'
 
 # global metadata to all the contents
 DEFAULT_METADATA = {'author': 'Victor Domingos'}
-READERS = {'html': 'html', 'md': 'markdown'}
-
 SLUGIFY_SOURCE = 'basename'
 DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_PAGES_ON_MENU = True
@@ -38,7 +36,6 @@ CACHE_PATH = 'cache'
 GZIP_CACHE = True
 CHECK_MODIFIED_METHOD = 'mtime'
 LOAD_CONTENT_CACHE = True
-
 
 # Blogroll
 """
@@ -50,7 +47,6 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
-
 
 THEME = "themes/pelican-alchemy/alchemy"
 SITESUBTITLE = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
