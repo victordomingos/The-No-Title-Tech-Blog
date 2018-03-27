@@ -33,20 +33,24 @@
             {% endfor %}
           </li>
         {% endif %}
-        {% if article.tags %}
-          <li class="list-inline-item">
-            <i class="fa fa-files-o"></i>
-            {% for tag in article.tags %}
-              <a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a>{% if not loop.last %}, {% endif %}
-            {% endfor %}
-          </li>
-        {% endif %}
       </ul>
     </header>
     {% if article.cover %}<img src="{{ article.cover }}" alt="">{% endif %} {{ article.summary }}
     <div class="content">
       {{ article.content }}
+  </div>
+    <div class="article_footer">
+    <ul class="list-inline">
+        {% if article.tags %}
+          <li class="list-inline-item">
+            <i class="fa fa-files-o"></i>
+            {% for tag in article.tags %}
+              <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+            </li>
+        {% endif %}
+    </ul>
     </div>
-  </article>
+    </article>
   {% include 'include/comments.html' %}
 {% endblock %}

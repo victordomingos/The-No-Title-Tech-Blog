@@ -8,12 +8,14 @@
 {% endblock %}
 
 {% block title %}
-  {{ SITENAME|striptags }} | {{ SITESUBTITLE|striptags }}
+  {{ SITENAME|striptags }} | {{ SITESUBTITLE|striptags }} 
 {% endblock %}
 
+
 {% block page_header %}
-  Articles
+  Recent tales
 {% endblock %}
+
 
 {% block content %}
   {% for article in articles_page.object_list %}
@@ -38,7 +40,8 @@
         </ul>
 	{% endif %}
 	{% if article.cover %}
-	  <img src="{{ SITEURL}}/{{ article.cover | thumbnail("800x_")  }}" width=100% />
+      {# <img src="{{ SITEURL}}/{{ article.cover | thumbnail("800x_")  }}" width=100% /> #}
+      <a href="{{ SITEURL }}/{{ article.url }}"><img src="{{ SITEURL}}/{{ article.cover | thumbnail("800x_")  }}" width=100% /></a>
 	{% endif %}
       </header>
       <div class="col-sm-9">
