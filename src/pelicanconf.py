@@ -63,7 +63,7 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
          ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),)
 
 
-PLUGINS = ['advthumbnailer']
+# PLUGINS = ['advthumbnailer']
 
 
 PYGMENTS_STYLE = "monokai"

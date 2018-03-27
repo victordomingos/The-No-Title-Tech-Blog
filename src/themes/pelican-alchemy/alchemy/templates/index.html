@@ -41,7 +41,7 @@
 	{% endif %}
 	{% if article.cover %}
       {# <img src="{{ SITEURL}}/{{ article.cover | thumbnail("800x_")  }}" width=100% /> #}
-      <a href="{{ SITEURL }}/{{ article.url }}"><img src="{{ SITEURL}}/{{ article.cover | thumbnail("800x_")  }}" width=100% /></a>
+      <a href="{{ SITEURL }}/{{ article.url }}"><img src="{{ SITEURL}}/{{ article.cover }}" width=100% /></a>
 	{% endif %}
       </header>
       <div class="col-sm-9">
