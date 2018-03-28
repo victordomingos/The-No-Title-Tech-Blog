@@ -40,8 +40,8 @@
         </ul>
 	{% endif %}
 	{% if article.cover %}
-      {# <img src="{{ SITEURL}}/{{ article.cover | thumbnail("800x_")  }}" width=100% /> #}
-      <a href="{{ SITEURL }}/{{ article.url }}"><img src="{{ SITEURL}}/{{ article.cover }}" width=100% /></a>
+      {# <img src="{{ SITEURL}}/{{ article.cover | thumbnail("800x_")  }}" /> #}
+      <a href="{{ SITEURL }}/{{ article.url }}"><img class="article_list_img" src="{{ SITEURL}}/{{ article.cover }}" width=100% /></a>
 	{% endif %}
       </header>
       <div class="col-sm-9">

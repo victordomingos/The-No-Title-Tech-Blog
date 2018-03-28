@@ -1,24 +1,31 @@
 <div class="row">
+
   {% if SITEIMAGE %}
     <div class="col-sm-3">
       <a href="{{ SITEURL }}/index.html">
-          <img class="img-fluid rounded" src={{SITEURL}}/{{SITEIMAGES|random()}} {{ SITEIMAGE_SIZE }} alt="{{ SITENAME }}">
+          <img class="img-fluid rounded" id="siteimage" src={{SITEURL}}/{{SITEIMAGES|random()}} {{ SITEIMAGE_SIZE }} alt="{{ SITENAME|striptags }}">
       </a>
     </div>
   {% endif %}
+
+
   <div class="col-sm-{% if SITEIMAGES %}9{% else %}12{% endif %}">
     <h1 class="title"><a href="{{ SITEURL }}/index.html">{{ SITENAME }}</a></h1>
     {% if SITESUBTITLE %}
-      <p class="text-muted">{{ SITESUBTITLE }}</p>
+      <p class="text-muted" id="sistesubtitle">{{ SITESUBTITLE }}</p>
     {% endif %}
+
     {% if LINKS or (DISPLAY_PAGES_ON_MENU and pages) or ICONS %}
       <ul class="list-inline">
-        {% if DISPLAY_PAGES_ON_MENU %}
+        
+	{% if DISPLAY_PAGES_ON_MENU %}
           <li class="list-inline-item"><a href="{{ SITEURL }}/index.html">Blog</a></li>
-          {% for page in pages %}
+          
+	  {% for page in pages %}
 	    <li class="list-inline-item"><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
           {% endfor %}
         {% endif %}
+
         {% for icon, link in ICONS %}
           {% if (LINKS or (DISPLAY_PAGES_ON_MENU and pages)) and loop.first %}
             <li class=" list-inline-item text-muted">|</li>
