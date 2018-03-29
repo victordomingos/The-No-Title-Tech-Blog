@@ -8,15 +8,18 @@ body {
   background-color: #f5f5f5;
   font-family: 'Source Sans Pro', -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
+  color: #5c5c5c;
 }
 
 a {
-  color: #333;
+  color: #4E9FBE;
 }
 
 a:focus,
 a:hover {
-  color: #0085a1;
+  color: #4E9FBE;
+  text-decoration: none;
+  text-shadow: 0px 0px 6px ;
 }
 
 blockquote {
@@ -64,10 +67,14 @@ hr {
 }
 
 .header{
-  padding: 10.5rem 0 .5rem;
+  padding: 5rem 0 .22rem;
 }
 
 
+.link_box{
+  margin-top: 0.5rem;
+  text-align: right ;
+}
 
 .footer {
   padding: 1.5rem 0 .5rem;
@@ -78,9 +85,19 @@ hr {
 }
 
 .header .text-muted {
-  font-size: .96rem;
+  font-size: .75rem;
+  font-family: serif;
+  font-weight: 500;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
 }
 
+
+
+.siteimagediv{
+  padding-right: 0px;
+  min-width: 80px;
+}
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
@@ -94,25 +111,27 @@ hr {
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 102px;
+  padding-top: 52px;
 }
 
-
+.header ul {
+  margin-right: .3rem;
+}
 
 .header img {
-  margin-bottom: 1rem;
-  max-width: 150px;
+  margin-bottom: .5rem;
+  width: 75px;
   opacity: 1;
 }
 
 .header .title {
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 0.4rem;
 }
 
 .header ul,
 .header li {
-  margin-bottom: .5rem;
+  margin-bottom: .2rem;
 }
 
 .header ul {
@@ -194,13 +213,14 @@ div.row.page-footer {
 
 @media (min-width: 576px) {
   .header .title {
-    font-size: 3rem;
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   #siteimage {
-    max-width: 25%;
+    max-width: 18%;
   }
 
   #sitesubtitle {
@@ -214,12 +234,23 @@ div.row.page-footer {
   #page_header {
      position: absolute;
   }
-  
-  .main {
-     padding: 18.5rem 0 3rem 0;
+ 
+  .link_box{
+    text-align: center;
   }
 
+  .main {
+     padding: 15.5rem 0 3rem 0;
+  }
 
+  .header .title {
+    font-size: 1.5rem;
+    margin-top: 0.2rem;
+  }
+
+  .header ul {
+    margin-bottom: .2rem;
+  }
 
 
   .header,
@@ -234,4 +265,14 @@ div.row.page-footer {
   .teaser header li:not(:last-child) {
     margin-right: 10px;
   }
+
+  .main h1 {
+    font-size: 1.7rem;
+  }
+
+  .article .h3 h3 {
+    font-size: .7rem;
+  }
+
+
 }

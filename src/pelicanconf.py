@@ -41,7 +41,7 @@ DISPLAY_PAGES_ON_MENU = True
 RELATIVE_URLS = True
 
 THEME = "themes/pelican-alchemy/alchemy"
-SITESUBTITLE = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
+SITESUBTITLE = 'Tales of an exploration on antigravity and&nbsp;other&nbsp;potentialy&nbsp;unrelated&nbsp;matters'
 
 DISPLAY_DATE_ON_ARTICLE_LIST = False
 SITEIMAGE_FOLDER = 'images/avatars'  # Images to be used randomly in the header
