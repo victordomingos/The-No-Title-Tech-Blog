@@ -99,6 +99,10 @@ hr {
   min-width: 80px;
 }
 
+.titlediv{
+  flex: 0 0 0 50;
+}
+
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
@@ -225,6 +229,12 @@ div.row.page-footer {
 
   #sitesubtitle {
     font-size: 6px; 
+  }
+
+
+
+  .titlediv{
+    max-width: 100%;
   }
 
   .header .text-muted {
