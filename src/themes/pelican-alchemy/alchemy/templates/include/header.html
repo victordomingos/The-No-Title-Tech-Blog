@@ -26,12 +26,6 @@
           {% endfor %}
         {% endif %}
 
-        {% for icon, link in ICONS %}
-          {% if (LINKS or (DISPLAY_PAGES_ON_MENU and pages)) and loop.first %}
-            <li class=" list-inline-item text-muted">|</li>
-          {% endif %}
-          <li class="list-inline-item"><a class="fa fa-{{ icon }}" href="{{ link }}" target="_blank"></a></li>
-        {% endfor %}
       </ul>
     {% endif %}
   </div>
