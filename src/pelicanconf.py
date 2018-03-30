@@ -55,7 +55,7 @@ SITEIMAGE_FOLDER = 'images/avatars'  # Images to be used randomly in the header
 
 if USE_RANDOM:
     SITEIMAGES = [ Path(*Path(img).parts[1:])
-               for img in glob('{}/{}/*.png').format(PATH,SITEIMAGE_FOLDER)]
+               for img in glob('{}/{}/*.png'.format(PATH,SITEIMAGE_FOLDER))]
 else:
     SITEIMAGES = ['/images/avatars/avatar1.png']
 
