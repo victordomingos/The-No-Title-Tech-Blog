@@ -72,7 +72,7 @@ hr {
 
 
 .link_box{
-  margin-top: 0.3rem;
+  margin-top: 0.5rem;
   text-align: right;
   flex: 0 0 38%;
   max-width: 38%;
@@ -151,7 +151,7 @@ hr {
 
 .main {
   background-color: #fff;
-  padding: 12.5rem 0 3rem 0;
+  padding: 8rem 0 3rem 0;
 }
 
 .footer {
@@ -220,24 +220,31 @@ div.row.page-footer {
 }
 
 
-@media (min-width: 576px) {
+@media (min-width: 760px) {
   .header .title {
     font-size: 1.8rem;
     margin-top: 0.5rem;
   }
-}
 
-@media (max-width: 575px) {
-  #siteimage {
-    max-width: 18%;
+  .main h2 {
+    font-size: 2rem;
   }
 
+
+  .main h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 759px) {
   #sitesubtitle {
     font-size: 6px; 
   }
 
   .siteimagediv {
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;  
   }
 
   .titlediv{
@@ -251,6 +258,7 @@ div.row.page-footer {
       
   #page_header {
      position: absolute;
+     margin-left: 0;
   }
  
   .link_box{
@@ -261,17 +269,18 @@ div.row.page-footer {
   }
 
   .main {
-     padding: 15.5rem 0 3rem 0;
+     padding: 14rem 0 3rem 0;
   }
 
   .header .title {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-top: 0.2rem;
   }
 
   .header ul {
     margin-bottom: .2rem;
     margin-right: 1.5rem;
+    font-size: 1.25rem;
   }
 
 
@@ -292,9 +301,19 @@ div.row.page-footer {
     font-size: 1.7rem;
   }
 
+  .main h2 {
+    font-size: 1.6rem;
+  }
+
+  .main h3 {
+    font-size: 1.3rem;
+  }
+  
   .article .h3 h3 {
     font-size: .7rem;
   }
 
-
+  .row {
+    margin-left: 0;
+  }
 }
