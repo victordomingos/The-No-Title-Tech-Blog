@@ -3,8 +3,15 @@
 from __future__ import unicode_literals
 
 from glob import glob
-from pathlib import Path
 
+
+try:
+    from pathlib import Path
+    USE_RANDOM = True
+except:
+    print('Module pathlib not available, not using random avatars this time...')
+    USE_RANDOM = False
+    
 AUTHOR = u'Victor Domingos'
 SITENAME = u'The <strong>No&nbspTitle<small><sup>&reg;</sup></small></strong> Tech&nbsp;Blog'
 SITEURL = 'http://victordomingos.com/no-title'
@@ -45,11 +52,15 @@ SITESUBTITLE = 'Tales of an exploration on antigravity and&nbsp;other&nbsp;poten
 
 DISPLAY_DATE_ON_ARTICLE_LIST = False
 SITEIMAGE_FOLDER = 'images/avatars'  # Images to be used randomly in the header
-SITEIMAGES = [ Path(*Path(img).parts[1:])
-               for img in glob(f'{PATH}/{SITEIMAGE_FOLDER}/*.png')]
+
+if USE_RANDOM:
+    SITEIMAGES = [ Path(*Path(img).parts[1:])
+               for img in glob('{}/{}/*.png').format(PATH,SITEIMAGE_FOLDER)]
+else:
+    SITEIMAGES = ['/images/avatars/avatar1.png']
 
 SITEIMAGE_SIZE = 'width=100% height=100%'
-SITEIMAGE = '/images/avatar1.png width=80% height=80%' # Default Image that appears in the header
+SITEIMAGE = '/images/avatars/avatar1.png width=80% height=80%' # Default Image that appears in the header
 
 
 # Social widget
