@@ -72,8 +72,12 @@ hr {
 
 
 .link_box{
-  margin-top: 0.5rem;
-  text-align: right ;
+  margin-top: 0.3rem;
+  text-align: right;
+  flex: 0 0 38%;
+  max-width: 38%;
+  padding-right: 5px;
+  padding-left: 10px;
 }
 
 .footer {
@@ -97,10 +101,13 @@ hr {
 .siteimagediv{
   padding-right: 0px;
   min-width: 80px;
+  max-width: 90px;
 }
 
 .titlediv{
   flex: 0 0 0 50;
+  max-width: 49%;
+  min-width: 400px;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -118,9 +125,6 @@ hr {
   padding-top: 52px;
 }
 
-.header ul {
-  margin-right: .3rem;
-}
 
 .header img {
   margin-bottom: .5rem;
@@ -141,6 +145,7 @@ hr {
 .header ul {
   font-size: 1.25rem;
   font-weight: 300;
+  margin-right: 1rem;
   text-transform: lowercase;
 }
 
@@ -231,14 +236,17 @@ div.row.page-footer {
     font-size: 6px; 
   }
 
-
-
-  .titlediv{
+  .siteimagediv {
     max-width: 100%;
   }
 
+  .titlediv{
+    max-width: 100%;
+    min-width: 100%;
+  }
+
   .header .text-muted {
-    font-size: .7rem;
+    font-size: .8rem;
   }
       
   #page_header {
@@ -247,6 +255,9 @@ div.row.page-footer {
  
   .link_box{
     text-align: center;
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
   }
 
   .main {
@@ -260,6 +271,7 @@ div.row.page-footer {
 
   .header ul {
     margin-bottom: .2rem;
+    margin-right: 1.5rem;
   }
 
 
