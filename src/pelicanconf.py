@@ -13,7 +13,7 @@ except:
     USE_RANDOM = False
     
 AUTHOR = u'Victor Domingos'
-SITENAME = u'The <strong>No&nbspTitle<small><sup>&reg;</sup></small></strong> Tech&nbsp;Blog'
+SITENAME = u'The <strong>No&nbsp;Title<small><sup>&reg;</sup></small></strong> Tech&nbsp;Blog'
 SITEURL = 'http://victordomingos.com/no-title'
 BIO = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
 DESCRIPTION = 'A personal blog about learning programming technologies, including programming Python, tkinter, html, css, sql, flask, and other stuff.'
