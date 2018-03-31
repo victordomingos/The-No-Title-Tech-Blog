@@ -1,34 +1,10 @@
-::selection {
-  background: #0085a1;
-  color: #fff;
-  text-shadow: none;
-}
+/* ----------------------- Page structure and header ----------------------- */
 
 body {
   background-color: #f5f5f5;
   font-family: 'Source Sans Pro', -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
   color: #5c5c5c;
-}
-
-a {
-  color: #4E9FBE;
-}
-
-a:focus,
-a:hover {
-  color: #4E9FBE;
-  text-decoration: none;
-  text-shadow: 0px 0px 6px ;
-}
-
-blockquote {
-  color: #818a91;
-  font-style: italic;
-}
-
-hr {
-  margin: 1.5rem 0;
 }
 
 #page_header {
@@ -60,8 +36,6 @@ hr {
   background-color: #f5f5f5;
 }
 
-/* ------------------------------------------------------------------------- */
-
 .container {
   max-width: 800px;
 }
@@ -80,9 +54,6 @@ hr {
   padding-left: 10px;
 }
 
-.footer {
-  padding: 1.5rem 0 .5rem;
-}
 
 .header {
   border-bottom: 1px solid rgba(0,0,0,.1);
@@ -105,7 +76,7 @@ hr {
 }
 
 .titlediv{
-  flex: 0 0 0 50;
+  flex: 0 0 0 50%;
   max-width: 49%;
   min-width: 400px;
 }
@@ -116,7 +87,7 @@ hr {
   top: 0;
   transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out
+  -moz-transition: all 0.4s ease-in-out;
   z-index: 9999;
 }
 
@@ -149,17 +120,19 @@ hr {
   text-transform: lowercase;
 }
 
+
+/* ----------------------------- Main section ----------------------------- */
+
+
 .main {
   background-color: #fff;
   padding: 8rem 0 3rem 0;
 }
 
-.footer {
-  border-top: 1px solid rgba(0,0,0,.1);
-}
-
-div.row.page-footer {
-  font-size: 12px;
+::selection {
+  background: #0085a1;
+  color: #fff;
+  text-shadow: none;
 }
 
 .highlight pre {
@@ -167,9 +140,27 @@ div.row.page-footer {
   padding: 1rem;
 }
 
-.pagination .page-link {
-  color: #333;
+a {
+  color: #4E9FBE;
 }
+
+a:focus,
+a:hover {
+  color: #4E9FBE;
+  text-decoration: none;
+  text-shadow: 0px 0px 6px ;
+}
+
+
+blockquote {
+  color: #818a91;
+  font-style: italic;
+}
+
+hr {
+  margin: 1.5rem 0;
+}
+
 
 .teaser header ul {
   list-style: none;
@@ -188,6 +179,8 @@ div.row.page-footer {
   margin-bottom: 0;
   font-size: .94rem;
 }
+
+/* ---------------------------- Article section ---------------------------- */
 
 .article header ul,
 .article header li {
@@ -229,6 +222,25 @@ div.row.page-footer {
   text-decoration: underline;
 }
 
+/* --------------------- Footer and pagination sections -------------------- */
+
+.pagination .page-link {
+  color: #333;
+}
+
+.footer {
+  padding: 1.5rem 0 .5rem;
+}
+
+.footer {
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+div.row.page-footer {
+  font-size: 12px;
+}
+
+/* ------------------------------ Big Screens ------------------------------ */
 
 @media (min-width: 760px) {
   .header .title {
@@ -245,6 +257,8 @@ div.row.page-footer {
     font-size: 1.5rem;
   }
 }
+
+/* ----------------------------- Small screens ----------------------------- */
 
 @media (max-width: 759px) {
   #sitesubtitle {
