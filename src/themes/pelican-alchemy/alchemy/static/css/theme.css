@@ -52,6 +52,7 @@ body {
 
 
 .siteimagediv{
+  padding-left: 0px;
   padding-right: 0px;
   min-width: 80px;
   max-width: 90px;
@@ -249,6 +250,8 @@ hr {
   .titlediv{
     max-width: 100%;
     min-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .header .text-muted {
