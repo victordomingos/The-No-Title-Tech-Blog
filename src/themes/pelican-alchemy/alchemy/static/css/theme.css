@@ -19,6 +19,7 @@ body {
   top: 0;
   margin: 0;
 
+  /*
   -webkit-transition-property: height, background;
   transition-property: height, background;
   -webkit-transition-duration: .5s, .5s;
@@ -27,6 +28,7 @@ body {
   transition-timing-function: ease, ease;
   -webkit-transition-delay: 0s, 0s;
   transition-delay: 0s, 0s;
+  */
   /*padding: .5rem 0 0 .5rem;*/
   border-bottom: 1px solid rgba(0, 0, 0, .1);
   background-color: #f5f5f5;
@@ -35,7 +37,9 @@ body {
 .link_box{
   margin-top: 0.5rem;
   text-align: right;
-  flex: 0 0 38%;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: 38%;
   max-width: 38%;
   padding-right: 5px;
   padding-left: 10px;
@@ -249,9 +253,9 @@ hr {
 
   .titlediv{
     max-width: 100%;
-    min-width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
+    min-width: 320px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .header .text-muted {
@@ -266,7 +270,9 @@ hr {
 
   .link_box{
     text-align: center;
-    flex: 0 0 100%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 100%;
     width: 100%;
     max-width: 100%;
   }

@@ -1,0 +1,106 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "89ee55694a2c2048d6d068ae30edcd7ee9fa46f6714feb66f33b2d10c6e8670c"
+        },
+        "host-environment-markers": {
+            "implementation_name": "cpython",
+            "implementation_version": "3.6.5",
+            "os_name": "posix",
+            "platform_machine": "x86_64",
+            "platform_python_implementation": "CPython",
+            "platform_release": "15.6.0",
+            "platform_system": "Darwin",
+            "platform_version": "Darwin Kernel Version 15.6.0: Tue Jan 30 11:45:51 PST 2018; root:xnu-3248.73.8~1/RELEASE_X86_64",
+            "python_full_version": "3.6.5",
+            "python_version": "3.6",
+            "sys_platform": "darwin"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.6"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "blinker": {
+            "hashes": [],
+            "version": "==1.4"
+        },
+        "colorama": {
+            "hashes": [],
+            "version": "==0.3.9"
+        },
+        "docutils": {
+            "hashes": [],
+            "version": "==0.14"
+        },
+        "entrypoints": {
+            "hashes": [],
+            "version": "==0.2.3"
+        },
+        "feedgenerator": {
+            "hashes": [],
+            "version": "==1.9"
+        },
+        "jinja2": {
+            "hashes": [],
+            "version": "==2.10"
+        },
+        "keyring": {
+            "hashes": [],
+            "version": "==12.0.0"
+        },
+        "markdown": {
+            "hashes": [],
+            "version": "==2.6.11"
+        },
+        "markupsafe": {
+            "hashes": [],
+            "version": "==1.0"
+        },
+        "pelican": {
+            "hashes": [],
+            "version": "==3.7.1"
+        },
+        "pyftpsync": {
+            "hashes": [],
+            "version": "==2.0.0"
+        },
+        "pygments": {
+            "hashes": [],
+            "version": "==2.2.0"
+        },
+        "python-dateutil": {
+            "hashes": [],
+            "version": "==2.7.1"
+        },
+        "pytz": {
+            "hashes": [],
+            "version": "==2018.3"
+        },
+        "six": {
+            "hashes": [],
+            "version": "==1.11.0"
+        },
+        "smartypants": {
+            "hashes": [],
+            "version": "==2.0.1"
+        },
+        "typogrify": {
+            "hashes": [],
+            "version": "==2.0.7"
+        },
+        "unidecode": {
+            "hashes": [],
+            "version": "==1.0.22"
+        }
+    },
+    "develop": {}
+}
