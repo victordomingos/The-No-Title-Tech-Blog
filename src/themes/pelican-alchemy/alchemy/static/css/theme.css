@@ -11,7 +11,7 @@ body {
 }
 
 .header{
-  padding: .2rem .2rem 0;
+  padding: .3rem 0rem 0 .6rem;
   border-bottom: 1px solid rgba(0,0,0,.1);
   position: fixed;
   z-index: 999;
@@ -238,13 +238,13 @@ hr {
 
 @media (max-width: 759px) {
   #sitesubtitle {
-    font-size: 6px; 
+    font-size: 6px;
   }
 
   .siteimagediv {
     max-width: 100%;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
   }
 
   .titlediv{
@@ -257,13 +257,13 @@ hr {
   .header .text-muted {
     font-size: .8rem;
   }
-      
+
   .header {
      position: absolute;
      margin-left: 0;
      text-align: center;
   }
- 
+
   .link_box{
     text-align: center;
     flex: 0 0 100%;
@@ -309,11 +309,11 @@ hr {
   h3 {
     font-size: 1.3rem;
   }
-  
+
   .h3 {
     font-size: .7rem;
   }
-  
+
   .article #cover {
     max-width: 100%;
     max-height: 280px;
