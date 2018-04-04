@@ -1,5 +1,6 @@
 .DS_Store
 ftpsetupfile.py
+.pyftpsync-meta.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
