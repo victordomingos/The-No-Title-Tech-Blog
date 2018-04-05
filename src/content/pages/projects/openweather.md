@@ -1,5 +1,5 @@
-Title: PT-Tracking
-Slug: pt-tracking
+Title: OpenWeather
+Slug: openweather
 Status: hidden
 Category: Projects
 
