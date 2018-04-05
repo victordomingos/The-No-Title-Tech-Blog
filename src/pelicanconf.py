@@ -74,7 +74,15 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
          ('github', 'https://github.com/victordomingos'),
          ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),)
 
-# PLUGINS = ['advthumbnailer']
+PLUGINS = ['advthumbnailer',
+           'minify',
+          ]
+
+MINIFY = {
+      'remove_comments': True,
+      'remove_all_empty_space': True,
+      'remove_optional_attribute_quotes': False
+}
 
 PYGMENTS_STYLE = "monokai"
 # code blocks with line numbers
