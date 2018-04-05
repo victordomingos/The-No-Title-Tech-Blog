@@ -88,13 +88,29 @@ SUMMARY_MAX_LENGTH = 150
 PAGE_ORDER_BY = 'reversed-basename'
 
 WITH_FUTURE_DATES = False
-ARTICLE_URL = 'articles/{date:%Y}/{slug}.html'
-ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}.html'
-PAGE_URL = 'pages/{slug}.html'
-PAGE_SAVE_AS = 'pages/{slug}.html'
-YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
-MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/{date:%b}/index.html'
 
 
-DRAFT_URL = 'drafts/{slug}.html'
-DRAFT_SAVE_AS = 'drafts/{slug}.html'
+#AUTHORS_SAVE_AS = 'authors/index.html'
+CATEGORIES_SAVE_AS = 'categories/index.html'
+TAGS_SAVE_AS = 'tags/index.html'
+
+ARTICLE_URL = 'articles/{date:%Y}/{slug}'
+ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}/index.html'
+
+PAGE_URL = 'pages/{slug}'
+PAGE_SAVE_AS = 'pages/{slug}/index.html'
+
+#AUTHOR_URL = 'author/{slug}/'
+#AUTHOR_SAVE_AS = 'author/{slug}/index.html'
+
+#YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
+#MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/{date:%b}/index.html'
+YEAR_ARCHIVE_SAVE_AS = 'articles/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'articles/{date:%Y}/{date:%m}/index.html'
+
+
+TAG_URL = 'tag/{slug}'
+TAG_SAVE_AS = 'tag/{slug}/index.html'
+
+DRAFT_URL = 'drafts/{slug}'
+DRAFT_SAVE_AS = 'drafts/{slug}/index.html'

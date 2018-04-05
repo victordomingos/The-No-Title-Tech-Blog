@@ -12,7 +12,7 @@
   <table class="table table-bordered table-striped">
     {% for tag, articles in tags|sort %}
       <tr>
-        <td><a href="{{ SITEURL }}/{{ tag.url }}">#{{ tag }}</a></td>
+        <td><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></td>
         <td>{{ articles|count }}</td>
       </tr>
     {% endfor %}
