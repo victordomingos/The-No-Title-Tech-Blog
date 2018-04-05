@@ -1,7 +1,6 @@
 Title: OpenWeather
 Slug: openweather
 Status: hidden
-Category: Projects
 
 
 ![OpenWeather - Check the weather in your iPhone using a Python app]({filename}/images/projects/openweather.png)

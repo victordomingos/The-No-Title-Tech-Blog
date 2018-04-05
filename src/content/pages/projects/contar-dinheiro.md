@@ -1,7 +1,6 @@
 Title: Contar Dinheiro
 Slug: contar-dinheiro
 Status: hidden
-Category: Projects
 
 
 ![ContarDinheiro.py - A single-window utility to help you count money]({filename}/images/projects/contar-dinheiro.png)

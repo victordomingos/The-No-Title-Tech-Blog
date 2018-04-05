@@ -1,7 +1,5 @@
 Title: RepService
 Slug: repservice
-Status: hidden
-Category: Projects
 
 
 ![RepService - Database application for in-store registering of warranty and service/repair processes]({filename}/images/projects/repservice.jpg)

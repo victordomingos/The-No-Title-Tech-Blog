@@ -1,7 +1,6 @@
 Title: PT-Tracking
 Slug: pt-tracking
 Status: hidden
-Category: Projects
 
 
 ![PT-Tracking - Parcel tracking application for CTT and CTT Expresso]({filename}/images/projects/pt-tracking.png)

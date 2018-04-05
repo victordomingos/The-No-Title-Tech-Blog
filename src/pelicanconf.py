@@ -11,7 +11,11 @@ try:
 except:
     print('Module pathlib not available, not using random avatars this time...')
     USE_RANDOM = False
-    
+
+
+DELETE_OUTPUT_DIRECTORY = True
+
+
 AUTHOR = u'Victor Domingos'
 SITENAME = u'The <strong>No&nbsp;Title<small><sup>&reg;</sup></small></strong> Tech&nbsp;Blog'
 SITEURL = 'http://victordomingos.com/no-title'
@@ -97,8 +101,8 @@ TAGS_SAVE_AS = 'tags/index.html'
 ARTICLE_URL = 'articles/{date:%Y}/{slug}'
 ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}/index.html'
 
-PAGE_URL = 'pages/{slug}'
-PAGE_SAVE_AS = 'pages/{slug}/index.html'
+PAGE_URL = '{category}/{slug}'
+PAGE_SAVE_AS = '{category}/{slug}/index.html'
 
 #AUTHOR_URL = 'author/{slug}/'
 #AUTHOR_SAVE_AS = 'author/{slug}/index.html'
@@ -114,3 +118,4 @@ TAG_SAVE_AS = 'tag/{slug}/index.html'
 
 DRAFT_URL = 'drafts/{slug}'
 DRAFT_SAVE_AS = 'drafts/{slug}/index.html'
+
