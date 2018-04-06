@@ -79,8 +79,9 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
          ('github', 'https://github.com/victordomingos'),
          ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),)
 
+
+PLUGINS_PATH = ['plugins']
 PLUGINS = ['advthumbnailer',
-           'minify',
           ]
 
 

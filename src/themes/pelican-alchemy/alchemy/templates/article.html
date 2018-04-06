@@ -36,7 +36,7 @@
       </ul>
     </header>
     {% if article.cover %}
-      <img id="cover" src="{{  SITEURL  }}/{{ article.cover }}" alt="{{ article.title }}">
+      <img id="cover" src="{{ SITEURL }}/{{ article.cover }}" alt="{{ article.title }}">
     {% else %}
       <img id="cover" src={{SITEURL}}/{{SITEIMAGES|random()}} {{ SITEIMAGE_SIZE }} alt="{{ article.title }}">
     {% endif %}

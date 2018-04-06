@@ -11,7 +11,7 @@ These are all open source projects, that are available on GitHub. Please feel fr
 
 <article class="row teaser">
 <header class="col-sm-3"><a href="../repservice/index.html">
-    <img alt="RepService - Database application for in-store registering of warranty and service/repair processes" src="{filename}/images/projects/repservice.jpg" class="article_image">
+    <img alt="RepService - Database application for in-store registering of warranty and service/repair processes" src="{filename}/images/projects/repservice.jpg" class="article_image"/>
   </a></header>
 
 <div class="col-sm-9">

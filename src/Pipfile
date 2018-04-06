@@ -10,7 +10,7 @@ name = "pypi"
 blinker = "==1.4"
 docutils = "==0.14"
 feedgenerator = "==1.9"
-jinja2 = "==2.10"
+"jinja2" = "==2.10"
 markdown = "==2.6.11"
 markupsafe = "==1.0"
 pelican = "==3.7.1"
@@ -22,6 +22,7 @@ typogrify = "==2.0.7"
 unidecode = "==1.0.22"
 six = "==1.11.0"
 pyftpsync = "*"
+pillow = "*"
 
 
 [dev-packages]
