@@ -7,10 +7,8 @@ from glob import glob
 
 try:
     from pathlib import Path
-    USE_RANDOM = True
-except:
-    print('Module pathlib not available, not using random avatars this time...')
-    USE_RANDOM = False
+except ImportError:
+    from pathlib2 import Path
 
 
 DELETE_OUTPUT_DIRECTORY = True
@@ -78,11 +76,15 @@ PLUGINS = ['advthumbnailer',
            'minify',
           ]
 
-MINIFY = {
-      'remove_comments': True,
-      'remove_all_empty_space': True,
-      'remove_optional_attribute_quotes': False
-}
+
+if USE_RANDOM:
+    PLUGINS.append('minify')
+    MINIFY = {
+          'remove_comments': True,
+          'remove_all_empty_space': True,
+          'remove_optional_attribute_quotes': False,
+    }
+
 
 PYGMENTS_STYLE = "monokai"
 # code blocks with line numbers
