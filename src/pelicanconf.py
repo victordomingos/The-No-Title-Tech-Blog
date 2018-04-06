@@ -64,11 +64,9 @@ SITESUBTITLE = 'Tales of an exploration on antigravity and other potentialy unre
 DISPLAY_DATE_ON_ARTICLE_LIST = False
 SITEIMAGE_FOLDER = 'images/avatars'  # Images to be used randomly in the header
 
-if USE_RANDOM:
-    SITEIMAGES = [ Path(*Path(img).parts[1:])
+
+SITEIMAGES = [ Path(*Path(img).parts[1:])
                for img in glob('{}/{}/*.png'.format(PATH,SITEIMAGE_FOLDER))]
-else:
-    SITEIMAGES = ['/images/avatars/avatar1.png']
 
 SITEIMAGE_SIZE = 'width=100% height=100%'
 SITEIMAGE = '/images/avatars/avatar1.png width=80% height=80%' # Default Image that appears in the header
