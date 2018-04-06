@@ -81,7 +81,8 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
 
 
 PLUGINS_PATH = ['plugins']
-PLUGINS = ['advthumbnailer',
+PLUGINS = ['autostatic',
+           'advthumbnailer',
           ]
 
 

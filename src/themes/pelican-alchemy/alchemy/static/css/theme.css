@@ -194,16 +194,21 @@ hr {
 }
 
 
-.article_list_img {
+.article .article_list_img {
     max-width: 200px;
+    max-height: 200px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
-.article .content a {
+/*.article .content a {
   text-decoration: underline;
 }
+*/
+
 
 /* --------------------- Footer and pagination sections -------------------- */
 
