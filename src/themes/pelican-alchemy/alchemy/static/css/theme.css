@@ -195,7 +195,6 @@ hr {
 
 
 .article .article_list_img {
-    max-width: 200px;
     max-height: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -333,9 +332,20 @@ hr {
     margin-right: auto;
     object-fit: contain;
   }
+  
+  .article .article_list_img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+  /*
+  img.article_list_img {
+    max-height: 200px;
+  }*/
 
   .row {
     margin-left: 0;
     margin-right: 0;
+    display: block;
   }
 }
