@@ -86,7 +86,7 @@ PLUGINS = ['autostatic',
           ]
 
 
-if CURRENT_PLATFORM == "iOS":
+if CURRENT_PLATFORM != "iOS":
     PLUGINS.append('minify')
     MINIFY = {
           'remove_comments': True,
