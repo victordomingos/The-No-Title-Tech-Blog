@@ -3,12 +3,21 @@
 from __future__ import unicode_literals
 
 from glob import glob
-
+import platform
 
 try:
     from pathlib import Path
 except ImportError:
     from pathlib2 import Path
+
+
+if platform.system() == 'Darwin':
+    if platform.machine().startswith('iP'):
+        CURRENT_PLATFORM = "iOS"
+    else:
+        CURRENT_PLATFORM = "macOS"
+else:
+    CURRENT_PLATFORM = "other"
 
 
 DELETE_OUTPUT_DIRECTORY = True
@@ -77,7 +86,7 @@ PLUGINS = ['advthumbnailer',
           ]
 
 
-if USE_RANDOM:
+if CURRENT_PLATFORM == "iOS":
     PLUGINS.append('minify')
     MINIFY = {
           'remove_comments': True,
