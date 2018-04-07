@@ -83,16 +83,19 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
 PLUGINS_PATH = ['plugins']
 PLUGINS = ['autostatic',
            'advthumbnailer',
+           'minify',  # this should be the last plugin affecting html
           ]
+          
+MINIFY = {
+      'remove_comments': True,
+      'remove_all_empty_space': True,
+      'remove_optional_attribute_quotes': False,
+}
 
 
 if CURRENT_PLATFORM != "iOS":
-    PLUGINS.append('minify')
-    MINIFY = {
-          'remove_comments': True,
-          'remove_all_empty_space': True,
-          'remove_optional_attribute_quotes': False,
-    }
+    # for instance if you have some plugin configurations not compatible with Pythonista
+    pass
 
 
 PYGMENTS_STYLE = "monokai"
