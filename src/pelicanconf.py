@@ -84,6 +84,7 @@ PLUGINS_PATH = ['plugins']
 PLUGINS = ['autostatic',
            'advthumbnailer',
            'minify',  # this should be the last plugin affecting html
+           'minification', # idem...
           ]
           
 MINIFY = {
