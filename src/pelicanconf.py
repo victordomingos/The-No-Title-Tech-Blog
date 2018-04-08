@@ -99,8 +99,10 @@ if CURRENT_PLATFORM != "iOS":
 
 
 PYGMENTS_STYLE = "monokai"
-# code blocks with line numbers
-PYGMENTS_RST_OPTIONS = {'linenos': 'table'}
+MD_EXTENSIONS = [
+    'codehilite(css_class=highlight,linenums=True)',
+    'extra',
+    ]
 
 HIDE_AUTHORS = True
 
