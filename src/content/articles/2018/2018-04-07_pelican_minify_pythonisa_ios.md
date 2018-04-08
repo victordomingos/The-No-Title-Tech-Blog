@@ -5,7 +5,7 @@ Category: General
 Slug: pelican_minify_pythonista_iOS
 Author: Victor Domingos
 Summary: When I started this blog, I had a few technical requirements in mind. First of all, I wanted the whole static website build process to be based on Python and to be reproducible both on desktop and on iOS. So, I was very glad to find out I was able to `pip install pelican` and a few of its dependencies in Pythonista, using StaSh, and get my iPhone to process a bunch of Markdown formatted text files. But then I went on to add features and optimizations that required Pelican plugins. And soon I would get into trouble...
-Status: draft
+
 
 I decided not to use plugins that depended on executable binaries, since I wanted to keep my pipeline compatible with Pythonista. So, I had to read through the documentation and requirements files for each one and eventually decided to skip some that otherwise would be nice to use, like some image optimization automations.
 
@@ -13,8 +13,7 @@ When investigating website performance, I intended to include code 'minification
 
 I got some tracebacks like this in Pythonista:
 
-```
-No handlers could be found for logger "pelican.settings"
+```pytb
 Traceback (most recent call last):
   File "/private/var/mobile/Containers/Shared/AppGroup/F3C0E711-6D38-4FDF-81F2-DC3B97E4E9F1/Pythonista3/Documents/pelican-stuff/make_html.py", line 15, in <module>
     pelican.run()
@@ -47,13 +46,13 @@ I really wanted minification to work, so I decided to read through the minify mo
 
 Line 32 has this code:
 
-```
+```python
     Parallel(n_jobs=-1)(delayed(create_minified_file)(filepath, options) for filepath in files_to_minify)
 ```
 
 And in `site-packages/joblib/parallel.py` there was this explanation for the `Parallel` class:
 
-```
+```python
 class Parallel(Logger):
     ''' Helper class for readable parallel mapping.
 
