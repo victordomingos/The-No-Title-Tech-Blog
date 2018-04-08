@@ -3,13 +3,7 @@
   {% if SITEIMAGE %}
     <div class="col-sm-1 siteimagediv">
       <a href="{{ SITEURL }}/index.html">
-      
-        <picture>
-          <source media="(min-width: 465px)" class="img-fluid rounded" id="siteimage" srcset={{SITEURL}}/{{SITEIMAGES|random()}} {{ SITEIMAGE_SIZE }} alt="{{ SITENAME|striptags }}">
-          
-          <img class="img-fluid rounded" id="siteimage" src="{{SITEURL}}/{{SITEIMAGES|random() }}| thumbnail("150x_")" {{ SITEIMAGE_SIZE }} alt="{{ SITENAME|striptags }}">
-         </picture>
-          
+        <img class="img-fluid rounded" id="siteimage" src="{{SITEURL}}/{{SITEIMAGES|random() }}" {{ SITEIMAGE_SIZE }} alt="{{ SITENAME|striptags }}">
       </a>
     </div>
   {% endif %}
