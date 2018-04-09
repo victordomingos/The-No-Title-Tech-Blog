@@ -83,9 +83,19 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
 PLUGINS_PATH = ['plugins']
 PLUGINS = ['autostatic',
            'advthumbnailer',
+           'deadlinks',
            'minify',  # this should be the last plugin affecting html
            'minification', # idem...
           ]
+
+DEADLINK_VALIDATION = True
+DEADLINK_OPTS = {
+        'archive': True,
+        'classes': [],
+        'labels': False,
+        'timeout_duration_ms': 1000,
+        'timeout_is_error': False,
+    }
           
 MINIFY = {
       'remove_comments': True,
