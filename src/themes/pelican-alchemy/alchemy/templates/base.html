@@ -23,6 +23,20 @@
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments/{{ PYGMENTS_STYLE|default('default') }}.min.css">
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/theme.css">
 
+
+  {% if article %}
+    {% for tag in article.ogtags %}
+      <meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
+    {% endfor %}
+  {% endif %}
+  
+  {% if page  %}
+    {% for tag in page.ogtags %}
+      <meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
+    {% endfor %}
+  {% endif %}
+    
+
   {% include 'include/xml_feeds.html' %}
   {% block head %}{% endblock %}
   {% include 'include/analytics.html' %}
