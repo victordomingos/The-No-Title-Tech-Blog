@@ -38,6 +38,7 @@ DEFAULT_PAGINATION = 6
 TIMEZONE = 'Europe/Lisbon'
 DEFAULT_LANG = 'en'
 LOCALE = "en_GB"
+DEFAULT_DATE_FORMAT = '%d %B %Y'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all_atom.xml'

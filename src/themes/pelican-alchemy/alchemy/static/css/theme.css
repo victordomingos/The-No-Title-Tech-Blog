@@ -67,6 +67,8 @@ body {
   min-width: 400px;
 }
 
+
+
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
@@ -252,12 +254,20 @@ hr {
   font-size: 12px;
 }
 
+.loaded {
+  color: #999;
+}
+
 /* ------------------------------ Big Screens ------------------------------ */
 
 @media (min-width: 760px) {
   .header .title {
     font-size: 1.8rem;
     margin-top: 0.5rem;
+  }
+
+  .header .siteimagediv {
+    margin-left: .5rem;
   }
 
   h2 {
@@ -325,11 +335,10 @@ hr {
   }
 
   .footer {
-    text-align: center;
-  }
-
-  .loaded {
-    color: #999;
+     text-align: center;
+     margin-left: 0;
+     flex: none;
+     max-width: 100%;
   }
 
   .teaser header li {

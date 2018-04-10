@@ -38,15 +38,11 @@
       </ul>
     </header>
     {% if article.cover %}
-    
       <picture>
         <source id="cover" media="(min-width: 650px)" srcset="{{ SITEURL }}/{{ article.cover | thumbnail("1300x_") }}" alt="{{ article.title }}">
         <source id="cover" media="(min-width: 465px)" srcset="{{ SITEURL }}/{{ article.cover | thumbnail("650x_") }}" alt="{{ article.title }}">
         <img id="cover" src="{{ SITEURL }}/{{ article.cover }}" alt="{{ article.title }}">
       </picture>
-      
-    {% else %}
-      <img id="cover" src={{SITEURL}}/{{SITEIMAGES|random()}} {{ SITEIMAGE_SIZE }} alt="{{ article.title }}">
     {% endif %}
     <div id="article-summary">
 	    <p>{{ article.summary }}</p>
