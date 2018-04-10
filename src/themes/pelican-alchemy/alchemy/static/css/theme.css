@@ -118,11 +118,6 @@ body {
   text-shadow: none;
 }
 
-.highlight pre {
-  border: 1px solid rgba(0,0,0,.1);
-  padding: 1rem;
-}
-
 a {
   color: #4E9FBE;
 }
@@ -207,6 +202,31 @@ hr {
   text-decoration: underline;
 }
 */
+
+.highlighttable {
+    font-family: "Source Code Pro", monospace;
+    font-size: 11px;
+    overflow: auto;
+    display: block;
+    border: solid 1px #d9d9d9;
+    border-radius: 3px;
+    margin-bottom: 1.7rem;
+}
+
+.linenos {
+    border-right: 1px solid #d9d9d9;
+    background: #eee;
+    padding: 0.5em 0.8em;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.highlight {
+    margin: 0 1em;
+}
 
 
 /* --------------------- Footer and pagination sections -------------------- */

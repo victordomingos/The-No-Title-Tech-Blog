@@ -110,12 +110,7 @@ if CURRENT_PLATFORM != "iOS":
     pass
 
 
-PYGMENTS_STYLE = "monokai"
-#MD_EXTENSIONS = [
-#    'codehilite(css_class=highlight,linenums=True)',
-#    'extra',
-#    ]
-
+PYGMENTS_STYLE = "autumn"
 
 MARKDOWN = {
     'extension_configs': {
@@ -125,9 +120,10 @@ MARKDOWN = {
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
         'markdown.extensions.smarty': {},
-    },
+        },
     'output_format': 'html5',
-}
+    }
+
 
 HIDE_AUTHORS = True
 
