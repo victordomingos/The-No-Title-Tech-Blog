@@ -158,11 +158,15 @@ hr {
   font-size: .94rem;
 }
 
+.article_list_text {
+  max-width: 100%;
+}
 /* ---------------------------- Article section ---------------------------- */
 
 .article header ul,
 .article header li {
   margin-bottom: .5rem;
+  font-size: .90rem;
 }
 
 .article header li:not(:last-child) {
@@ -196,6 +200,10 @@ hr {
     display: block;
     padding-right: 5px;
     padding-left: 5px;
+}
+
+.article_footer{
+  font-size: .85rem;
 }
 
 /*.article .content a {
@@ -318,6 +326,10 @@ hr {
 
   .footer {
     text-align: center;
+  }
+
+  .loaded {
+    color: #999;
   }
 
   .teaser header li {

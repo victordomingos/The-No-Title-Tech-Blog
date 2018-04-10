@@ -20,15 +20,17 @@
 {% block content %}
   {% for article in articles_page.object_list %}
     <article class="row teaser">
+    {% if article.cover or DISPLAY_DATE_ON_ARTICLE_LIST or (not HIDE_AUTHORS and article.authors )%}
       <header class="col-sm-3 text-muted">
-       {% if DISPLAY_DATE_ON_ARTICLE_LIST or (not HIDE_AUTHORS and article.authors ) %} 
-	<ul>
-	  {% if DISPLAY_DATE_ON_ARTICLE_LIST %}
-	    <li title="{{ article.date.isoformat() }}">
-              <i class="fa fa-clock-o"></i>
-	        {{ article.locale_date }}
-	    </li>
-	  {% endif %}
+
+       {% if DISPLAY_DATE_ON_ARTICLE_LIST or (not HIDE_AUTHORS and article.authors ) %}
+	      <ul>
+          {% if DISPLAY_DATE_ON_ARTICLE_LIST %}
+            <li title="{{ article.date.isoformat() }}">
+                  <i class="fa fa-clock-o"></i>
+                {{ article.locale_date }}
+            </li>
+          {% endif %}
           {% if not HIDE_AUTHORS and article.authors %}
             <li>
               <i class="fa fa-user-o"></i>
@@ -37,13 +39,18 @@
               {% endfor %}
             </li>
           {% endif %}
-        </ul>
-	{% endif %}
-	{% if article.cover %}
-      <a href="{{ SITEURL }}/{{ article.url }}"><img class="article_list_img" src="{{ SITEURL}}/{{ article.cover | thumbnail("400x_") }}" width=100% /></a>
-	{% endif %}
+          </ul>
+	    {% endif %}
+
+      <a href="{{ SITEURL }}/{{ article.url }}">
+          <img class="article_list_img" src="{{ SITEURL}}/{{ article.cover | thumbnail("400x_") }}" width="100%"/>
+      </a>
+
       </header>
-      <div class="col-sm-9">
+      <div class="col-sm-9 article_list_text">
+    {% else %}
+        <div class="col-sm-12 article_list_text">
+    {% endif %}
         <h4 class="title">
           <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
         </h4>           

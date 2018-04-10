@@ -1,7 +1,7 @@
 Title: Project Beware launches an app for iOS 
 Date: 2018-03-27 09:20
 Tags: Python, GUI, Beware, Briefcase, iOS, iPhone
-Category: General
+Category: News
 Slug: project_beware_launches_app_for_ios
 Author: Victor Domingos
 Summary: Project BeeWare has just released its first iPhone app made in Python using its Brifcase tool.

@@ -1,7 +1,7 @@
 Title: Mention on podcast
 Date: 2018-03-24 09:20
 Tags: python, tkinter, podcast, GUI
-Category: General
+Category: News
 Slug: mention_on_podcast
 Author: Victor Domingos
 Cover: images/2018/repservice_login.png

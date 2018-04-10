@@ -1,7 +1,7 @@
 Title: Python to the rescue!
 Date: 2018-03-23 21:30
-Tags: python, backup, macos, server, dropbox, 
-Category: General
+Tags: python, backup, macos, server, dropbox
+Category: Programming
 Slug: python_to_the_rescue
 Author: Victor Domingos
 Cover: images/2018/npk-backup.png
