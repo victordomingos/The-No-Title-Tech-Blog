@@ -80,7 +80,7 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
          ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),)
 
 
-PLUGIN_PATH = ['plugins/']
+PLUGIN_PATHS = ['plugins/']
 PLUGINS = ['autostatic',
            'advthumbnailer',
            'deadlinks',
@@ -111,10 +111,23 @@ if CURRENT_PLATFORM != "iOS":
 
 
 PYGMENTS_STYLE = "monokai"
-MD_EXTENSIONS = [
-    'codehilite(css_class=highlight,linenums=True)',
-    'extra',
-    ]
+#MD_EXTENSIONS = [
+#    'codehilite(css_class=highlight,linenums=True)',
+#    'extra',
+#    ]
+
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight',
+                                           'linenums': True,
+                                          },
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.smarty': {},
+    },
+    'output_format': 'html5',
+}
 
 HIDE_AUTHORS = True
 
