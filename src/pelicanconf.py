@@ -1,3 +1,4 @@
+
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
@@ -24,9 +25,9 @@ DELETE_OUTPUT_DIRECTORY = True
 
 AUTHOR = u'Victor Domingos'
 SITENAME = u'The <strong>No&nbsp;Title<small><sup>&reg;</sup></small></strong> Tech&nbsp;Blog'
-SITEURL = 'https://no-title.victordomingos.com'
+SITEURL = 'http://victordomingos.com/no-title'
 BIO = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
-DESCRIPTION = 'A personal blog about learning programming technologies, including programming Python, tkinter, html, css, sql, flask, and other stuff.'
+DESCRIPTION = 'A personal blog about learning programming technologies, including programming Python, pelican, tkinter, html, css, sql, flask, and other stuff.'
 
 PATH = 'content'
 STATIC_PATHS = ['images']
@@ -86,7 +87,7 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
 PLUGIN_PATHS = ['plugins/']
 PLUGINS = ['autostatic',
            'advthumbnailer',
-           'deadlinks',
+           #'deadlinks',
            'opengraph',
            'minify',  # this should be the last plugin affecting html
            'minification', # idem...
