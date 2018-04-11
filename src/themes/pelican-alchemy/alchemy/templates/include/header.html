@@ -2,7 +2,7 @@
 
   {% if SITEIMAGE %}
     <div class="col-sm-1 siteimagediv">
-      <a href="{{ SITEURL }}/index.html">
+      <a href="{{ SITEURL }}">
         <img class="img-fluid rounded" id="siteimage" src="{{SITEURL}}/{{SITEIMAGES|random() }}" {{ SITEIMAGE_SIZE }} alt="{{ SITENAME|striptags }}">
       </a>
     </div>
@@ -10,7 +10,7 @@
 
 
   <div class="col-sm-{% if SITEIMAGES %}7{% else %}8{% endif %} titlediv">
-    <h1 class="title"><a href="{{ SITEURL }}/index.html">{{ SITENAME }}</a></h1>
+    <h1 class="title"><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
     {% if SITESUBTITLE %}
     <p class="text-muted" id="sistesubtitle">{{ SITESUBTITLE }}</p>
     {% endif %}

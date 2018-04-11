@@ -18,26 +18,33 @@
     <meta name="theme-color" content="#333333">
   {% endif %}
 
+
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css">
+  <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  -->
+
+
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments/{{ PYGMENTS_STYLE|default('default') }}.min.css">
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/theme.css">
+  
 
 
 
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ SITEURL }}/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ SITEURL }}/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ SITEURL }}/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="{{ SITEURL }}/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="{{ SITEURL }}/images/favicons/safari-pinned-tab.svg" color="#8bb4e3">
+  <link rel="shortcut icon" href="{{ SITEURL }}/images/favicons/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="No Title">
+  <meta name="application-name" content="No Title">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="{{ SITEURL }}/images/favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="{{ SITEURL }}/images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 
-<link rel="apple-touch-icon" sizes="180x180" href="{{ SITEURL }}/images/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ SITEURL }}/images/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ SITEURL }}/images/favicons/favicon-16x16.png">
-<link rel="manifest" href="{{ SITEURL }}/images/favicons/site.webmanifest">
-<link rel="mask-icon" href="{{ SITEURL }}/images/favicons/safari-pinned-tab.svg" color="#8bb4e3">
-<link rel="shortcut icon" href="{{ SITEURL }}/images/favicons/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="No Title">
-<meta name="application-name" content="No Title">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="{{ SITEURL }}/images/favicons/mstile-144x144.png">
-<meta name="msapplication-config" content="{{ SITEURL }}/images/favicons/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
+
 
   {% if article %}
     {% for tag in article.ogtags %}
@@ -58,6 +65,7 @@
 </head>
 
 <body>
+
   <header class="header" id="page_header"> 
     <div class="page-header">
       {% include 'include/header.html' %}
@@ -79,7 +87,6 @@
   </footer>
 
 
-  
 </body>
 
 </html>
