@@ -87,7 +87,7 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
 PLUGIN_PATHS = ['plugins/']
 PLUGINS = ['autostatic',
            'advthumbnailer',
-           #'deadlinks',
+           'deadlinks',
            'opengraph',
            'minify',  # this should be the last plugin affecting html
            'minification', # idem...
