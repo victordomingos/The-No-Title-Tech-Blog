@@ -12,7 +12,15 @@
       {% if (LINKS or (DISPLAY_PAGES_ON_MENU and pages)) and loop.first %} 
         <li class=" list-inline-item text-muted">|</li> 
       {% endif %} 
-      <li class="list-inline-item"><a class="fa fa-{{ icon }}" href="{{ link }}" target="_blank"></a></li> 
+      <li class="list-inline-item">
+	      <a href="{{ link }}" target="_blank">
+	    <!--  <i class="fab fa-{{ icon }}" href="{{ link }}" target="_blank"></i> -->
+	    <!--<svg viewBox="0 0 32 32">
+		    <use xlink:href="{{ SITEURL }}/images/socialicons/{{icon}}.svg">
+	    </svg>-->
+	    <img class="icon" src="{{ SITEURL }}/images/socialicons/{{icon}}.svg" height="20px">
+	 </a>
+      </li> 
     {% endfor %} 
   
   </ul>
