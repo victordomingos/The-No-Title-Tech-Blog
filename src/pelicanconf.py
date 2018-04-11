@@ -49,12 +49,15 @@ DEFAULT_METADATA = {'author': 'Victor Domingos'}
 SLUGIFY_SOURCE = 'basename'
 DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_PAGES_ON_MENU = True
-#CACHE_CONTENT = True
-#CONTENT_CACHING_LAYER = 'generator'
-#CACHE_PATH = 'cache'
-#GZIP_CACHE = True
-#CHECK_MODIFIED_METHOD = 'mtime'
-#LOAD_CONTENT_CACHE = True
+
+
+CACHE_CONTENT = True
+CONTENT_CACHING_LAYER = 'generator'
+CACHE_PATH = 'cache'
+GZIP_CACHE = True
+CHECK_MODIFIED_METHOD = 'mtime'
+LOAD_CONTENT_CACHE = True
+
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
