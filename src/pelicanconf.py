@@ -143,7 +143,7 @@ ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}/index.html'
 PAGE_URL = '{category}/{slug}'
 PAGE_SAVE_AS = '{category}/{slug}/index.html'
 
-#AUTHOR_URL = 'author/{slug}/'
+AUTHOR_URL = 'author/{slug}/'
 AUTHOR_SAVE_AS = 'author/{slug}/index.html'
 
 #YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
