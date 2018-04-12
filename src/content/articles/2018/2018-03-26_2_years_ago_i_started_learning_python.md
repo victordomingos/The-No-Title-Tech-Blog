@@ -1,5 +1,5 @@
 Title: 2 years ago I decided to start learning Python
-Date: 2018-03-22 09:20
+Date: 2018-03-26 09:20
 Tags: python, learning
 Category: General
 Slug: two_years_learning_python
@@ -19,6 +19,6 @@ It was a good choice, for several reasons. First, because it was very easy to ma
 
 Another reason that has kept me from quitting and spending my time in something else was the fact that you have lots of stuff to learn and lots of ways you can improve your Python skills. You never run out of interesting or more complex subjects to learn.
 
-About a month after having started from zero Python knowledge, I was able to make a useful console based application, like a working prototype of what would become [PT Tracking]({{filename}/pages/projects/pt-tracking}). There was no real database, just a simple CSV file, but the web scraping for shipment status and everything else was working.
+About a month after having started from zero Python knowledge, I was able to make a useful console based application, like a working prototype of what would become [PT Tracking]({filename}/pages/projects/pt-tracking.md). There was no real database, just a simple CSV file, but the web scraping for shipment status and everything else was working.
 
-The next steps were upgrading from CSV and text mode to SQLite and a tkinter based graphical interface. In less than a month I had a pretty new shining GUI and some new functionalities. Considering everything was new to me, I found it to be very quick and relatively easy to get from zero to that point where I felt capable of doing useful programming tasks. [PT Tracking]({{filename}/pages/projects/pt-tracking}) (and its messy source code) was born by that time as an early stage learning project, but even now, after more than two years and having switched to other slightly more advanced programming projects, I still use it almost everyday at work.
+The next steps were upgrading from CSV and text mode to SQLite and a tkinter based graphical interface. In less than a month I had a pretty new shining GUI and some new functionalities. Considering everything was new to me, I found it to be very quick and relatively easy to get from zero to that point where I felt capable of doing useful programming tasks. [PT Tracking]({filename}/pages/projects/pt-tracking.md) (and its messy source code) was born by that time as an early stage learning project, but even now, after more than two years and having switched to other slightly more advanced programming projects, I still use it almost everyday at work.

@@ -1,4 +1,4 @@
-*Note: This folder contains a version of the Pelican Alchemy theme that has been customized for my website. I strongly encourage you to check out the original version, but please feel free to use this modified version if you prefer.*
+*Note: This folder contains a version of the Pelican Alchemy theme that has been heavily customized specifically for my website. Thus, I strongly encourage you to check out the original version, but please feel free to use this modified version if you prefer.*
 
  
 

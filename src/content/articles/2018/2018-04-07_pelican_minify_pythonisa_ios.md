@@ -4,6 +4,7 @@ Tags: pelican, minify, Python, plugins, debugging, iOS, Pythonista, web developm
 Category: Programming
 Slug: pelican_minify_pythonista_iOS
 Author: Victor Domingos
+Cover: images/2018/pelican_logo.png
 Summary: When I started this blog, I had a few technical requirements in mind. First of all, I wanted the whole static website build process to be based on Python and to be reproducible both on desktop and on iOS. So, I was very glad to find out I was able to `pip install pelican` and a few of its dependencies in Pythonista, using StaSh, and get my iPhone to process a bunch of Markdown formatted text files. But then I went on to add features and optimizations that required Pelican plugins. And soon I would get into trouble...
 
 

@@ -101,7 +101,7 @@ _____
 <header class="col-sm-3">
 </header>
 <div class="col-sm-9">
-  <h4 class="title"><a href="../openweather">
+  <h4 class="title"><a href="/">
   The No-Title<sup>®</sup> Tech Blog
   </a></h4>
     

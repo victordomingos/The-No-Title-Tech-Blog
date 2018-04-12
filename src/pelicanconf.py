@@ -34,6 +34,7 @@ STATIC_PATHS = ['images']
 PAGE_PATHS = ['pages']
 ARTICLE_PATHS = ['articles']
 DEFAULT_PAGINATION = 6
+DEFAULT_ORPHANS = 2
 
 TIMEZONE = 'Europe/Lisbon'
 DEFAULT_LANG = 'en'
@@ -61,7 +62,7 @@ LOAD_CONTENT_CACHE = True
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-THEME = "themes/pelican-alchemy/alchemy"
+THEME = "themes/pelican-alchemy-take-two/alchemy"
 SITESUBTITLE = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
 
 DISPLAY_DATE_ON_ARTICLE_LIST = False
@@ -112,9 +113,6 @@ if CURRENT_PLATFORM != "iOS":
     # for instance if you have some plugin configurations not compatible with Pythonista
     pass
 
-
-PYGMENTS_STYLE = "autumn"
-
 MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight',
@@ -127,17 +125,13 @@ MARKDOWN = {
     'output_format': 'html5',
     }
 
+PYGMENTS_STYLE = "autumn"
 
 HIDE_AUTHORS = True
-
 TYPOGRIFY = True
-
 SUMMARY_MAX_LENGTH = 150
-
 PAGE_ORDER_BY = 'reversed-basename'
-
 WITH_FUTURE_DATES = False
-
 
 AUTHORS_SAVE_AS = 'authors/index.html'
 CATEGORIES_SAVE_AS = 'categories/index.html'
@@ -150,7 +144,7 @@ PAGE_URL = '{category}/{slug}'
 PAGE_SAVE_AS = '{category}/{slug}/index.html'
 
 #AUTHOR_URL = 'author/{slug}/'
-#AUTHOR_SAVE_AS = 'author/{slug}/index.html'
+AUTHOR_SAVE_AS = 'author/{slug}/index.html'
 
 #YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
 #MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/{date:%b}/index.html'

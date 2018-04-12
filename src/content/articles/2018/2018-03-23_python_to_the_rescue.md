@@ -1,11 +1,11 @@
 Title: Python to the rescue!
-Date: 2018-03-23 21:30
+Date: 2018-04-12 9:30
 Tags: python, backup, macos, server, dropbox
 Category: Programming
 Slug: python_to_the_rescue
 Author: Victor Domingos
 Cover: images/2018/npk-backup.png
-Summary: That moment when you need to set up an automatic backup system and you realise that your old server doesn't support Dropbox anymore. The sollution: getting your hands to work and write a program for that task.
+Summary: One day you find yourself in a situation you need to set up an automatic backup system and you realise that your old server does not support Dropbox anymore. The sollution: getting your hands to work and write a program for that task.
 
 ## The problem
 In the middle of some corporate changes, my company had the need to relocate an old Mac mini server, which was responsible for one of its most important databases. It was a custom-made application based on Filemaker - a very old version of Filemaker running on Mac OS 10.6 Snow Leopard. Nobody seemed to be aware that there wasn't anymore a backup strategy in place. Until one night, when there was a big assault and lots of computers got stolen. Being a headless mini computer certainly helped that Mac to remain intact. But if it had been stolen, there would be a big loss in data that was essential for the company's business. 
