@@ -1,5 +1,5 @@
 Title: 2 years ago I decided to start learning Python
-Date: 2018-03-10 09:20
+Date: 2018-03-22 09:20
 Tags: python, learning
 Category: General
 Slug: two_years_learning_python
