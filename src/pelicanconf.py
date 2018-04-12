@@ -50,14 +50,14 @@ SLUGIFY_SOURCE = 'basename'
 DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_PAGES_ON_MENU = True
 
-
+"""
 CACHE_CONTENT = True
 CONTENT_CACHING_LAYER = 'generator'
 CACHE_PATH = 'cache'
 GZIP_CACHE = True
 CHECK_MODIFIED_METHOD = 'mtime'
 LOAD_CONTENT_CACHE = True
-
+"""
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
@@ -101,7 +101,7 @@ DEADLINK_OPTS = {
         'timeout_duration_ms': 1000,
         'timeout_is_error': False,
     }
-          
+
 MINIFY = {
       'remove_comments': True,
       'remove_all_empty_space': True,
