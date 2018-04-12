@@ -14,11 +14,17 @@
       {% endif %}
       <li class="list-inline-item">
 	      <a href="{{ link }}" target="_blank">
-	    <!--  <i class="fab fa-{{ icon }}" href="{{ link }}" target="_blank"></i> -->
 	    <img class="icon" src="{{ SITEURL }}/images/socialicons/{{icon}}.svg" height=15px>
 	 </a>
       </li>
     {% endfor %}
+    <li class="list-inline-item">
+	      <a href="{{ SITEURL }}/{{FEED_ALL_RSS }}" target="_blank">
+	    <img class="icon" src="{{ SITEURL }}/images/socialicons/feed.svg" height=15px>
+	 </a>
+    </li>
+
+
 
   </ul>
   <p class="col-sm-6 text-sm-right text-muted copy">

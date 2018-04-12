@@ -197,6 +197,16 @@ hr {
   object-fit: contain;
 }
 
+.article .icon {
+  display: block;
+  height: 12px;
+  margin-top: -2px;
+  margin-left: 0;
+  margin-right: 4px;
+  object-fit: contain;
+  display: inline-block;
+}
+
 
 .article .article_list_img {
     max-height: 200px;

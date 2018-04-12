@@ -41,7 +41,6 @@ LOCALE = "en_GB"
 DEFAULT_DATE_FORMAT = '%d %B %Y'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = 'feeds/all_atom.xml'
 FEED_ALL_RSS = 'feeds/all_rss.xml'
 
 # global metadata to all the contents
@@ -131,9 +130,6 @@ MARKDOWN = {
 
 HIDE_AUTHORS = True
 
-# https://realfavicongenerator.net/blog/new-favicon-package-less-is-more/
-#RFG_FAVICONS = True
-
 TYPOGRIFY = True
 
 SUMMARY_MAX_LENGTH = 150
@@ -143,7 +139,7 @@ PAGE_ORDER_BY = 'reversed-basename'
 WITH_FUTURE_DATES = False
 
 
-#AUTHORS_SAVE_AS = 'authors/index.html'
+AUTHORS_SAVE_AS = 'authors/index.html'
 CATEGORIES_SAVE_AS = 'categories/index.html'
 TAGS_SAVE_AS = 'tags/index.html'
 

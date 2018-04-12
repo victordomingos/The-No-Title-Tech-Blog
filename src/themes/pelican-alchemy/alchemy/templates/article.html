@@ -18,17 +18,15 @@
     <header>
       <ul class="list-inline">
         <li class="list-inline-item text-muted" title="{{ article.date.isoformat() }}">
-          <i class="fa fa-clock-o"></i>
-          {{ article.locale_date }}
+          <img class="icon" src="{{ SITEURL }}/images/socialicons/clock-o.svg">{{ article.locale_date }}
         </li>
         <li class="list-inline-item">
-            <i class="fa fa-user-o"></i>
-            {% for author in article.authors %}
-              <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>{% if not loop.last %}, {% endif %}
+            <img class="icon" src="{{ SITEURL }}/images/socialicons/user-o.svg">
+            {% for author in article.authors %}<a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>{% if not loop.last %}, {% endif %} 
             {% endfor %}
         </li>
         <li class="list-inline-item">
-          <i class="fa fa-folder-open-o"></i>
+          <img class="icon" src="{{ SITEURL }}/images/socialicons/folder-open-o.svg">
           <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
         </li>
 
@@ -55,7 +53,7 @@
 	<ul class="list-inline">
         {% if article.tags %}
           <li class="list-inline-item">
-            <i class="fa fa-files-o"></i>&nbsp;
+            <img class="icon" src="{{ SITEURL }}/images/socialicons/files-o.svg">
             {% for tag in article.tags %}
               <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
             {% endfor %}

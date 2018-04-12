@@ -10,28 +10,9 @@
   <title>{% block title %}| {{ SITENAME|striptags }}{% endblock %}</title>
   <link rel="canonical" href="{{ SITEURL }}/{{ output_file }}">
 
-  {% if RFG_FAVICONS %}
-    <link rel="apple-touch-icon" href="{{ SITEURL }}/apple-touch-icon.png" sizes="180x180">
-    <link rel="icon" type="image/png" href="{{ SITEURL }}/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="{{ SITEURL }}/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="{{ SITEURL }}/manifest.json">
-    <meta name="theme-color" content="#333333">
-  {% endif %}
-
-
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css">
-  <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  -->
-
-
-  <!-- <link rel="stylesheet" href="{{ SITEURL }}/theme/css/font-awesome.min.css">-->
-  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script> -->
-
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments/{{ PYGMENTS_STYLE|default('default') }}.min.css">
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/theme.css">
-  
-
-
 
   <link rel="apple-touch-icon" sizes="180x180" href="{{ SITEURL }}/images/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ SITEURL }}/images/favicons/favicon-32x32.png">
@@ -45,7 +26,6 @@
   <meta name="msapplication-TileImage" content="{{ SITEURL }}/images/favicons/mstile-144x144.png">
   <meta name="msapplication-config" content="{{ SITEURL }}/images/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-
 
 
   {% if article %}
