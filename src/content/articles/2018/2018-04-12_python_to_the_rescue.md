@@ -12,7 +12,7 @@ In the middle of some corporate changes, my company had the need to relocate an 
 
 So, suddently it was very clear that there was an urgent need to put back in place a backup strategy which had to include an off-site copy for the database. Someone came up with the idea of using a Dropbox account as an inexpensive and very simple to implement option, to be complemented with other forms of backup. It was pretty straightforward: just configuring Filemaker to save its backup files into a folder that was monitored and synced by the Dropbox utility. Except for one little thing... Dropbox wasn't officially supported on such an old operating system anymore. 
 
-It was a very stable machine and probably upgrading the operating system would break compatibility with the old version of Filemaker. And buying a new Filemaker license was certainly an expensive option that the administration wouldn't be fery fond of. 
+It was a very stable machine and probably upgrading the operating system would break compatibility with the old version of Filemaker. And buying a new Filemaker license was certainly an expensive option that the administration wouldn't be very fond of. 
 
 ## Python to the rescue!
 
