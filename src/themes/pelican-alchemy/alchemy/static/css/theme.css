@@ -4,12 +4,8 @@ body {
   background-color: #f5f5f5;
   font-size: 18px;
   color: #5c5c5c;
-  fill: currentColor;
 }
 
-svg {
-  border: 1px solid currentColor;
-}
 
 .container {
   max-width: 800px;
@@ -134,6 +130,8 @@ a:hover {
   color: #4E9FBE;
   text-decoration: none;
   text-shadow: 0px 0px 6px ;
+  border-bottom: 1x;
+  border-color: #000;
 }
 
 
@@ -260,7 +258,8 @@ hr {
 }
 
 .loaded {
-  color: #999;
+  color: #AAA;
+  font-size: 10px;
 }
 
 /* ------------------------------ Big Screens ------------------------------ */
@@ -313,6 +312,7 @@ hr {
      position: absolute;
      margin-left: 0;
      text-align: center;
+     display: block;
   }
 
   .link_box{
@@ -378,12 +378,13 @@ hr {
     margin-right: auto;
     object-fit: contain;
   }
-  
+
   .article .article_list_img {
     max-width: 200px;
     max-height: 200px;
+    width: 100%;
   }
-  
+
   /*
   img.article_list_img {
     max-height: 200px;
@@ -392,6 +393,5 @@ hr {
   .row {
     margin-left: 0;
     margin-right: 0;
-    display: block;
   }
 }
