@@ -52,14 +52,14 @@ TAGS_SAVE_AS = 'tags/index.html'
 
 ARTICLE_URL = 'articles/{date:%Y}/{slug}'
 ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}/index.html'
-ARTICLE_LANG_URL = '{slug}/{lang}'
-ARTICLE_LANG_SAVE_AS = 'articles/{date:%Y}/{slug}/{lang}/index.html'
+#ARTICLE_LANG_URL = '{slug}/{lang}'
+#ARTICLE_LANG_SAVE_AS = 'articles/{date:%Y}/{slug}/{lang}/index.html'
 
 
 PAGE_URL = '{category}/{slug}'
 PAGE_SAVE_AS = '{category}/{slug}/index.html'
-PAGE_LANG_URL = '{category}/{slug}/{lang}'
-PAGE_LANG_SAVE_AS = '{category}/{slug}/{lang}/index.html'
+#PAGE_LANG_URL = '{category}/{slug}/{lang}'
+#PAGE_LANG_SAVE_AS = '{category}/{slug}/{lang}/index.html'
 
 
 AUTHOR_URL = 'author/{slug}/'
@@ -76,8 +76,8 @@ TAG_SAVE_AS = 'tag/{slug}/index.html'
 
 DRAFT_URL = 'drafts/{slug}'
 DRAFT_SAVE_AS = 'drafts/{slug}/index.html'
-DRAFT_LANG_URL = 'drafts/{slug}/{lang}'
-DRAFT_LANG_SAVE_AS = 'drafts/{slug}/{lang}/index.html'
+#DRAFT_LANG_URL = 'drafts/{slug}/{lang}'
+#DRAFT_LANG_SAVE_AS = 'drafts/{slug}/{lang}/index.html'
 
 DEFAULT_DATE_FORMAT = '%d %B %Y'
 DATE_FORMATS = {
