@@ -25,9 +25,9 @@ DELETE_OUTPUT_DIRECTORY = True
 
 AUTHOR = u'Victor Domingos'
 SITENAME = u'The <strong>No&nbsp;Title<small><sup>&reg;</sup></small></strong> Tech&nbsp;Blog'
-SITEURL = 'http://victordomingos.com/no-title'
-BIO = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
-DESCRIPTION = 'A personal blog about learning programming technologies, including programming Python, pelican, tkinter, html, css, sql, flask, and other stuff.'
+SITEURL = u'https://no-title.victordomingos.com'
+BIO = u'Tales of an exploration on antigravity and other potentialy unrelated matters'
+DESCRIPTION = u'A personal blog about learning programming technologies, including programming Python, Pelican, tkinter, HTML, CSS, SQL, Flask, and other stuff.'
 
 PATH = 'content'
 STATIC_PATHS = ['images']
@@ -52,15 +52,10 @@ TAGS_SAVE_AS = 'tags/index.html'
 
 ARTICLE_URL = 'articles/{date:%Y}/{slug}'
 ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}/index.html'
-ARTICLE_LANG_URL = '{slug}/{lang}'
-ARTICLE_LANG_SAVE_AS = 'articles/{date:%Y}/{slug}/{lang}/index.html'
 
 
 PAGE_URL = '{category}/{slug}'
 PAGE_SAVE_AS = '{category}/{slug}/index.html'
-PAGE_LANG_URL = '{category}/{slug}/{lang}'
-PAGE_LANG_SAVE_AS = '{category}/{slug}/{lang}/index.html'
-
 
 AUTHOR_URL = 'author/{slug}/'
 AUTHOR_SAVE_AS = 'author/{slug}/index.html'
@@ -76,16 +71,9 @@ TAG_SAVE_AS = 'tag/{slug}/index.html'
 
 DRAFT_URL = 'drafts/{slug}'
 DRAFT_SAVE_AS = 'drafts/{slug}/index.html'
-DRAFT_LANG_URL = 'drafts/{slug}/{lang}'
-DRAFT_LANG_SAVE_AS = 'drafts/{slug}/{lang}/index.html'
 
 DEFAULT_DATE_FORMAT = '%d %B %Y'
-"""
-DATE_FORMATS = {
-    'en': ('en_GB', '%d %B %Y'),
-    'pt': ('pt_PT', '%d de %B de %Y'),
-}
-"""
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_RSS = 'feeds/all_rss.xml'
@@ -98,14 +86,6 @@ SLUGIFY_SOURCE = 'basename'
 DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_PAGES_ON_MENU = True
 
-"""
-CACHE_CONTENT = True
-CONTENT_CACHING_LAYER = 'generator'
-CACHE_PATH = 'cache'
-GZIP_CACHE = True
-CHECK_MODIFIED_METHOD = 'mtime'
-LOAD_CONTENT_CACHE = True
-"""
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
@@ -174,6 +154,3 @@ MARKDOWN = {
     }
 
 PYGMENTS_STYLE = "autumn"
-
-
-
