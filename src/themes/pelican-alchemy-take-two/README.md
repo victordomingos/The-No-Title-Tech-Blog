@@ -20,8 +20,6 @@ Inspired by [crowsfoot](http://github.com/porterjamesj/crowsfoot) and [clean-blo
 
 ** Features link to external assets (webfonts etc).
 
-![](screenshot.jpg)
-
 ## Installation
 
 Clone the repo:

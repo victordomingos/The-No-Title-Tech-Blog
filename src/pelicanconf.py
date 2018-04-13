@@ -87,7 +87,7 @@ DATE_FORMATS = {
 
 # Feed generation is usually not desired when developing
 FEED_ALL_RSS = 'feeds/all_rss.xml'
-TRANSLATION_FEED_RSS ='feeds/all_rss_%s.xml'
+#TRANSLATION_FEED_RSS ='feeds/all_rss_%s.xml'
 
 
 # global metadata to all the contents
