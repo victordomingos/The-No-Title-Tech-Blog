@@ -1,6 +1,6 @@
 Title: Mention on podcast
 Date: 2018-03-24 09:20
-Lang: en
+Lang: pt
 Tags: python, tkinter, podcast, GUI
 Category: News
 Slug: mention_on_podcast

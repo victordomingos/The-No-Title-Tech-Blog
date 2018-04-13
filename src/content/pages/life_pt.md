@@ -1,6 +1,6 @@
-Title: Life 
+Title: Vida
 Slug: life
-Lang: en
+Lang: pt
 Status: hidden
 
 Tell the story of this website...

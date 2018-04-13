@@ -1,6 +1,6 @@
 Title: Python to the rescue!
 Date: 2018-04-12 9:30
-Lang: en
+Lang: pt
 Tags: python, backup, macos, server, dropbox
 Category: Programming
 Slug: python_to_the_rescue
