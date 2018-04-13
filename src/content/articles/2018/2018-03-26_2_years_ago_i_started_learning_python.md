@@ -2,7 +2,7 @@ Title: 2 years ago I decided to start learning Python
 Date: 2018-03-26 09:20
 Lang: en
 Tags: python, learning
-Category: General
+Category: Programming
 Slug: two_years_learning_python
 Author: Victor Domingos
 Cover: images/2018/my_first_python_code.png
