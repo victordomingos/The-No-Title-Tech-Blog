@@ -39,10 +39,56 @@ DEFAULT_ORPHANS = 2
 TIMEZONE = 'Europe/Lisbon'
 DEFAULT_LANG = 'en'
 LOCALE = "en_GB"
+
+HIDE_AUTHORS = True
+TYPOGRIFY = True
+SUMMARY_MAX_LENGTH = 150
+PAGE_ORDER_BY = 'reversed-basename'
+WITH_FUTURE_DATES = False
+
+AUTHORS_SAVE_AS = 'authors/index.html'
+CATEGORIES_SAVE_AS = 'categories/index.html'
+TAGS_SAVE_AS = 'tags/index.html'
+
+ARTICLE_URL = 'articles/{date:%Y}/{slug}'
+ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}/index.html'
+ARTICLE_LANG_URL = '{slug}/{lang}'
+ARTICLE_LANG_SAVE_AS = 'articles/{date:%Y}/{slug}/{lang}/index.html'
+
+
+PAGE_URL = '{category}/{slug}'
+PAGE_SAVE_AS = '{category}/{slug}/index.html'
+PAGE_LANG_URL = '{category}/{slug}/{lang}'
+PAGE_LANG_SAVE_AS = '{category}/{slug}/{lang}/index.html'
+
+
+AUTHOR_URL = 'author/{slug}/'
+AUTHOR_SAVE_AS = 'author/{slug}/index.html'
+
+#YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
+#MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/{date:%b}/index.html'
+YEAR_ARCHIVE_SAVE_AS = 'articles/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'articles/{date:%Y}/{date:%m}/index.html'
+
+
+TAG_URL = 'tag/{slug}'
+TAG_SAVE_AS = 'tag/{slug}/index.html'
+
+DRAFT_URL = 'drafts/{slug}'
+DRAFT_SAVE_AS = 'drafts/{slug}/index.html'
+DRAFT_LANG_URL = 'drafts/{slug}/{lang}'
+DRAFT_LANG_SAVE_AS = 'drafts/{slug}/{lang}/index.html'
+
 DEFAULT_DATE_FORMAT = '%d %B %Y'
+DATE_FORMATS = {
+    'en': ('en_GB', '%d %B %Y'),
+    'pt': ('pt_PT', '%d de %B de %Y'),
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_RSS = 'feeds/all_rss.xml'
+TRANSLATION_FEED_RSS ='feeds/all_rss_%s.xml'
+
 
 # global metadata to all the contents
 DEFAULT_METADATA = {'author': 'Victor Domingos'}
@@ -127,34 +173,5 @@ MARKDOWN = {
 
 PYGMENTS_STYLE = "autumn"
 
-HIDE_AUTHORS = True
-TYPOGRIFY = True
-SUMMARY_MAX_LENGTH = 150
-PAGE_ORDER_BY = 'reversed-basename'
-WITH_FUTURE_DATES = False
 
-AUTHORS_SAVE_AS = 'authors/index.html'
-CATEGORIES_SAVE_AS = 'categories/index.html'
-TAGS_SAVE_AS = 'tags/index.html'
-
-ARTICLE_URL = 'articles/{date:%Y}/{slug}'
-ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}/index.html'
-
-PAGE_URL = '{category}/{slug}'
-PAGE_SAVE_AS = '{category}/{slug}/index.html'
-
-AUTHOR_URL = 'author/{slug}/'
-AUTHOR_SAVE_AS = 'author/{slug}/index.html'
-
-#YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
-#MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/{date:%b}/index.html'
-YEAR_ARCHIVE_SAVE_AS = 'articles/{date:%Y}/index.html'
-MONTH_ARCHIVE_SAVE_AS = 'articles/{date:%Y}/{date:%m}/index.html'
-
-
-TAG_URL = 'tag/{slug}'
-TAG_SAVE_AS = 'tag/{slug}/index.html'
-
-DRAFT_URL = 'drafts/{slug}'
-DRAFT_SAVE_AS = 'drafts/{slug}/index.html'
 
