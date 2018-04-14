@@ -1,7 +1,7 @@
 Title: OpenWeather
 Slug: openweather
 Lang: en
-og_image: /images/projects/openweather.png
+Cover: /images/projects/openweather.png
 Status: hidden
 
 

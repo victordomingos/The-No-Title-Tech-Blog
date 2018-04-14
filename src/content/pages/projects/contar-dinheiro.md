@@ -1,7 +1,7 @@
 Title: Contar Dinheiro
 Slug: contar-dinheiro
 Lang: en
-og_image: /images/projects/contar-dinheiro.png
+Cover: /images/projects/contar-dinheiro.png
 Status: hidden
 
 

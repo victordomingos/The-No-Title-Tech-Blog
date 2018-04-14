@@ -1,7 +1,7 @@
 Title: RepService
 Slug: repservice
 Lang: en
-og_image: /images/projects/repservice.jpg
+Cover: /images/projects/repservice.jpg
 Status: hidden
 
 
