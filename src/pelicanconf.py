@@ -101,7 +101,7 @@ SITEIMAGES = [ Path(*Path(img).parts[1:])
                for img in glob('{}/{}/*.png'.format(PATH,SITEIMAGE_FOLDER))]
 
 SITEIMAGE_SIZE = 'width=100% height=100%'
-SITEIMAGE = '/images/avatars/avatar1.png width=80% height=80%' # Default Image that appears in the header
+SITEIMAGE = '/images/avatars/avatar1.png' # Default Image that appears in the header
 
 
 # Social widget

@@ -1,5 +1,6 @@
 Title: Projects
 Slug: projects
+og_image: /images/projects/repservice.jpg
 Lang: en
 
 <article>

@@ -6,6 +6,7 @@ Category: Programming
 Slug: two_years_learning_python
 Author: Victor Domingos
 Cover: images/2018/my_first_python_code.png
+og_image: images/2018/my_first_python_code.png
 Summary: Two years ago, in february 2016, I decided to start learning Python. I had very little programming experience, so almost everything was new to me.
 Status: Published
 

@@ -1,6 +1,7 @@
 Title: PT-Tracking
 Slug: pt-tracking
 Lang: en
+og_image: /images/projects/pt-tracking.png
 Status: hidden
 
 
