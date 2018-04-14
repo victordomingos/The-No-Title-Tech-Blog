@@ -88,7 +88,7 @@ DISPLAY_PAGES_ON_MENU = True
 
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 THEME = "themes/pelican-alchemy-take-two/alchemy"
 SITESUBTITLE = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
