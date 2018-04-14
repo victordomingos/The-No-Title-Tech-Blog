@@ -19,7 +19,7 @@ Concerning poetry, I published É preciso calar o monólogo. Over the years, I h
 ## Music
 
 I play trombone
-
+ 
 
 
 ## Media and publishing
