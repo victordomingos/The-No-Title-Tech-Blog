@@ -13,7 +13,7 @@ I have written a couple of short stories, all of them in an experimental style, 
 
 In 1999, I received the Teixeira de Queirós Literary Award for my fiction book titled Ode a Um Poeta Naturalista. In 2002, Manual de Trigonometria Aplicada won the “Ecos da Memória” Literary Contest. Three years later, As Confissões de Dulce was awarded with the 2nd prize of “D. Sancho I” National Short Story Contest.
 
-Concerning poetry, I published É preciso calar o monólogo. Over the years, I have also collaborated occasionally with some publications, such as the Portuguese magazine Terra de Val de Vez (Nr.18, 2007), the Galician digital magazines Andar21.net and xxxxxx, the Brazilian portal Alma de Poeta and the anthology Entre o Sono e o Sonho - Vol. IV (Chiado Editora, 2013).
+Concerning poetry, I published É preciso calar o monólogo. Over the years, I have also collaborated occasionally with some publications, such as the Portuguese magazine Terra de Val de Vez (Nr.18, 2007), the Galician digital magazines Andar21.net and [Palavra Comum](http://palavracomum.com/entrevista-ao-escritor-portugues-victor-domingos/), the Brazilian portal Alma de Poeta and the anthology Entre o Sono e o Sonho - Vol. IV (Chiado Editora, 2013).
 
 
 ## Music
