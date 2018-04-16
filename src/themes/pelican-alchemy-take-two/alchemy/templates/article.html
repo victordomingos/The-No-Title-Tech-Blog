@@ -47,21 +47,10 @@
     </div>
     <div class="content">
       {{ article.content }}
-  </div>
 
-    {% if article.related_posts %}
-    <div class="related_articles">
-      <hr>
-      <p> You may also be interested:</p>
-      <ul>
-      {% for related_post in article.related_posts %}
-        <li><a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
-      {% endfor %}
-      </ul>
-    </div>
-    {% endif %}
+    <p></p>
+    <!--
     <div class="article_footer">
-	<hr>
 	<ul class="list-inline">
         {% if article.tags %}
           <li class="list-inline-item">
@@ -73,6 +62,45 @@
         {% endif %}
     </ul>
     </div>
+    -->
+
+{% if article.prev_article or article.next_article %}
+    <hr>
+    <div class="article_footer">
+    <table width=100%><tr>
+        <td align="left">
+          {% if article.prev_article %}
+            <a href="{{ SITEURL }}/{{ article.prev_article.url}}">❮ {{ article.prev_article.title }}</a>
+          {% endif %}
+        </td>
+ 
+        <td>
+           <!-- Just a spacer in the middle -->
+        </td>
+        
+        <td align="right">
+          {% if article.next_article %}
+            <a href="{{ SITEURL }}/{{ article.next_article.url}}">{{ article.next_article.title }} ❯</a>
+          {% endif %}
+        </td>
+    </tr></table>
+    </div>
+{% endif %}
+
+
+
+    {% if article.related_posts %}
+    <div class="related_articles">
+      <hr>
+      <h5> You may also be interested:</h5>
+      <ul>
+      {% for related_post in article.related_posts %}
+        <li><a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
     </article>
   {% include 'include/comments.html' %}
 {% endblock %}

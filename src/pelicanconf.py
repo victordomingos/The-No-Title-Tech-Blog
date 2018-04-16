@@ -117,6 +117,7 @@ PLUGIN_PATHS = ['plugins/']
 PLUGINS = ['autostatic',
            'advthumbnailer',
            'related_posts',
+           'neighbors',
            #'deadlinks',
           ]
 
@@ -129,7 +130,7 @@ DEADLINK_OPTS = {
         'timeout_is_error': False,
     }
 
-RELATED_POSTS_MAX = 5
+RELATED_POSTS_MAX = 3
 
 """
 if CURRENT_PLATFORM != "iOS":

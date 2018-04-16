@@ -20,6 +20,7 @@ pelican-advthumbnailer==0.7.0
 pelican-autostatic==0.2.2
 pelican-minification==0.1.1
 pelican-minify==0.9
+pelican-neighbors==1.0.0
 Pillow==4.1.0
 pyftpsync==2.0.0
 Pygments==2.2.0
