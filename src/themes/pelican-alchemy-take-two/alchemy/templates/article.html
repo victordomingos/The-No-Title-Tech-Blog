@@ -48,6 +48,18 @@
     <div class="content">
       {{ article.content }}
   </div>
+
+    {% if article.related_posts %}
+    <div class="related_articles">
+      <hr>
+      <p> You may also be interested:</p>
+      <ul>
+      {% for related_post in article.related_posts %}
+        <li><a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
     <div class="article_footer">
 	<hr>
 	<ul class="list-inline">

@@ -10,7 +10,7 @@ try:
 except ImportError:
     from pathlib2 import Path
 
-
+"""
 if platform.system() == 'Darwin':
     if platform.machine().startswith('iP'):
         CURRENT_PLATFORM = "iOS"
@@ -18,6 +18,7 @@ if platform.system() == 'Darwin':
         CURRENT_PLATFORM = "macOS"
 else:
     CURRENT_PLATFORM = "other"
+"""
 
 
 DELETE_OUTPUT_DIRECTORY = True
@@ -88,7 +89,7 @@ DISPLAY_PAGES_ON_MENU = True
 
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = False
+RELATIVE_URLS = True
 
 THEME = "themes/pelican-alchemy-take-two/alchemy"
 SITESUBTITLE = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
@@ -115,9 +116,8 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
 PLUGIN_PATHS = ['plugins/']
 PLUGINS = ['autostatic',
            'advthumbnailer',
+           'related_posts',
            #'deadlinks',
-           'minify',  # this should be the last plugin affecting html
-           'minification', # idem...
           ]
 
 DEADLINK_VALIDATION = True
@@ -129,16 +129,13 @@ DEADLINK_OPTS = {
         'timeout_is_error': False,
     }
 
-MINIFY = {
-      'remove_comments': True,
-      'remove_all_empty_space': True,
-      'remove_optional_attribute_quotes': False,
-}
+RELATED_POSTS_MAX = 5
 
-
+"""
 if CURRENT_PLATFORM != "iOS":
     # for instance if you have some plugin configurations not compatible with Pythonista
     pass
+"""
 
 MARKDOWN = {
     'extension_configs': {
