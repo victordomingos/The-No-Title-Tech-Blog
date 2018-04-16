@@ -22,10 +22,25 @@ RELATIVE_URLS = True
 
 # Following items are often useful when publishing
 
-PLUGINS = PLUGINS + ['minify',  # this should be the last plugin affecting html
+PLUGINS = PLUGINS + ['sitemap',
+                     'minify',  # this should be the last plugin affecting html
                      'minification', # idem...
                     ]
 
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+        },
+    'changefreqs': {
+        'articles': 'weekly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+        }
+}
+    
 MINIFY = {
       'remove_comments': True,
       'remove_all_empty_space': True,
