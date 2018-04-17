@@ -254,6 +254,26 @@ hr {
 
 
 /* --------------------- Footer and pagination sections -------------------- */
+.related_articles_header {
+    margin-top: 3.5rem;
+    margin-bottom: 1.1rem;
+}
+
+.related_articles {
+  font-size: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.related_articles td {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.related_articles img {
+    height: 50px;
+    width: auto;
+}
 
 .pagination .page-link {
   color: #333;
@@ -302,6 +322,9 @@ hr {
     font-size: 6px;
   }
 
+.related_articles {
+  display: block;
+}
   .siteimagediv {
     max-width: 100%;
     margin-left: auto;

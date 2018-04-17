@@ -90,16 +90,28 @@
 
 
     {% if article.related_posts %}
+    <hr>
+    <h5 class="related_articles_header">You may also be interested:</h5>
     <div class="related_articles">
-      <hr>
-      <h5> You may also be interested:</h5>
-      <ul>
-      {% for related_post in article.related_posts %}
-        <li><a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
-      {% endfor %}
-      </ul>
+    <table>
+          {% for related_post in article.related_posts %}
+             <tr>
+                <td>
+                    <a href="{{ SITEURL }}/{{ related_post.url }}">
+                        <img src="{{ SITEURL }}/{{related_post.cover | thumbnail("_x100") }}" alt="{{ related_post.title }}">
+                    </a>
+                </td>
+                <td>
+                    <a href="{{ SITEURL }}/{{ related_post.url }}">
+                        {{ related_post.title }}
+                    </a>
+                </td>
+            </tr>
+          {% endfor %}
+    </table>
     </div>
     {% endif %}
+
 
     </article>
   {% include 'include/comments.html' %}
