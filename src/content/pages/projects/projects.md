@@ -13,7 +13,7 @@ These are all open source projects, that are available on GitHub. Please feel fr
 
 <article class="row teaser">
 <header class="col-sm-3 text-muted"><a href="../repservice">
-    <img alt="RepService - Database application for in-store registering of warranty and service/repair processes" src="{static /images/projects/repservice.jpg thumb="_x300"}" class="article_list_img"/>
+    <img alt="RepService - Database application for in-store registering of warranty and service/repair processes" src="{static /images/projects/repservice.jpg thumb="320x_"}" class="article_list_img"/>
   </a></header>
 
 <div class="col-sm-9">
@@ -29,7 +29,7 @@ _____
 
 <article class="row teaser">
 <header class="col-sm-3"><a href="../pt-tracking">
-    <img alt="PT-Tracking - Parcel tracking application for CTT and CTT Expresso" src="{static /images/projects/pt-tracking.png thumb="_x300"}" class="article_list_img">
+    <img alt="PT-Tracking - Parcel tracking application for CTT and CTT Expresso" src="{static /images/projects/pt-tracking.png thumb="320x_"}" class="article_list_img">
   </a></header>
 
 <div class="col-sm-9"><h4 class="title"><a href="../pt-tracking">
@@ -46,7 +46,7 @@ _____
 <article class="row teaser">
 <header class="col-sm-3">
   <a href="../contar-dinheiro">
-    <img alt="ContarDinheiro.py - A single-window utility to help you count money" src="{static /images/projects/contar-dinheiro.png thumb="_x300"}" class="article_list_img">
+    <img alt="ContarDinheiro.py - A single-window utility to help you count money" src="{static /images/projects/contar-dinheiro.png thumb="320x_"}" class="article_list_img">
   </a>
 </header>
 <div class="col-sm-9">
@@ -65,7 +65,7 @@ _____
 <article class="row teaser">
 <header class="col-sm-3">
   <a href="../npk-backup">
-    <img alt="NPK Backup - A set of two Python scripts made to automate a simple off-site backup operation" src="{static ../../images/2018/npk-backup.png thumb="_x300"}" class="article_list_img">
+    <img alt="NPK Backup - A set of two Python scripts made to automate a simple off-site backup operation" src="{static ../../images/2018/npk-backup.png thumb="320x_"}" class="article_list_img">
   </a>
 </header>
 <div class="col-sm-9">
@@ -83,7 +83,7 @@ _____
 <article class="row teaser">
 <header class="col-sm-3">
   <a href="../openweather">
-    <img alt="OpenWeather - Check the weather in your iPhone using a Python app" src="{static /images/projects/openweather.png thumb="_x300"}" class="article_list_img">
+    <img alt="OpenWeather - Check the weather in your iPhone using a Python app" src="{static /images/projects/openweather.png thumb="320x_"}" class="article_list_img">
   </a>
 </header>
 <div class="col-sm-9">
@@ -102,7 +102,7 @@ _____
 <article class="row teaser">
 <header class="col-sm-3">
   <a href="../openweather">
-    <img alt="The No Title® Tech Blog" src="{static /images/projects/no-title-screenshot.png thumb="_x300"}" class="article_list_img">
+    <img alt="The No Title® Tech Blog" src="{static /images/projects/no-title-screenshot.png thumb="320x_"}" class="article_list_img">
   </a>
 </header>
 <div class="col-sm-9">
