@@ -18,7 +18,7 @@ Concerning poetry, I published É preciso calar o monólogo. Over the years, I h
 
 ## Music
 
-I play trombone
+I play trombone in a philharmonic band, the best of its kind around the corner, if you ask me (but I'm suspect to talk about it, so...). It's the best way to experience music from the latest few centuries up until the current age, covering a lot of genres. I have also been at a church choir, where I used to sing and play trombone, do simple musical arrangements for a few instruments we used as special occasions and coordinate the rehearsals for those pieces. Having said that, I am not a professional musician by no means, just someone who enjoys music.
  
 
 
