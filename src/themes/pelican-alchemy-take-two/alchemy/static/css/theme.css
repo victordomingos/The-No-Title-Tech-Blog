@@ -319,12 +319,9 @@ hr {
 
 @media (max-width: 759px) {
   #sitesubtitle {
-    font-size: 6px;
+    font-size: 9px;
   }
 
-.related_articles {
-  display: block;
-}
   .siteimagediv {
     max-width: 100%;
     margin-left: auto;
