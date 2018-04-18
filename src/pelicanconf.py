@@ -95,14 +95,14 @@ THEME = "themes/pelican-alchemy-take-two/alchemy"
 SITESUBTITLE = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
 
 DISPLAY_DATE_ON_ARTICLE_LIST = False
-SITEIMAGE_FOLDER = 'images/avatars'  # Images to be used randomly in the header
+SITEIMAGE_FOLDER = 'images/avatars/x150'  # Images to be used randomly in the header
 
 
 SITEIMAGES = [ Path(*Path(img).parts[1:])
                for img in glob('{}/{}/*.png'.format(PATH,SITEIMAGE_FOLDER))]
 
 SITEIMAGE_SIZE = 'width=100% height=100%'
-SITEIMAGE = '/images/avatars/avatar1.png' # Default Image that appears in the header
+SITEIMAGE = '/images/avatars/x150/avatar1.png' # Default Image that appears in the header
 
 
 # Social widget
