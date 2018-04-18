@@ -64,6 +64,33 @@
     </div>
     -->
 
+
+
+    {% if article.related_posts %}
+    <div class="related_articles">
+    <h5 class="related_articles_header">You may also be interested:</h5>
+    <table>
+          {% for related_post in article.related_posts %}
+             <tr>
+                <td>
+                    <a href="{{ SITEURL }}/{{ related_post.url }}">
+                        <img height="50px" src="{{ SITEURL }}/{{related_post.cover | thumbnail("_x100") }}" alt="{{ related_post.title }}">
+                    </a>
+                </td>
+                <td>
+                    <a href="{{ SITEURL }}/{{ related_post.url }}">
+                        {{ related_post.title }}
+                    </a>
+                </td>
+            </tr>
+          {% endfor %}
+     </table>
+    </div>
+    {% endif %}
+
+
+
+
 {% if article.prev_article or article.next_article %}
     <hr>
     <div class="article_footer">
@@ -85,32 +112,9 @@
         </td>
     </tr></table>
     </div>
+    <hr>
 {% endif %}
 
-
-
-    {% if article.related_posts %}
-    <hr>
-    <h5 class="related_articles_header">You may also be interested:</h5>
-    <div class="related_articles">
-    <table>
-          {% for related_post in article.related_posts %}
-             <tr>
-                <td>
-                    <a href="{{ SITEURL }}/{{ related_post.url }}">
-                        <img height="50px" src="{{ SITEURL }}/{{related_post.cover | thumbnail("_x100") }}" alt="{{ related_post.title }}">
-                    </a>
-                </td>
-                <td>
-                    <a href="{{ SITEURL }}/{{ related_post.url }}">
-                        {{ related_post.title }}
-                    </a>
-                </td>
-            </tr>
-          {% endfor %}
-     </table>
-    </div>
-    {% endif %}
 
 
     </article>

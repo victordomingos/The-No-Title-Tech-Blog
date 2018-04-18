@@ -4,9 +4,9 @@ Cover: /images/projects/repservice.jpg
 Lang: en
 
 <article>
-Here you can find a few of my programming projects. Most of them started as a learning experience and then evolved into a daily use tool. I like to learn through real world examples, so I always try to solve some kind of problem while learning how to use a new Python feature or some API. So, I would probably write each of these applications in a very different way if I was starting it as a new project.
+<p>Here you can find a few of my programming projects. Most of them started as a learning experience and then evolved into a daily use tool. I like to learn through real world examples, so I always try to solve some kind of problem while learning how to use a new Python feature or some API. So, I would probably write each of these applications in a very different way if I was starting it as a new project.</p>
 
-These are all open source projects, that are available on GitHub. Please feel free to check the license, clone them, use them, or even contribute back.  
+<p>These are all open source projects, that are available on <a href="https://github.com/victordomingos" target="_blank">on GitHub</a>. Please feel free to check the license, clone them, use them, or even contribute back.</p>
 <hr>
 </article>
 
@@ -111,6 +111,6 @@ _____
   </a></h4>
     
   <div class="content">
-This website. The contents are written in Markdown, mostly using VIM, but any text editor should do. Generated with Pelican, a Python based static site generator, and a customized version of the theme Pelican-alchemy.
+This website. The contents are written in Markdown, mostly using VIM, but any text editor should do. Generated with <a href="http://docs.getpelican.com/en/stable/" target="_blank">Pelican</a>, a Python based static site generator, and a highly customized version of the theme <a href="https://nairobilug.github.io/pelican-alchemy/" target="_blank">Pelican-alchemy</a>.
   </div></div>
 </article>
