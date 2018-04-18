@@ -46,7 +46,7 @@ _____
 <article class="row teaser">
 <header class="col-sm-3">
   <a href="../contar-dinheiro">
-    <img alt="ContarDinheiro.py - A single-window utility to help you count money" src="{static /images/projects/contar-dinheiro.png thumb="320x_"}" class="article_list_img">
+    <img alt="ContarDinheiro.py - A single-window utility to help you count money" src="{static /images/projects/contar-dinheiro.png thumb="_x400"}" class="article_list_img">
   </a>
 </header>
 <div class="col-sm-9">
