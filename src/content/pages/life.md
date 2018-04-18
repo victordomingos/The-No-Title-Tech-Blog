@@ -24,13 +24,15 @@ I play trombone
 
 ## Media and publishing
 
-Between 1999 and 2001, Victor Domingos was one of the founders and a member of the editorial staff at a local newspaper (Jornal de Gondoriz). During those years, he has been in charge of its online edition and other websites promoted by that periodical (JG Arquivo and Gondoriz Online).
+Between 1999 and 2001, I was one of the founders and a member of the editorial staff at a local newspaper (Jornal de Gondoriz). During those years, I has been in charge of its online edition and other websites promoted by that periodical (JG Arquivo and Gondoriz Online).
 
-From 2003 to 2008, he was in charge of the Edições ArcosOnline project, which was related to digital publication and free online distribution of literary works by lusophone authors ( from Portugal, Galiza and Brazil). That project aimed mainly helping young or less known authors whose works deserved more recognition from the public. A notable exception to that editorial guideline was the release of a new edition of the novel O Salústio Nogueira, a masterpiece by Teixeira de Queirós (1948-1919) that had been missing for some decades in libraries and bookstores.
+From 2003 to 2008, I was in charge of the Edições ArcosOnline project, which was related to digital publication and free online distribution of literary works by lusophone authors (from Portugal, Galiza and Brazil). That project aimed mainly helping young or less known authors whose works deserved more recognition from the public. A notable exception to that editorial guideline was the release of a new edition of the novel O Salústio Nogueira, a masterpiece by Teixeira de Queirós (1948-1919) that had been missing for some decades in libraries and bookstores.
 
 
 ## Blogging and activism
 
-More recently, since 2006, he has been collaborating with posts about Apple and technology in some blogs, like Pro+News, MacNotícias, Mac Portugal, iClub.pt, and Pplware. 
+Between 2006 and 2014, I have collaborated with posts about Apple and technology in some blogs, like [Mac News](https://web.archive.org/web/20120510143747/http://www.lojamac.com/blog/), [Pro+News](http://promais.com/blog/), [MacNotícias](https://web.archive.org/web/20110106140018/http://macnoticias.net/), [Mac Portugal](https://web.archive.org/web/20120122113654/http://www.macportugal.com), [iClub.pt](http://iClub.pt), and [Pplware](https://pplware.sapo.pt/). 
 
-In 2012, he has founded Braga Ciclável, a blog that aims to promote sustainable mobility and the use of bicycle as a means of transportation in the city of Braga, that has been awarded in 2013 by FPCUB with the National Prize for Bicycle Mobility.
+In 2012, I founded [Braga Ciclável](http://bragaciclavel.pt), a blog that aims to promote sustainable mobility and the use of bicycle as a means of transportation in the city of Braga, that has been awarded in 2013 by FPCUB with the National Prize for Bicycle Mobility. The project gained a significant community support and has originated since then a non-profit organization that primarily aims at getting better infrastructure for everyday cycling in the city of Braga.
+
+Finally, in 2018, I started this humble blog that has no title and no big expectations. ;)
