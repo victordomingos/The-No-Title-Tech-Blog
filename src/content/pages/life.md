@@ -4,21 +4,25 @@ Lang: en
 Status: hidden
 
 
-I was born in 1981 in Arcos de Valdevez and as of today I live in Braga. Both places are in northern Portugal, in case that matters. I graduated in Psychology at Universidade do Minho in 2005 and, throughout my life, I have always been engaged into learning something. I am married and am happy to be the father of a beautiful and very smart little girl.
+I was born in 1981 in Arcos de Valdevez and as of today I live in Braga. Both places are in northern Portugal, in case that matters. I graduated in Psychology at Universidade do Minho in 2005 and, throughout my life, I have always been engaged into learning something. After leaving university, my first job was as I teached how to use a computer to 
+
+I am married and am happy to be the father of a beautiful and very smart little girl.
 
 
 ## Literature
 
-I have written a couple of short stories, all of them in an experimental style, and also some poetry. You can find most of my literary work  published as e-books at the usual places (iBooks store for Apple devices, Amazon store for Kindle devices, Kobo, Scribd, or even the device-independent distributor Smashwords.com).
+I have written a couple of short stories, all of them in an experimental style, and also some poetry. You can find most of my literary work published as e-books at the usual places (iBooks store for Apple devices, Amazon store for Kindle devices, Kobo, Scribd, or even the device-independent distributor Smashwords.com).
 
-In 1999, I received the Teixeira de Queirós Literary Award for my fiction book titled Ode a Um Poeta Naturalista. In 2002, Manual de Trigonometria Aplicada won the “Ecos da Memória” Literary Contest. Three years later, As Confissões de Dulce was awarded with the 2nd prize of “D. Sancho I” National Short Story Contest.
+In 1999, I received the Teixeira de Queirós Literary Award for my fiction book titled *Ode a Um Poeta Naturalista*. In 2002, *Manual de Trigonometria Aplicada* (also a short fiction book, not a Maths handbook as the title would imply) won the “Ecos da Memória” Literary Contest. Three years later, *As Confissões de Dulce* was awarded with the 2nd prize of “D. Sancho I” National Short Story Contest.
 
-Concerning poetry, I published É preciso calar o monólogo. Over the years, I have also collaborated occasionally with some publications, such as the Portuguese magazine Terra de Val de Vez (Nr.18, 2007), the Galician digital magazines Andar21.net and [Palavra Comum](http://palavracomum.com/entrevista-ao-escritor-portugues-victor-domingos/), the Brazilian portal Alma de Poeta and the anthology Entre o Sono e o Sonho - Vol. IV (Chiado Editora, 2013).
+Concerning poetry, I published *É preciso calar o monólogo*. Over the years, I have also collaborated occasionally with some publications, such as the Portuguese magazine Terra de Val de Vez (Nr.18, 2007), the Galician digital magazines Andar21.net and [Palavra Comum](http://palavracomum.com/entrevista-ao-escritor-portugues-victor-domingos/), the Brazilian portal Alma de Poeta and the anthology Entre o Sono e o Sonho - Vol. IV (Chiado Editora, 2013).
 
 
 ## Music
 
-I play trombone in a philharmonic band, the best of its kind around the corner, if you ask me (but I'm suspect to talk about it, so...). It's the best way to experience music from the latest few centuries up until the current age, covering a lot of genres. I have also been at a church choir, where I used to sing and play trombone, do simple musical arrangements for a few instruments we used as special occasions and coordinate the rehearsals for those pieces. Having said that, I am not a professional musician by no means, just someone who enjoys music.
+I play trombone in a philharmonic band, the best of its kind around the corner, if you ask me (but I'm suspect to talk about it, so...). It's no doubt the best way to experience music from the latest few centuries up until the current age, covering a lot of different genres.
+
+A long time ago, I have also been at a church choir, where I used to sing and play trombone, do simple musical arrangements for a few instruments we used as special occasions and coordinate the rehearsals for those pieces. Having said that, I am by no means not a professional musician, just someone who enjoys music.
  
 
 
@@ -26,7 +30,7 @@ I play trombone in a philharmonic band, the best of its kind around the corner, 
 
 Between 1999 and 2001, I was one of the founders and a member of the editorial staff at a local newspaper (Jornal de Gondoriz). During those years, I has been in charge of its online edition and other websites promoted by that periodical (JG Arquivo and Gondoriz Online).
 
-From 2003 to 2008, I was in charge of the Edições ArcosOnline project, which was related to digital publication and free online distribution of literary works by lusophone authors (from Portugal, Galiza and Brazil). That project aimed mainly helping young or less known authors whose works deserved more recognition from the public. A notable exception to that editorial guideline was the release of a new edition of the novel O Salústio Nogueira, a masterpiece by Teixeira de Queirós (1948-1919) that had been missing for some decades in libraries and bookstores.
+From 2003 to 2008, I was in charge of the Edições ArcosOnline project, which was related to digital publishing and free online distribution of literary works by lusophone authors (from Portugal, Galiza and Brazil). That project aimed mainly at helping young or less known authors whose works deserved more recognition from the public. A notable exception to that editorial guideline was the release of a new edition of the novel *O Salústio Nogueira*, a masterpiece by Teixeira de Queirós (1948-1919) that had been missing for some decades from libraries and bookstores.
 
 
 ## Blogging and activism
