@@ -27,7 +27,7 @@ Concerning poetry, I published [*É preciso calar o monólogo*](https://victordo
 
 ![Music sheet]({attach}/images/life/music-sheet.jpg)
 
-I play trombone in [a philharmonic band](https://www.youtube.com/watch?v=rOo5snPyq90){target=:_blank}, the best of its kind around the corner, if you ask me (but I'm suspect to talk about it, so...). It's no doubt the best way to experience music from the latest few centuries up until the current age, covering a lot of different genres.
+I play trombone in [a concert band](https://www.youtube.com/watch?v=rOo5snPyq90){target=:_blank}, the best of its kind around the corner, if you ask me (but I'm suspect to talk about it, so...). It's no doubt the best way to experience music from the latest few centuries up until the current age, covering a lot of different genres.
 
 A long time ago, I have also been at a church choir, where I used to sing and play trombone, do simple musical arrangements for a few instruments we used as special occasions and coordinate the rehearsals for those pieces. 
 
