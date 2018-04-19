@@ -4,14 +4,13 @@ Lang: en
 Status: hidden
 
 
-I was born in 1981 in Arcos de Valdevez and as of today I live in Braga. Both places are in northern Portugal, in case that matters. I completed a 5 years degree in Psychology at Universidade do Minho by 2005 and, throughout my life, I have always been engaged into learning something. 
+I was born in 1981 in Arcos de Valdevez and as of today I live in Braga. Both places are in northern Portugal, in case that matters. I completed a 5 years degree in Psychology at Universidade do Minho by 2005 and, throughout my life, I have always been engaged into learning something. I am married and am happy to be the father of a beautiful and very smart little girl.
+
 
 ### Work
 After leaving university, I got my first job in a different field, working for about 2 years as a computer teacher at a local [Futurekids](https://en.wikipedia.org/wiki/Futurekids){target=:_blank} franchisee, with students ranging from 3 to 83 years old. I teached some basic things, like how to use a mouse and a keyboard, and also some more advanced topics, word processing, spreadsheets, image editing and website building. It was very fun to get into some of the nicely done curricula they had, and to have the opportunity to design some new teaching units. In the last year I designed a set of courses, for teenagers and for adults, covering the use of opensource software, like [Audacity](https://www.audacityteam.org){target=:_blank}, [GIMP](https://www.gimp.org){target=:_blank}, [Inkscape](https://inkscape.org/en/){target=:_blank} and [OpenOffice.org (an ancestor of LibreOffice)](https://www.libreoffice.org){target=:_blank}.
 
 Then I was hired by a very young start-up company, [Lojamac.com](https://web.archive.org/web/20081025213502/http://www.lojamac.com/){target=:_blank}, later renamed as [Promais.com](http://www.promais.com/store/){target=:_blank}, which was an Apple Authorized Retailer investing in both physical and online commerce (e-commerce was still not that common by that time). I fully embraced that experience, learning a lot during the process, and making an effort to help the company grow its market presence and achieve the highest consumer satisfaction possible. It was the beginning of a long journey that still is going on.
-
-I am married and am happy to be the father of a beautiful and very smart little girl.
 
 
 ### Literature
