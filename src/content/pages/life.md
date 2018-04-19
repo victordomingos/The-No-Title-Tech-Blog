@@ -15,6 +15,7 @@ I am married and am happy to be the father of a beautiful and very smart little 
 
 
 ### Literature
+![Writing - watch and fountain pen]({attach}/images/life/watch_fountain_pen_writing.jpg)
 
 I have written a couple of short stories, all of them in an experimental style, and also some poetry (always in Portuguese). You can find most of my literary work published as e-books at the usual places ([iBooks store](https://itunes.apple.com/pt/author/victor-domingos/id476477239){target=:_blank} for Apple devices, [Amazon store](https://www.amazon.com/Victor-Domingos/e/B0060HT9VI){target=:_blank} for Kindle devices, [Kobo](https://www.kobo.com/pt/pt/search?Query=%22victor+domingos%22&id=180861c2-21ea-4793-952b-ecd39613adfe){target=:_blank}, [Scribd](https://pt.scribd.com/author/251191058/Victor-Domingos){target=:_blank}, or even the device-independent distributor [Smashwords.com](https://www.smashwords.com/profile/view/victordomingos){target=:_blank}).
 
@@ -37,12 +38,17 @@ Having said that, I am not, by no means, a professional musician, just someone w
 
 ### Media and publishing
 
+![Poetry e-book on a smartphone]({attach}/images/life/iphone6plus_poem-ebook.jpg)
+
 Between 1999 and 2001, I was one of the founders and a member of the editorial staff at a local newspaper ([Jornal de Gondoriz](https://web.archive.org/web/20160207122437/http://gondoriz.no.sapo.pt/jgweb/index.htm){target=:_blank}). During those years, I have been responsible for the online edition and other websites promoted by that periodical ([JG Arquivo](https://web.archive.org/web/20160207122526/http://gondoriz.no.sapo.pt/jg-arquivo/index.htm){target=:_blank} and [Gondoriz Online](https://web.archive.org/web/20050519010701/gondoriz.no.sapo.pt/gondoriz/index.html){target=:_blank}).
 
 From 2003 to 2008, I was in charge of the [Edições ArcosOnline](https://web.archive.org/web/20080416104706/http://arcosdigital.com:80/pt/index.php?option=com_content&task=blogsection&id=9&Itemid=74){target=:_blank} project, which was related to digital publishing and free online distribution of literary works by lusophone authors (from Portugal, Galiza and Brazil). That project aimed mainly at helping young or less known authors whose works deserved more recognition from the public. A notable exception to that editorial guideline was the release of a new edition of the novel *O Salústio Nogueira*, a masterpiece by [Teixeira de Queirós](https://pt.wikipedia.org/wiki/Francisco_Teixeira_de_Queirós){target=:_blank} (1948-1919) that had been missing for some decades from libraries and bookstores.
 
 
 ### Blogging and activism
+
+![Typewriter]({attach}/images/life/typewriter.jpg)
+
 
 Between 2006 and 2014, I have collaborated with posts about Apple and technology in some blogs, like [Mac News](https://web.archive.org/web/20120510143747/http://www.lojamac.com/blog/), [Pro+News](http://promais.com/blog/), [MacNotícias](https://web.archive.org/web/20110106140018/http://macnoticias.net/), [Mac Portugal](https://web.archive.org/web/20120122113654/http://www.macportugal.com), [iClub.pt](http://iClub.pt), and [Pplware](https://pplware.sapo.pt/). 
 
