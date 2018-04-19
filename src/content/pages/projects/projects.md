@@ -101,7 +101,7 @@ _____
 
 <article class="row teaser">
 <header class="col-sm-3">
-  <a href="../openweather">
+  <a href="/">
     <img alt="The No Title® Tech Blog" src="{static /images/projects/no-title-screenshot.png thumb="320x_"}" class="article_list_img">
   </a>
 </header>
