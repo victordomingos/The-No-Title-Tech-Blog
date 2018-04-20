@@ -228,6 +228,12 @@ hr {
 }
 */
 
+
+.to_top {
+  text-align: right;
+}
+
+
 .highlighttable {
     font-family: "Source Code Pro", monospace;
     font-size: 11px;
