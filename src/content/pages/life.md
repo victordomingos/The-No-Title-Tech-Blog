@@ -1,7 +1,6 @@
 Title: Life 
 Slug: life
 Lang: en
-Status: hidden
 
 
 ### Your quick guide to this page:
