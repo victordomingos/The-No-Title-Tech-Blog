@@ -11,7 +11,7 @@
   <link rel="canonical" href="{{ SITEURL }}/{{ output_file }}">
 
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments/{{ PYGMENTS_STYLE|default('default') }}.min.css">
+  <!-- <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments/{{ PYGMENTS_STYLE|default('default') }}.min.css"> -->
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/theme.css">
 
   <link rel="apple-touch-icon" sizes="180x180" href="{{ SITEURL }}/images/favicons/apple-touch-icon.png">
@@ -54,6 +54,7 @@
   {% include 'include/xml_feeds.html' %}
   {% block head %}{% endblock %}
   {% include 'include/analytics.html' %}
+
 </head>
 
 <body>
@@ -76,9 +77,11 @@
     <div class="container">
       {% include 'include/footer.html' %}
     </div>
+
   </footer>
 
-
+  <div id="backtop" data-v-w="300">&#9650;</div>
+  <script src="{{SITEURL}}/theme/js/float-panel.js" async></script>
 </body>
 
 </html>
