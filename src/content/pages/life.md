@@ -5,18 +5,22 @@ Status: hidden
 
 
 ### Your quick guide to this page:
+<small>
 
 - [TL;DR](#top)
 - [Work](#work)
 - [Literature](#literature)
 - [Music](#music)
 - [Media and publishing](#media)
-- [Blogging and activism](#blogs)
+- [Blogging and activism](#blogs)<a name="top">&nbsp;</a>
+
+</small>
+   
 _____
 
 ### TL;DR
 I was born in 1981 in Arcos de Valdevez and as of today I live in Braga. Both places are in northern Portugal, in case that matters. I completed a 5 years degree in Psychology at Universidade do Minho by 2005 and, throughout my life, I have always been engaged into learning something. I am married, and am happy to be the father of a beautiful and very smart little girl.
-<a name="work"></a>
+<a name="work">&nbsp;</a>
 
 
  
