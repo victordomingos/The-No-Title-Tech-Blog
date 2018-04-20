@@ -61,7 +61,7 @@ Following the advice found in I commented out the `thumbnail.save(path)` line an
 ### Serving the correct image size for each device in Pelican
 
 
-In the [Life]({filename}/pages/life/) page, after fiddling with some different `<picture>` and `<img>` tags, trying to make images responsive and perfectly adjusted to the screen size and resolution being used, I discovered that my current setup does not like the `<picture>` element. In this case, instead of using the plugin to generate each of the image sizes, I had to create them my self, because the plugin refused to recognize the multiple image URLs inside the `srcset` attribute. Not a big deal, as it was a one-time thing that I had to do for a specific page, and it had the advantage to allow me to further optimize the image files.
+In the [Life]({filename}../../pages/life/) page, after fiddling with some different `<picture>` and `<img>` tags, trying to make images responsive and perfectly adjusted to the screen size and resolution being used, I discovered that my current setup does not like the `<picture>` element. In this case, instead of using the plugin to generate each of the image sizes, I had to create them my self, because the plugin refused to recognize the multiple image URLs inside the `srcset` attribute. Not a big deal, as it was a one-time thing that I had to do for a specific page, and it had the advantage to allow me to further optimize the image files.
 
 In the end, I came up with a halfway solution, that allows each browser to select from a source set of pictures in different sizes, allowing for 1x and 2x resolutions in most cases:
 
@@ -75,7 +75,7 @@ In the end, I came up with a halfway solution, that allows each browser to selec
 
 Not perfect, but better than just serving an unnecessarily heavy "retina" image to non-"retina" devices, or a low resolution 1x image to high resolution devices.
 
-In other places, like in the [Projects]({filename}/pages/projects/projects/) page, I chose not to serve the thumbnails in different resolutions, as they were already pretty small. I decided to just use a 2x resolution thumbnail for all devices, in that situation. But I may change my mind one of these days...
+In other places, like in the [Projects]({filename}../../pages/projects/projects/) page, I chose not to serve the thumbnails in different resolutions, as they were already pretty small. I decided to just use a 2x resolution thumbnail for all devices, in that situation. But I may change my mind one of these days...
 
 
 ### Have a better idea?
