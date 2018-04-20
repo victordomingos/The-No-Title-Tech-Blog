@@ -155,8 +155,8 @@ class Thumbnailer(object):
             try:
                 thumbnail.save(path, quality=70, optimize=True, progressive=True)
             except IOError:
-                PIL.ImageFile.MAXBLOCK = img.size[0] * img.size[1]
-                img.save(path, quality=70, optimize=True, progressive=True)
+                PIL.ImageFile.MAXBLOCK = image.size[0] * image.size[1]
+                image.save(path, quality=70, optimize=True, progressive=True)
             ### End of my changes
             
             logger.info("Generated Thumbnail {}".format(os.path.basename(path)))
