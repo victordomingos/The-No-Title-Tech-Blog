@@ -4,7 +4,7 @@ Cover: /images/projects/repservice.jpg
 Lang: en
 
 <article>
-<p>Here you can find a few of my programming projects. Most of them started as a learning experience and then evolved into a daily use tool. I like to learn through real world examples, so I always try to solve some kind of problem while learning how to use a new Python feature or some API. So, I would probably write each of these applications in a very different way if I was starting it as a new project.</p>
+<p>Here you can find a few of my programming projects. Most of them started as a learning experience and then evolved into a daily basis tool. I like to learn through real world examples, so I always try to solve some kind of problem while learning how to use a new Python feature or some API. So, I would probably write each of these applications in a very different way if I was starting it as a new project.</p>
 
 <p>These are all open source projects, that are available on <a href="https://github.com/victordomingos" target="_blank">on GitHub</a>. Please feel free to check the license, clone them, use them, or even contribute back.</p>
 <hr>
