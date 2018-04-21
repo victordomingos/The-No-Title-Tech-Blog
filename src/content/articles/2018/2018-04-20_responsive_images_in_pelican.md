@@ -36,9 +36,9 @@ However, when we are writing content in Markdown, for use in a page or in a blog
      class="article_list_img"/>
 ```
 
-So, now we have automatically generated thumbnails, but unfortunately the new image files are not optimized for web. I we were exclusively on a desktop environment, we could add some image optimization utilities to our build script, just before the upload process. There are plenty of those utilities. But I am trying to keep the workflow compatible with Pythonista on iOS, so that I can either use my Mac, my iPhone or my iPad to update this website anytime. Unfortunately, with the current App Store restrictions, Python development on iOS has some important limitations. We can't just load some binaries, or binary based Python packages. We must use the packages included by the Pythonista developer, or a pure-Python package that does not depend on non-pure-python stuff.
+So, now we have automatically generated thumbnails, but unfortunately the new image files are not optimized for web. If we were exclusively on a desktop environment, we could add some image optimization utilities to our build script, just before the upload process. There are plenty of those utilities. But I am trying to keep the workflow compatible with Pythonista on iOS, so that I can either use my Mac, my iPhone or my iPad to update this website anytime. Unfortunately, with the current App Store restrictions, Python development on iOS has some important limitations. We can't just load some binaries, or binary based Python packages. We must use the packages included by the Pythonista developer, or a pure-Python package that does not depend on non-pure-python stuff.
 
-I couldn't find any satisfactory solution for optimizing the thumbnails during the build process without breaking compatibility with iOS. All existing image optimization plugins I could find for Pelican depended on packages or external utilities that could not be used within Pythonista. Reading through the code of `pelican-advthumbnailer`, that is based on PIL, I found out that the images were being saved without any further optimization after the resizing process. adding a few parameters could help us save a few kilobytes:
+I couldn't find any satisfactory solution for optimizing the thumbnails during the build process without breaking compatibility with iOS. All existing image optimization plugins I could find for Pelican depended on packages or external utilities that could not be used within Pythonista. Reading through the code of `pelican-advthumbnailer`, that is based on PIL, I found out that the images were being saved without any further optimization after the resizing process. Adding a few parameters could help us save a few kilobytes:
 
 
 ```python
@@ -57,7 +57,7 @@ I couldn't find any satisfactory solution for optimizing the thumbnails during t
             logger.info("Generated Thumbnail {}".format(os.path.basename(path)))
 ```
 
-Following the advice found in somwhere on the web or in PIL's documentation, I commented out the `thumbnail.save(path)` line and expanded it to optimize, reduce the quality to 70% and generate progressive JPEGs (if applicable). The changed plugin must now live in the projects' `plugins` folder, instead of being just mentioned in the `Pipfile` or in the `requirements.txt` file. It's still not as good as having a proper image optimization routine, but better than just keeping uploading and serving completely non-optimized image files.
+Following the advice found somwhere on the web or in PIL's documentation, I commented out the `thumbnail.save(path)` line and expanded it to optimize, reduce the quality to 70% and generate progressive JPEGs (if applicable). The changed plugin must now live in the projects' ` plugins` folder, instead of being just mentioned in the `Pipfile` or in the `requirements.txt` file. It's still not as good as having a proper image optimization routine, but better than just keeping uploading and serving completely non-optimized image files.
 
 
 
