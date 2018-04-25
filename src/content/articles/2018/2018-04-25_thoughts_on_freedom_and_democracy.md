@@ -1,0 +1,17 @@
+Title: Thoughts on Freedom and Democracy
+Date: 2018-04-25 00:35
+Lang: en
+Tags: opinion, freedom, democracy, society, politics
+Category: General
+Slug: thoughts_on_freedom_and_democracy
+Author: Victor Domingos
+Cover: images/2018/victor_domingos_books.jpg
+Summary: Every year, on the 25th April, Portugal celebrates in a very enthusiastic way the Freedom Day, keeping alive the memory of that day on 1974, when our country got liberated from an authoritarian and oppressive dictatorial regimen. It’s one of our most important national holidays and even those of us who were born some time after the end of the dictatorship, we still value that important conquest made by our parents.
+
+In an [interview given in 2012](https://chomsky.info/20121230/){target=:_blank}, Noam Chomsky said that “we do not learn about the nature of systems of power by listening to their rhetoric”. This statement, made in a different context, came out of a profound reflection, which it’s not very hard to transpose to our nearest reality, concerning the contemporary meaning of the words “Democracy” and “Freedom”. In fact, if you think about it, someone just needs to use many times words like these to create an illusion that we live in a world where we are treated as equals, an illusion that we all are free. But are we really?
+
+The quality of a democracy may be assessed, for instance, by indicators like freedom of expression, the independence of media, the separation of powers, the quality of the education that is available to all citizens and also their life quality, the transparence on the management of public money and public property, or the possibility for citizens to freely intervene on society without fear of retaliation. For each of these indicators, even if we are now mostly better that 44 years ago, when we look to what is going on around us, in Portugal, in Europe and in the World, we can see some worrying signs, that should alert us seriously about the route we are taking as a civilization.
+
+Do we have a State (i.e., government, justice, local authorities…) that is transparent on its procedures and in the way it manages public affairs? Do we have mature media, where journalists are really independent from the politic power and from the financial interests of certain private corporations? Do we have an education system capable of offering and promoting equal opportunities for all citizens, independently of their provenience or their families’ socioeconomic status? Do citizens, nowadays, make enough money that enables them to live with dignity? Are all of our citizens born and grown in equal rights, [as stated in article nr. 13 of our Constitution](https://www.parlamento.pt/Legislacao/Paginas/ConstituicaoRepublicaPortuguesa.aspx){target=:_blank}? Are they all given the opportunity to actively participate in society, in conditions of equality and without being stopped of discouraged by any dictatorial subterfuges?
+
+We are a very young democracy, but also a very fragile one. We depend too much on powers that are not the ones foreseen in our Constitution, and that are often hidden under a cover of apparent legality and apparent democratic spirit. So, it is urgent, now as in 1974, continue reflecting, always in a critical and aware fashion, about Freedom and Democracy, and fight so that these these carnations may bloom and they never, ever, die in our hands.
