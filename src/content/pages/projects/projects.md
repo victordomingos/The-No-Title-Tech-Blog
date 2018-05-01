@@ -95,7 +95,26 @@ _____
 A little fun project made in an iPhone using Pythonista. It's a nicely formatted console app that checks the weather forecast for the next few days. This version is custom made for iPhone, so it uses Pythonista 3. It makes use of the web API provided by openweathermap.org. It shows the current weather and the forecast for the next 5 days. 
   </div></div>
 </article>
- 
+
+
+_____
+
+<article class="row teaser">
+<header class="col-sm-3">
+  <a href="../count-files">
+    <img alt="Count Files - a command-line interface utility written in Python to help you count files" src="{static /images/2018/count-files.png thumb="320x_"}" class="article_list_img">
+  </a>
+</header>
+<div class="col-sm-9">
+  <h4 class="title"><a href="/">
+  Count Files
+  </a></h4>
+
+  <div class="content">
+A little command-line interface (CLI) utility written in Python to help you count files, grouped by extension, in a directory. By default, it will count files recursively in current working directory and all of its subdirectories, and will display a table showing the frequency for each file extension (e.g.: .txt, .py, .html, .css) and the total number of files found.
+  </div></div>
+</article>
+
 _____
 
 
