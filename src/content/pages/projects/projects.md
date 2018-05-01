@@ -106,7 +106,7 @@ _____
   </a>
 </header>
 <div class="col-sm-9">
-  <h4 class="title"><a href="/">
+  <h4 class="title"><a href="../count-files">
   Count Files
   </a></h4>
 
