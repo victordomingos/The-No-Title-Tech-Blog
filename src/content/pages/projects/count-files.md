@@ -14,7 +14,7 @@ Want to know more about this project? Check out its [full story]({filename}/arti
 
 <small>
 **Current Status: <span style="color:green">stable</span>**  
-**Main toolset: ** [Python 3.6+](https://www.python.org){target=:_blank}
+**Main toolset: ** [Python 3.6+](https://www.python.org){target=:_blank}  
 **Source code: ** [**Fork it on GitHub**](https://github.com/victordomingos/Count-files){target=:_blank}
 </small>
 
