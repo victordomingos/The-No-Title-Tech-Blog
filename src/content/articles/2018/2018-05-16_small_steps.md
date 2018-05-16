@@ -1,5 +1,5 @@
 Title: Small steps
-Date: 2018-05-01 00:29
+Date: 2018-05-16 19:21
 Lang: en
 Tags: python, PyPI, learning, contributors
 Category: Programming
