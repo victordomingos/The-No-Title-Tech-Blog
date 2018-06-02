@@ -10,16 +10,6 @@ try:
 except ImportError:
     from pathlib2 import Path
 
-"""
-if platform.system() == 'Darwin':
-    if platform.machine().startswith('iP'):
-        CURRENT_PLATFORM = "iOS"
-    else:
-        CURRENT_PLATFORM = "macOS"
-else:
-    CURRENT_PLATFORM = "other"
-"""
-
 
 DELETE_OUTPUT_DIRECTORY = True
 
@@ -34,7 +24,7 @@ PATH = 'content'
 STATIC_PATHS = ['images']
 PAGE_PATHS = ['pages']
 ARTICLE_PATHS = ['articles']
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 6
 DEFAULT_ORPHANS = 2
 
 TIMEZONE = 'Europe/Lisbon'
@@ -61,11 +51,8 @@ PAGE_SAVE_AS = '{category}/{slug}/index.html'
 AUTHOR_URL = 'author/{slug}/'
 AUTHOR_SAVE_AS = 'author/{slug}/index.html'
 
-#YEAR_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/index.html'
-#MONTH_ARCHIVE_SAVE_AS = 'archive/{date:%Y}/{date:%b}/index.html'
 YEAR_ARCHIVE_SAVE_AS = 'articles/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = 'articles/{date:%Y}/{date:%m}/index.html'
-
 
 TAG_URL = 'tag/{slug}'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
@@ -75,11 +62,7 @@ DRAFT_SAVE_AS = 'drafts/{slug}/index.html'
 
 DEFAULT_DATE_FORMAT = '%d %B %Y'
 
-
-# Feed generation is usually not desired when developing
 FEED_ALL_RSS = 'feeds/all_rss.xml'
-#TRANSLATION_FEED_RSS ='feeds/all_rss_%s.xml'
-
 
 # global metadata to all the contents
 DEFAULT_METADATA = {'author': 'Victor Domingos'}
