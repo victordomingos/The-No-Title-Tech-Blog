@@ -1,5 +1,5 @@
 Title: New project: yet another [almost pure Python] image optimizer
-Date: 2018-06-15 20:00
+Date: 2018-06-15 9:40
 Lang: en
 Tags: python, pelican, static website, static website generator, images, optimization, cli, Pythonista, web development
 Category: Programming
