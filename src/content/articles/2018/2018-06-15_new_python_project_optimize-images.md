@@ -5,7 +5,7 @@ Tags: python, pelican, static website, static website generator, images, optimiz
 Category: Programming
 Slug: new_python_project_optimize-images
 Author: Victor Domingos
-Cover: images/projects/optimize-images.png
+Cover: images/2018/optimize-images.png
 Summary: When you want or need a custom tool and you can’t find it, you have two options: you either buy one (or ask someone to build it for you), or you make your own and do the best you can to make it work for you. This week, I decided to start building my own (almost pure Python) utility to optimize images for the web.
 
 
