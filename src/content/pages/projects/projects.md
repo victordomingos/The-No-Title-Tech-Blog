@@ -40,6 +40,25 @@ PT-Tracking
 Simple database application allows to keep a register and automatically track online the shipments and registered mail sent through the portuguese mail companies CTT and CTT Expresso. It also helps in making sure that all checks for orders with payment on delivery are correctly received and deposited on the bank on the correct dates.
 </div></div></article>
 
+
+_____
+
+<article class="row teaser">
+<header class="col-sm-3">
+  <a href="../optimize-images">
+    <img alt="Optimize Images - a command-line interface utility written in Python to reduce the file size of images" src="{static /images/2018/optimize-images.png thumb="320x_"}" class="article_list_img">
+  </a>
+</header>
+<div class="col-sm-9">
+  <h4 class="title"><a href="../optimize-images">
+  Optimize Images
+  </a></h4>
+
+  <div class="content">
+A little command-line interface (CLI) utility written in (almost) pure Python to help you reduce the file size of images. It can process a single file, a folder's root or all images in a folder, recursively. Multiple image processing tasks are automatically distributed to all available cores, getting the most of the specific device being used.
+  </div></div>
+</article>
+
 _____
 
 
