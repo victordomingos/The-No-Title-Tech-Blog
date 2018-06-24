@@ -1,7 +1,7 @@
 Title: Optimize Images – check out the first public release!
 Date: 2018-06-21 01:22
 Lang: en
-Tags: python, pelican, static website, static website generator, images, optimization, cli, Pythonista, web development, multiprocessing, multithreading,
+Tags: python, pelican, static website, static website generator, images, optimization, cli, PIL, Pillow, Pythonista, web development, multiprocessing, multithreading, argparse
 Category: Programming
 Slug: optimize-images_first_public_release
 Author: Victor Domingos
