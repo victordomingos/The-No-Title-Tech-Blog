@@ -1,5 +1,5 @@
 Title: Optimize Images v1.1 – new features
-Date: 2018-06-24 18:55
+Date: 2018-06-24 19:55
 Lang: en
 Tags: python, images, optimization, PIL, Pillow, piexif, cli, Pythonista, multiprocessing, multithreading, argparse
 Category: Programming
@@ -14,5 +14,7 @@ Here are some highlights:
  * Added a new option to keep EXIF data in JPEG images (by default, it will be discarded).
  * Added a new CLI argument to display current version.
  * Added a new CLI argument to display a list of the currently supported image formats.
+
+Get it here: [Optimize images - release v1.1](https://github.com/victordomingos/optimize-images/releases/tag/V1.1.1)
 
 *If you didn't read my previous article about this project, please feel free to take a quick look at the [full story of its begining]({filename}/articles/2018/2018-06-15_new_python_project_optimize-images.md). If may also want to check the recent [announcement for the first public release]({filename}/articles/2018/2018-06-21_optimize-images_first_public_release.md).*
