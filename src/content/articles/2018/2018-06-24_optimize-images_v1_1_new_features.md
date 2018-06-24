@@ -5,7 +5,7 @@ Tags: python, images, optimization, PIL, Pillow, piexif, cli, Pythonista, multip
 Category: Programming
 Slug: optimize-images_v1_1_new_features
 Author: Victor Domingos
-Cover: images/projects/optimize-images.png
+Cover: images/2018/optimize-images_v1.1_screenshots.jpg
 Summary: Check out the new release of my image optimization command-line utility, which packed some new features.
 
 Here are some highlights:
