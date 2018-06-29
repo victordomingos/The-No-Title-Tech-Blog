@@ -27,5 +27,5 @@ Here are some highlights:
  * On its versions for macOS (both 3.7 and 3.6.5+), in case you haven't noticed, Python is now being bundled with Tcl/Tk interpreter for `tkinter`. So, not only you don't need to install it manually from a third-party, but you also get access to a newer version that may have some new improvements. It includes a new themed `ttk.Spinbox` widget) and it should now finally support PNG images.
  
 
-Get it here: [Official Python downloads](https://www.python.org/downloads/){_target:_blank}
+Get it here: [Official Python downloads](https://www.python.org/downloads/){_target:_blank}  
 Documentation for the new features: [What’s New In Python 3.7](https://docs.python.org/3/whatsnew/3.7.html){_target:_blank}
