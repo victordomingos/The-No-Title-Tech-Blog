@@ -57,7 +57,7 @@ I couldn't find any satisfactory solution for optimizing the thumbnails during t
             logger.info("Generated Thumbnail {}".format(os.path.basename(path)))
 ```
 
-Following the advice found somwhere on the web or in PIL's documentation, I commented out the `thumbnail.save(path)` line and expanded it to optimize, reduce the quality to 70% and generate progressive JPEGs (if applicable). The changed plugin must now live in the projects' ` plugins` folder, instead of being just mentioned in the `Pipfile` or in the `requirements.txt` file. It's still not as good as having a proper image optimization routine, but better than just keeping uploading and serving completely non-optimized image files.
+Following the advice found somewhere on the web or in PIL's documentation, I commented out the `thumbnail.save(path)` line and expanded it to optimize, reduce the quality to 70% and generate progressive JPEGs (if applicable). The changed plugin must now live in the projects' ` plugins` folder, instead of being just mentioned in the `Pipfile` or in the `requirements.txt` file. It's still not as good as having a proper image optimization routine, but better than just keeping uploading and serving completely non-optimized image files.
 
 
 
