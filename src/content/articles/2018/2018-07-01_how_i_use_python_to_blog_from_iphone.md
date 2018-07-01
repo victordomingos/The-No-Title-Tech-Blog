@@ -30,7 +30,7 @@ Then I just leave a white line and write the rest of the article below.
 
 
 ## 2. Sync with the cloud, I mean, commit to GitHub 
-The source code for this website is hosted as an open source repository on GitHub. It’s a good way to share the experience with other, while keeping track of any changes and having them synced between devices on demand.
+The source code for this website is hosted as an open source repository on GitHub. It’s a good way to share the experience with others, while keeping track of any changes and having them synced between devices on demand.
 
 I may start on iPhone and commit the changes to GitHub using Working Copy. Then, if I want, I may clone the repo or fetch the changes from iPad or Mac, do some further editing and commit again to GitHub.
 
@@ -83,7 +83,7 @@ pelican.run()
 ##  4. Optimize images
 OK, if you follow this blog, you already know I have been exploring ways to automate my image optimization workflow. On my Mac, I like to export my images to PNG or JPEG (the image format will depend on the type of content), in the best suitable size. When possible, I try to offer images in 2x resolution for *Retina* displays. Then I use ImageOptim and JPEGmini to shrink the files.
 
-On iOS, I often use the Workflow app, when I have a picture on my photo library, to resize it and save it as a smaller JPEG. Or to combine 2, 3 or 4 Iphone screenshots into a single image, using just a few taps.
+On iOS, I often use the Workflow app, when I have a picture on my photo library, to resize it and save it as a smaller JPEG. Or to combine 2, 3 or 4 iPhone screenshots into a single image, using just a few taps.
 
 But if I already have all the source images in their folders, after I build the site I do a final optimization step. It's still kind of experimental, but I have another home screen button that runs my  [Optimize Images]({filename}/pages/projects/optimize-images.md) Python application on the Pelican output folder. That way I can squeeze out a few more bytes from the thumbnails generated during the build process.
 
@@ -122,7 +122,7 @@ I created four Siri shortcuts for those same four actions for which I had create
 3. Optimize images
 4. Upload website
 
-![Setting up a custom Siri Shortcut in iOS 12 beta](ios12_beta_siri_shortcuts.jpg)
+![Setting up a custom Siri Shortcut in iOS 12 beta]({filename}/images/2018/ios12_beta_siri_shortcuts.jpg)
 
 So, after I finish writing and preparing images, all it takes is 4 taps on the screen, or 4 voice commands to Siri. The iPhone does the rest of the magic, automatically.
 
