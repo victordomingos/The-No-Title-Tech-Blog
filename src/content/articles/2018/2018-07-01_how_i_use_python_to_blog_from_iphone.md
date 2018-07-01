@@ -10,7 +10,7 @@ Summary: Over the last 12 years, I have been blogging almost uninterruptedly abo
 
 
 ## 1. I write each article in Markdown
-Markdown is a simple syntax that can be easily translated to HTML (and a bunch of other formats), but only requires a simple text editor and allows us to focus on the content. On my Mac, I tend to use either Ulisses, or BBEdit, or VIM, whatever comes to hand. On iPhone, currently, I use Ulysses, Drafts or Working Copy. I may start with Drafts or Ulysses, then copy to Working Copy and go on from there... 
+Markdown is a simple syntax that can be easily translated to HTML (and a bunch of other formats), but only requires a simple text editor and allows us to focus on the content. On my Mac, I tend to use either Ulysses, or BBEdit, or VIM, whatever comes to hand. On iPhone, currently, I use Ulysses, Drafts or Working Copy. I may start with Drafts or Ulysses, then copy to Working Copy and go on from there... 
 
 Pelican only requires that the header contains some standard metadata. Some of it is optional, but I try to always include the same set of fields. Here’s an example of the header I am using for this article:
 
