@@ -5,7 +5,7 @@ Tags: python, iPhone, iPad, iOS, Pythonista, blogging, workflow, Siri, automatio
 Category: Programming
 Slug: how_i_use_python_to_blog_from_iphone
 Author: Victor Domingos
-Cover: images/2018/python_blog_iphone.png
+Cover: images/2018/python_blog_iphone.jpg
 Summary: Over the last 12 years, I have been blogging almost uninterruptedly about different subjects (mostly on tech stuff), on different platforms and using a variety of devices and applications. First on desktop and laptop computers, and more recently from iPhone and iPad. This year I went on to try something new and decided to create this blog based on Pelican, a static site generator made with Python. And I got the whole process working even from my iPhone, which has become, arguably, my main personal computer. So, how do I publish new content to this blog from my iPhone?
 
 
@@ -125,6 +125,10 @@ I created four Siri shortcuts for those same four actions for which I had create
 ![]()
 
 So, after I finish writing and preparing images, all it takes is 4 taps on the screen, or 4 voice commands to Siri. The iPhone does the rest of the magic, automatically.
+
+Here is a small video of the whole build and deployment process being done directly from an iPhone 7:
+
+[![iOS  automation - building and deploying a website from an iPhone using Python](http://img.youtube.com/vi/lPGnXdi7jXw/0.jpg)](http://www.youtube.com/watch?v=lPGnXdi7jXw "iOS  automation - building and deploying a website from an iPhone using Python")
 
 
 ## What do you think?
