@@ -1,5 +1,5 @@
 Title: How I use Python to blog from my iPhone 
-Date: 2018-06-30 23:50
+Date: 2018-07-01 01:00
 Lang: en
 Tags: python, iPhone, iPad, iOS, Pythonista, blogging, workflow, Siri, automation, Siri shortcuts, iOS 12, pelican, static website, static website generator, images, optimization, html, web development
 Category: Programming
@@ -16,7 +16,7 @@ Pelican only requires that the header contains some standard metadata. Some of i
 
 ```
 Title: How I use Python to blog from my iPhone 
-Date: 2018-06-30 23:50
+Date: 2018-07-01 01:00
 Lang: en
 Tags: python, iPhone, iPad, iOS, Pythonista, blogging, workflow, Siri, automation, Siri shortcuts, iOS 12, pelican, static website, static website generator, images, optimization, html, web development
 Category: Programming
@@ -42,7 +42,6 @@ Usually you will use the shell to type a command like `pelican content/ -s publi
 If I need to grab the most current version from GitHub, I run the following code in StaSh:
 
 ```
-echo “ “
 cd ~/Documents/pelican-stuff/
 echo “Removing old local repository, if it exists.”
 rm -rf ~/Documents/pelican-stuff/The-No-Title-Tech-Blo
