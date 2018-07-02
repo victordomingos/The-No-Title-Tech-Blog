@@ -4,6 +4,8 @@ Lang: en
 Status: hidden
 Cover: images/projects/optimize-images.png
 
+![Optimize Images]({filename}/images/projects/optimize-images.png)
+
 A little command-line interface (CLI) utility written in (almost) pure Python to help you reduce the file size of images.
 
 You must explicitly pass it a path to the source image file or to the directory containing the image files to be processed. By default, it will go through all of its subdirectories and try to optimize the images found. You may however choose to process the specified directory only, without recursion.
