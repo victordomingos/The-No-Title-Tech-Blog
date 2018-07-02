@@ -2,7 +2,7 @@ Title: Optimize Images
 Slug: optimize-images
 Lang: en
 Status: hidden
-Cover: images/2018/optimize-images.png
+Cover: images/projects/optimize-images.png
 
 A little command-line interface (CLI) utility written in (almost) pure Python to help you reduce the file size of images.
 
