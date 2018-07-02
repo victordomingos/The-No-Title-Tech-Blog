@@ -46,7 +46,7 @@ _____
 <article class="row teaser">
 <header class="col-sm-3">
   <a href="../optimize-images">
-    <img alt="Optimize Images - a command-line interface utility written in Python to reduce the file size of images" src="{static /images/2018/optimize-images.png thumb="320x_"}" class="article_list_img">
+    <img alt="Optimize Images - a command-line interface utility written in Python to reduce the file size of images" src="{static /images/projects/optimize-images.png thumb="320x_"}" class="article_list_img">
   </a>
 </header>
 <div class="col-sm-9">
