@@ -5,7 +5,7 @@ Tags: python, books, Dan Bader, learning
 Category: Programming
 Slug: book_review_python_tricks
 Author: Victor Domingos
-Cover: images/2018/python_tricks_book_cover.jpg
+Cover: images/2018/python_tricks_book_cover.png
 Summary: This is an interesting book about Python, but not the usual handbook or cookbook style. If you already know the basics and want to discover new details about this programming language, or if you want to check if you really have a solid grasp on it, this book will give you some insightful, bite-size, tips and tricks.
 
 Yes, we all know that pythonic code should not try to be "clever", like those long do-it-all-at-once one-liners that you may have found anywhere else. The Python community values simple code that is readable by humans. That principle has even deserved a spot on the Zen of Python ("Simple is better than complex. / Complex is better that complicated (…) / Readability counts"). But the tricks that Dan Bader presents on this book have a different purpose. The author takes some small tidbit and explains how it is special, why it returns some unexpected value, or how it can be used to improve your code. Dan Bader explains everything in a well paced way that makes it simpler to understand.
