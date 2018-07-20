@@ -11,7 +11,7 @@ Summary: This is an interesting book about Python, but not the usual handbook or
 Yes, we all know that pythonic code should not try to be "clever", like those long do-it-all-at-once one-liners that you may have found anywhere else. The Python community values simple code that is readable by humans. That principle has even deserved a spot on the Zen of Python:
 
 >Simple is better than complex.  
->Complex is better that complicated.
+>Complex is better that complicated.  
 > (…)  
 >Readability counts.
 
@@ -28,4 +28,4 @@ As a nice bonus, the author offers a pack of 12 Python tutorial videos (around 2
 This book won't replace reading the documentation for the Python language and for the Python Standard Library, but it's specially indicated for those moments you want something light to read, but still get to learn interesting and useful stuff. Anyway, as with any other learning material, to make the most of this book, make sure you get near a REPL and experiment with the examples given. And maybe use some of the tips in one of your projects. There's no better way to consolidate your learning.
 
 **Get the book:**  
-[dbader.org/products/python-tricks-book](https://dbader.org/products/python-tricks-book/)
+[dbader.org/products/python-tricks-book](https://dbader.org/products/python-tricks-book/){:target=_blank}
