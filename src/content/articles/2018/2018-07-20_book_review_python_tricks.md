@@ -16,4 +16,9 @@ The author made a huge (and, in my opinion, successful) effort to present these 
 
 On the other hand, as Mariatta Wijaya, a Python core developer, states in her foreword to this book, "mastering Python programming isn't just about grasping the theoretical aspects of the language", and as she explains, "it's just as much able t understanding and adopting the conventions and best practices used by its community". And that's another important focus of the author.
 
+As a nice bonus, the author offers a pack of 12 Python tutorial videos (around 2 hours of content) to complement your reading.
+
 This book won't replace reading the documentation for the Python language and for the Python Standard Library, but it's specially indicated for those moments you want something light to read, but still get to learn interesting and useful stuff. Anyway, as with any other learning material, to make the most of this book, make sure you get near a REPL and experiment with the examples given. And maybe use some of the tips in one of your projects. There's no better way to consolidate your learning.
+
+* **Get the book:**  
+[https://dbader.org/products/python-tricks-book/](https://dbader.org/products/python-tricks-book/)
