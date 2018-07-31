@@ -4,7 +4,7 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>{% block title %}| {{ SITENAME|striptags }}{% endblock %}</title>
@@ -39,7 +39,7 @@
 	<meta property="article:published_time" content="{{ article.date }}">
 	<meta property="article:section" content="{{ article.category }}">
   {% endif %}
-  
+
   {% if page  %}
     <meta property="og:title" content="{{page.title}}">
 	<meta property="og:type" content="page">
@@ -49,7 +49,7 @@
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="{{ SITENAME|striptags }}">
   {% endif %}
-    
+
 
   {% include 'include/xml_feeds.html' %}
   {% block head %}{% endblock %}
@@ -59,7 +59,7 @@
 
 <body>
 
-  <header class="header" id="page_header"> 
+  <header class="header" id="page_header">
     <div class="page-header">
       {% include 'include/header.html' %}
     </div>
