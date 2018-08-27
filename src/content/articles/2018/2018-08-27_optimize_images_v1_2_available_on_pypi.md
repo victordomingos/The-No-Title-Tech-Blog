@@ -10,7 +10,7 @@ Summary: The new release of my image optimization command-line utility is out. I
 
 Here are some highlights:
 
- * A new big feature: "convert big PNG files to JPG format", with an option to convert **all** PNG files.
+ * A new big feature: "convert big PNG files to JPG format", with an option to convert **all ** PNG files.
  * Added a new option to set background color while doing any PNG operations
 that remove transparency (convert big and reduce colors). The background color can be set using both numeric RGB values or in hexadecimal mode (like in HTML).
  * Added an option to convert images to grayscale.
