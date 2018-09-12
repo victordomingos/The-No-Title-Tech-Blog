@@ -28,7 +28,7 @@ Here are some highlights:
  * It's now available on PyPI.org: just `pip install` it! 😉
 
 
-To install it, if you have Python 3.6+, just type `pip3 install count-files` on the command-line. More detailed info, including on the required Pillow versions and some iOS specific procedures, is available on the documentation.
+To install it, if you have Python 3.6+, just type `pip3 install count-files` on the command-line. More detailed info, including some iOS specific procedures, is available on the documentation.
 
 So, go ahead and see the updated documentation, which also includes lots of usage examples, to get you started right away:
 
