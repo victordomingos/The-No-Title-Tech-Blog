@@ -1,5 +1,5 @@
 *.DS_Store
-ftpsetupfile.py
+src/ftpsetupfile.py
 .pyftpsync-meta.json
 .idea/
 
