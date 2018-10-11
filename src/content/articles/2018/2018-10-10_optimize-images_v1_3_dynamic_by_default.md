@@ -6,7 +6,7 @@ Category: Programming
 Slug: optimize-images_v1_3_dynamic_by_default
 Author: Victor Domingos
 Cover: images/2018/optimize-images_1_3_macos.png
-Summary: In this new release, Optimize Images will, by default, try to determine dynamically the best quality setting for each JPEG image.
+Summary: In this new release, Optimize Images will, by default, try to determine dynamically the best quality setting for each JPEG image. 
 
 Up until now Optimize Images would, by default, apply a fixed 80 value for the JPEG quality or compression level. Now, it's dynamic by default. It will test with a few settings between 75 and 80 and try to determine the best one for each image, trying to squeeze a few kilobytes more without adding a lot more visual artifacts. Hopefully, it will allow for smaller files sizes and almost the same image quality.
 
