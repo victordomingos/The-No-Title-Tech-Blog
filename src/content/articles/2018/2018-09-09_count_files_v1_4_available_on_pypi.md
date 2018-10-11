@@ -6,7 +6,7 @@ Category: Programming
 Slug: count_files_v1_4_available_on_pypi
 Author: Victor Domingos
 Cover: images/2018/count-files_1-4.png
-Summary: The latest release of this file counting command-line utility has just been released. It is a platform independent (pure Python) package that makes it easy to count files by extension. This version has some useful new features, it was tested in a wide range on environments and, for the first time, it is now available on PyPI, which means you can just `pip install` it as any other Python package.    
+Summary: The latest release of this file counting command-line utility has just been released. It is a platform independent (pure Python) package that makes it easy to count files by extension. This version has some useful new features. It was tested in a wide range on environments and, for the first time, it is now available on PyPI, which means you can just `pip install` it as any other Python package.
 
 
 Our team member [Nataliia Bondarenko](https://github.com/NataliaBondarenko){target=:_blank} has done an amazing work in several areas of the project, especially the implementation of the unit test system, as well as adding new features and improving documentation. Thank you very much, Nataliia!
