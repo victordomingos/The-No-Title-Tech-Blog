@@ -5,7 +5,7 @@ Tags: python, cli, files, file management, file count, file extension, argparse,
 Category: Programming
 Slug: count_files_v1_4_available_on_pypi
 Author: Victor Domingos
-Cover: images/2018/count-files_haiku.png
+Cover: images/2018/count-files_1_4_haiku.png
 Summary: The latest release of this file counting command-line utility has just been released. It is a platform independent (pure Python) package that makes it easy to count files by extension. This version has some useful new features. It was tested in a wide range on environments and, for the first time, it is now available on PyPI, which means you can just `pip install` it as any other Python package.
 
 
