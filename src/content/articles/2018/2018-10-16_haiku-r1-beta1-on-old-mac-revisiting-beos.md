@@ -56,13 +56,20 @@ The Network preferences panel is completely new and very easy to use. In additio
 
 There are other improvements that are less noticeable on first look, but that add up to a better experience overall.
 
-At this time, there are still some stability issues in some applications (especially third-party ones), or in certain hardware related features (like Wi-Fi, keyboard layouts, trackpad features, webcams, audio I/O, Bluetooth). There are some features missing (for instance, being able to put the computer to sleep, or to adjust the brightness of the screen), and other features needing improvements. 
+At this time, there are still some stability issues in some applications (especially third-party ones), or in certain hardware related features (like Wi-Fi, keyboard layouts, trackpad features, webcams, audio I/O, Bluetooth). There are some features missing (for instance, hardware 3D acceleration, the hability to put the computer to sleep, or to adjust the brightness of the screen), and other features still need improvements. 
 
-Also, the localization to other languages is naturally a work in progress. I will be trying to help on this regard during the next few weeks, contributing as much as I can to grow and improve the Portuguese translation of the user interface.
+Also, the localization to other languages is, naturally, a work in progress. I will try to help on this regard during the next few weeks, contributing as much as I can to expand and improve the Portuguese translation of the Haiku user interface.
 
 I must say, however, that the operating system itself seems to be very stable and usable. The LibreOffice port is very recent and has crashed a few times in my system, but other applications, like Krita or StyledEdit, seem to be very solid. There were a few temporary visual glitches in WebPositive or occasional hiccups in certain apps, but the operating system was always responsive. I could easily `kill` any stuck process from the Terminal, and the computer would otherwise keep working happily without needing to reboot. 
 
-The software repository has already a port of Python 3.6, wich is great, but there are still a lot of missing python packages tat require compilation, like Pillow, Flask, Numpy or Pandas. You are able to install Requests and SQLalchemy, though. There is no `tkinter`/`ttk` at this time, but I believe that WxPython and PyQT are already available. And it will certainly get better in the future. Git works just fine, as expected. Meanwhile, if you're interested or if you have some experience in C++, you may consider [contributing to the Haiku project](https://www.haiku-os.org/development/){:target=_blank} with your work and expertise. I don't speak C++, but I have heard that the API for this BeOS/Haiku is actually very nice to use.
+
+# A great opportunity for developers
+
+With regard to development tools, if you want to contribute directly to the Haiku codebase or to port or build drivers or applications for it, you will probably need to use C++, especially if you want to work with the native API. You can find a few IDE's in HaikuDepot, like Paladin, MonkeyStudio and Qt Creator (yes, you can also use Qt in Haiku), and some powerful text editors, like Pe, QEmacs, Vim or Koder. There is also [Yab-IDE](http://yab.orgfree.com/){:target=_blank}, wich allows to develop GUI applications in yab (a BASIC-like programming language) using the BeAPI.
+
+The software repository has already a port of Python 3.6, wich is great, but there are still a lot of missing python packages tat require compilation, like Pillow, Flask, Numpy or Pandas. You are able to install Requests and SQLalchemy, though. There is no `tkinter`/`ttk` at this time, but I believe that WxPython and PyQT are already available. And it will certainly get better in the future. Pip seems to work but the process seems to hang after completion, not returning control to the shell. Git works just fine, as expected, wich is great. If you speak Lua, there is also a port of this language in the HaikuPorts repository. 
+
+Meanwhile, if you're interested or if you have some experience in C++, you may consider [contributing to the Haiku project](https://www.haiku-os.org/development/){:target=_blank} with your work and expertise. I don't speak C++, but I have heard that the API for this BeOS/Haiku is actually very nice to use.
 
 An operating system under development like Haiku is particularly interesting for software developers, as they get a great opportunity to learn, to achieve and to help building something that other people will find very useful. 
 
