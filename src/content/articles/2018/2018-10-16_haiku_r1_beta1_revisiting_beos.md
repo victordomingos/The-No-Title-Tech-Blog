@@ -64,7 +64,7 @@ But hey, it works! In fact, this article is being written on Haiku, just to cele
 
 ![Haiku R1/beta1 - WepPositive browser and StyleEdit text editor]({filename}/images/2018/haikur1beta1/haiku_webpositive_stylededit.png)
 
-## What's new (and what's missing)
+## What's new
 
 First of all, now Haiku has a built-in package management system, that makes very easy to update the operating system, and to discover and install new applications. The installed packages can also be deactivated if needed at boot time. 
 
@@ -109,5 +109,5 @@ An operating system under development like Haiku is particularly interesting for
 
 Even non-programmers who want to join this open source project as voluntary workers may contribute to the Haiku community in many other less technical tasks, like translating the user interface or the [Haiku User Guide](https://www.haiku-os.org/docs/userguide/en/contents.html){:target=_blank} to other languages. 
 
-Haiku may never become a mass-market operating system like Windows, macOS, iOS or Android, but will certainly touch the hearts of many users, just as BeOS did i its time. It has touched mine for sure. Haiku is still in its first beta, and I have already decided it deserves its own SSD partition in my Mac.  
+Haiku may never become a mass-market operating system like Windows, macOS, iOS or Android, but will certainly touch the hearts of many users, just as BeOS did i its time. It has touched mine for sure. Haiku is still in its first beta, and I have already decided it deserves its own SSD partition in my Mac. 
 
