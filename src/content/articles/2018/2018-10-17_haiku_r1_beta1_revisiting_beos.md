@@ -1,5 +1,5 @@
 Title: Haiku R1/beta1 review - revisiting BeOS, 18 years after its latest official release
-Date: 2018-10-16 23:30
+Date: 2018-10-17 20:30
 Lang: en
 Tags: haiku, beos, operating systems, python, open source, beta, review
 Category: Reviews
