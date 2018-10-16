@@ -4,7 +4,7 @@ Running Haiku R1/beta1 on a decade-old Mac laptop (revisiting BeOS 18 years afte
 Having experimented and used [BeOS R5 Pro](https://en.wikipedia.org/wiki/BeOS){:target=_blank} back in the early 2000’s, when its company was just going down, I have been following with some interest the development of [Haiku](https://www.haiku-os.org/){:target=_blank} during all these years. While one can argue that the old BeOS and Haiku both miss some important features to be considered modern OSes these days, a lightweight operating system can be, for instance, a good way to bring new life into old, or new but less powerful, hardware. 
 
 
-## A history of love and hope
+## A long history of love, sorrow and hope
 
 Back in 2000, the BeOS operating system was known  for its multiprocessing capabilities and its clean design. I still remember the surprisingly short time it would take to boot in my old computer, with an AMD K6-2 processor at 400MHz, or how most applications would launch almost instantaneously, without the lag I was used to see in Windows 98 or in the most common Linux distributions. I kind of fell in love with it, and have used it as much as I could for some time. There was a notorious lack of compatible software, in many areas, but [Gobe Productive](https://en.wikipedia.org/wiki/Gobe_Software){:target=_blank} and a few other apps were in fact powerfull enough to get a lot of work done.
 
