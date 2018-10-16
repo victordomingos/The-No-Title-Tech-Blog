@@ -39,6 +39,8 @@ So, after completing a full install in a 20GB partition in the MacBook, I create
 - It is able to switch completely off when shutting down. 
 - Sound recorder displays a graph, similarly to the MacBook, so it seems to be able to use the microphone, but there is no audio output.
 
-I am very happy to see this old computer much faster than I had ever seen it at launching apps. I chose the 32 bit version because, at this time, it will probably have more apps available and I read somewhere that is was a bit more stable. I saw a few app crashes, but I would say it’s normal in a beta version. Everything, including many of the the third-party applications are still under development. But it works! In fact, this article is being written on Haiku, just to celebrate the fact that we are able to do so.
+I am very happy to see this old computer launching apps much faster than I had ever seen it before. 
+
+As a side note, Haiku R1/beta 1 is available in both 32 and 64 bit versions, and at this time there is no compatibility layer to allow running 32 bit applications under the 64 bit operating system. So, I have chosen the 32 bit version because, at this time, it will probably have more apps available and I read somewhere that is was a bit more stable. I have already seen a few app crashes, but I would say it’s normal in a beta version. Everything, including drivers and many of the the third-party applications are still under development. But hey, it works! In fact, this article is being written on Haiku, just to celebrate the fact that we are able to do so.
 
 ## What's new (and what's missing)
