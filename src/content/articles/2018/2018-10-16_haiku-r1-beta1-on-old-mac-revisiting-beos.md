@@ -1,5 +1,4 @@
-
-Running Haiku R1/beta1 on a decade-old Mac laptop (revisiting BeOS 18 years after its latest release) 
+Haiku R1/beta1 review (revisiting BeOS, 18 years after its latest official release)
 
 Having experimented and used [BeOS R5 Pro](https://en.wikipedia.org/wiki/BeOS){:target=_blank} back in the early 2000’s, when its company was just going down, I have been following with some interest the development of [Haiku](https://www.haiku-os.org/){:target=_blank} during all these years. While one can argue that the old BeOS and Haiku both miss some important features to be considered modern OSes these days, a lightweight operating system can be, for instance, a good way to bring new life into old, or new but less powerful, hardware. 
 
@@ -13,7 +12,7 @@ Then, in 2001, came the news that  Be, Inc. was being sold to Pal, Inc. and soon
 This year, we had some good news. The Haiku team was finaly releasing the first beta of the new BeOS inspired operating system! [Haiku R1/beta 1](https://www.haiku-os.org/news/2018_09_28_haiku_r1_beta1/){:target=_blank} came out in 28 September 2018 and, while the initial idea for Haiku R1 was to replicate as much as possible BeOS R5, it comes with some notable new features that increase it's usefulness and make it a little more likely to please both old and new users.
 
 
-## Running Haiku R1/beta1 on two decade-old Mac laptops
+## Running Haiku R1/beta1 on two decade-old Mac laptops  (revisiting BeOS 18 years after its latest release) 
 
 In fact, I happen to have at home two 10 to 11 years old Mac computers that are still in use, but would benefit from the speed improvement that a lightwight OS could offer. From time to time, I load the latest Haiku alpha or nightly build in VirtualBox just to see how it’s going, but it’s never quite the same as having a native operating system. So, recently, when I heard that the Haiku team was releasing it's first beta, I decided to give it another try. Here is my brief report of how it went.
 
@@ -22,25 +21,57 @@ My first attempt at doing a native intallation was on my MacBook Pro 15” 2.2 G
 Then I decided to pick a MacBook 13” 2.4GHz (Early 2008) that is currently used by a member of my family. it didn't boot from USB, but when I tried to boot from a DVD, I was able to boot the Live CD at full resolution (1280x800x32). I just needed to disable APIC and ACPI during the boot sequence. So, for that MacBook, this is what I was able to get:
 
 - Only one processor core, but sill pretty snappy, when compared with MacOS X 10.7 Lion.
-- Does not turn off automatically.
+- Does not turn off automatically after shutdown.
 - Seems to be able to record audio using the internal microphone, but apparently there is no audio output.
 - No Wi-Fi.
 - No iSight câmera.
 - Trackpad works, but without secondary button and no scrolling.
+- Keyboard layout (portuguese) does not fully match the physical keyboard.
 
 At that time, my only hope was that maybe I could get Haiku to work on my MacBook Pro by extracting the SSD and doing the install process externally, using the other MacBook. I had previously promised myself I wouldn’t tear down that laptop ever again, but I was ready to change my mind, for a good reason.
 
 So, after completing a full install in a 20GB partition in the MacBook, I created a similar partition on the Macbook Pro and then started taking out the 23 screws (the hard part, in this case, was keeping track of all the screws). I took the disk out and connected it to the MacBook using a USB enclosure. The install process, done from Haiku, was a breeze and reminded how I used to love the amazingly quick and easy way that BeOS could be installed or migrated to a new different drive or partition. After a few minutes, I placed the SSD and the screws back into their respective places. The ReFind boot manager detected the new Haiku partition and it booted at the first attempt, without having to setup any of those boot time restrictions. Not bad, for a beta:
 
+- Detects and uses both processor cores, so it's even faster than on the other MacBook.
 - Full screen resolution.
+- Wifi (detects networks nearby and easily connects to my iPhone’s personal hotspot).
 - Parcial trackpad support (no right button and no scroll, mouse pointer seems a bit more nervous in this Mac).
-- Wifi (detects networks nearby and easily connects to my iPhone’s personal hotspot)
-- Detects both processor cores, so its even faster than on the other MacBook.
-- It is able to switch completely off when shutting down. 
+- Keyboard layout (portuguese) does not fully match the physical keyboard.
+- The computer switches completely off when shutting down. 
 - Sound recorder displays a graph, similarly to the MacBook, so it seems to be able to use the microphone, but there is no audio output.
 
 I am very happy to see this old computer launching apps much faster than I had ever seen it before. 
 
-As a side note, Haiku R1/beta 1 is available in both 32 and 64 bit versions, and at this time there is no compatibility layer to allow running 32 bit applications under the 64 bit operating system. So, I have chosen the 32 bit version because, at this time, it will probably have more apps available and I read somewhere that is was a bit more stable. I have already seen a few app crashes, but I would say it’s normal in a beta version. Everything, including drivers and many of the the third-party applications are still under development. But hey, it works! In fact, this article is being written on Haiku, just to celebrate the fact that we are able to do so.
+As a side note, Haiku R1/beta 1 is available in both 32 and 64 bit versions, and at this time there is no compatibility layer to allow running 32 bit applications under the 64 bit operating system. So, I have chosen the 32 bit version because, at this time, it will probably have more apps available and I read somewhere that is was a bit more stable. I have already seen a few app crashes, but I would say it’s normal in a beta version. Everything, including drivers and many of the the third-party applications are still under development. 
+
+But hey, it works! In fact, this article is being written on Haiku, just to celebrate the fact that we are able to do so.
 
 ## What's new (and what's missing)
+
+First of all, now Haiku has a built-in package management system, that makes very easy to update the operating system, and to discover and install new applications. The installed packages can also be deactivated if needed at boot time. The users are now offered a new application called HaikuDepot, that acts like an app store with lots of free software. The list of available titles include some old favourites like BePDF, ArtPaint or Sum-It, but also some new power tools that have been ported or developed from scratch more recently, like for instance the office suites Calligra and LibreOffice, the image editor Krita, or the Paladin IDE, among many others. And, of course, if you feel specially nostalgic, you can still stare longly at the good old spinning teapot demo.
+
+Another big improvement is WebPositive, the new WebKit based web browser that replaces the old NetPositive. Compared to what we used to have in BeOS R5, this is a massive upgrade, with support for many of the modern tecnologies that enable current websites. It means that you are now able, for instance, to watch YouTube videos, check Facebook updates or help in the translation of the Haiku user interface in the [Pootle Translation Server](https://i18n.haiku-os.org/pootle/){:target=_blank}. Even with the majority of the improvements being under the hood, anyone who has used BeOS to access the web in the old times will certainly understand how significant this will be for any user.
+
+The Network preferences panel is completely new and very easy to use. In addition to the selection and configuration of wired and/or wireless network connections, it supports VPNs and  also allows to manage services like DNS, FTP SSH and Telnet servers.
+
+There are other improvements that are less noticeable on first look, but that add up to a better experience overall.
+
+At this time, there are still some stability issues in some applications (especially third-party ones), or in certain hardware related features (like Wi-Fi, keyboard layouts, trackpad features, webcams, audio I/O, Bluetooth). There are some features missing (for instance, being able to put the computer to sleep, or to adjust the brightness of the screen), and other features needing improvements. 
+
+Also, the localization to other languages is naturally a work in progress. I will be trying to help on this regard during the next few weeks, contributing as much as I can to grow and improve the Portuguese translation of the user interface.
+
+I must say, however, that the operating system itself seems to be very stable and usable. The LibreOffice port is very recent and has crashed a few times in my system, but other applications, like Krita or StyledEdit, seem to be very solid. There were a few temporary visual glitches in WebPositive or occasional hiccups in certain apps, but the operating system was always responsive. I could easily `kill` any stuck process from the Terminal, and the computer would otherwise keep working happily without needing to reboot. 
+
+The software repository has already a port of Python 3.6, wich is great, but there are still a lot of missing python packages tat require compilation, like Pillow, Flask, Numpy or Pandas. You are able to install Requests and SQLalchemy, though. There is no `tkinter`/`ttk` at this time, but I believe that WxPython and PyQT are already available. And it will certainly get better in the future. Git works just fine, as expected. Meanwhile, if you're interested or if you have some experience in C++, you may consider [contributing to the Haiku project](https://www.haiku-os.org/development/){:target=_blank} with your work and expertise. I don't speak C++, but I have heard that the API for this BeOS/Haiku is actually very nice to use.
+
+An operating system under development like Haiku is particularly interesting for software developers, as they get a great opportunity to learn, to achieve and to help building something that other people will find very useful. 
+
+Haiku may never become a mass-market operating system like Windows, iOS or Android, but will certainly touch the hearts of many users, just as BeOS did i its time. It has touched mine for sure. Haiku is still in its first beta, and I have already decided it deserves its own SSD partition in my Mac.  
+
+
+
+
+
+
+
+
