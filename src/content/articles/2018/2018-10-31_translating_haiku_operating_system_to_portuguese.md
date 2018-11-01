@@ -5,7 +5,7 @@ Tags: haiku, beos, operating systems, UI, user interface, localization, translat
 Category: Reviews
 Slug: translating_haiku_operating_system_to_portuguese
 Author: Victor Domingos
-Cover: images/2018/haikur1beta1/translating-haiku/pootle_translation_server_haiku.png
+Cover: images/2018/translating-haiku/pootle_translation_server_haiku.png
 Summary: Since to weeks ago, I have been back to the Haiku world, exploring the present status of the operating system and currently available tools, and I decided to start using Haiku to translate the Haiku operating system to Portuguese.
 
 Being able to install Haiku natively in my trusty, 11 years old, Macbook Pro, was the click I needed to get using it and to start contributing to the project. I must say that I had been following Haiku from a distance for many years, like a hidden love, since its beginnings, but never risked to install it natively. The recent launch of the first beta encouraged me to try it and I managed to get it up and running. 
