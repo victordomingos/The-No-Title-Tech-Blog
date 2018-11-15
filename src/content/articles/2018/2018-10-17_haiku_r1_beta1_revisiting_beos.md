@@ -13,7 +13,7 @@ Summary: Having experimented and used BeOS R5 Pro back in the early 2000’s, wh
 
 Back in 2000, the [BeOS](https://en.wikipedia.org/wiki/BeOS){:target=_blank} operating system was known  for its multiprocessing, multithreading capabilities, the way it handled multimedia, and its clean design. I still remember the surprisingly short time it would take to boot in my old computer, with an AMD K6-2 processor at 400MHz, or how most applications would launch almost instantaneously, without the lag I was used to see in Windows 98 or in the most common Linux distributions. I kind of fell in love with it, and have used it as much as I could for some time. There was a notorious lack of compatible software, in many areas, but [Gobe Productive](https://en.wikipedia.org/wiki/Gobe_Software){:target=_blank} and a few other apps were in fact powerfull enough to get a lot of work done.
 
-![BeOS R5 Pro]({filename}/images/2018/haikur1beta1/beos_screenshot.jpg)
+[BeOS R5 Pro]({static}/images/2018/haikur1beta1/beos_screenshot.jpg)
 
 Then, in 2001, we started reading the news that  Be, Inc. was being sold to Palm, Inc. and soon it was shutting down all its operations. BeOS was dead!... 
 
@@ -39,7 +39,7 @@ Then I decided to try my luck with a [MacBook 13” 2.4GHz (Early 2008)](https:/
 - Trackpad works, but without secondary button and no scrolling.
 - Keyboard layout (portuguese) does not fully match the physical keyboard.
 
-![Haiku R1/beta1 - Boot time error on MacBook Pro 15" Mid 2007]({filename}/images/2018/haikur1beta1/haiku_error.jpg)
+![Haiku R1/beta1 - Boot time error on MacBook Pro 15" Mid 2007]({static}/images/2018/haikur1beta1/haiku_error.jpg)
 
 At that time, my only hope was that maybe I could get Haiku to work on the MacBook Pro by extracting the SSD and doing the install process externally, using the MacBook. I had previously promised myself I wouldn’t tear down that laptop ever again, but I was ready to change my mind, for a good reason.
 
@@ -56,33 +56,33 @@ So, after completing a full install in a 20GB partition in the MacBook, I create
 
 I am very happy to see this old computer launching apps much faster than I had ever seen it before. 
 
-![Haiku R1/beta1 running natively on two Mac laptops]({filename}/images/2018/haikur1beta1/haiku_native_two_macs.jpg)
+![Haiku R1/beta1 running natively on two Mac laptops]({static}/images/2018/haikur1beta1/haiku_native_two_macs.jpg)
 
 As a side note, Haiku R1/beta 1 is available in both 32 and 64 bit versions, but at this time there is no compatibility layer to allow the execution of 32 bit applications on the 64 bit operating system. So, I have chosen the 32 bit version because, at this time, it will probably have more apps available and I read somewhere that is was a bit more stable. I have already seen a few app crashes, and sometimes it hangs in the beginning of the boot process requiring a forced reboot, but I would say it’s normal in a beta version. Everything, including drivers and many of the third-party applications, is still under development. 
 
 But hey, it works! In fact, this article is being written on Haiku, just to celebrate the fact that we are able to do so.
 
-![Haiku R1/beta1 - WepPositive browser and StyleEdit text editor]({filename}/images/2018/haikur1beta1/haiku_webpositive_stylededit.png)
+![Haiku R1/beta1 - WepPositive browser and StyleEdit text editor]({static}/images/2018/haikur1beta1/haiku_webpositive_stylededit.png)
 
 ## What's new
 
 First of all, now Haiku has a built-in package management system, that makes very easy to update the operating system, and to discover and install new applications. The installed packages can also be deactivated if needed at boot time. 
 
-![Haiku R1/beta1 - Software updates]({filename}/images/2018/haikur1beta1/haiku_software_updates.png)
+![Haiku R1/beta1 - Software updates]({static}/images/2018/haikur1beta1/haiku_software_updates.png)
 
 The users are now offered a new application called HaikuDepot, that acts like an app store with lots of free software. The list of available titles include some old favourites like [BePDF](https://depot.haiku-os.org/#!/pkg/bepdf/haikuports/2/1/0/-/3/x86_gcc2?bcguid=bc382-OFNA){:target=_blank}, [ArtPaint](https://depot.haiku-os.org/#!/pkg/artpaint/haikuports/2/1/2/-/2/x86_gcc2?bcguid=bc422-UYTH){:target=_blank} or [Sum-It](https://depot.haiku-os.org/#!/pkg/sum_it/haikuports/0/2beta/-/-/6/x86_gcc2?bcguid=bc461-JABP){:target=_blank}, but also some new power tools that have been ported or developed from scratch more recently, like for instance the office suites [Calligra](https://depot.haiku-os.org/#!/pkg/calligra_x86/haikuports/3/1/0/-/3/x86_gcc2?bcguid=bc200-HFAB){:target=_blank} and [LibreOffice](https://depot.haiku-os.org/#!/pkg/libreoffice_x86/haikuports/6/2/0.0/git/19/x86_gcc2?bcguid=bc349-JSUS){:target=_blank}, the image editor [Krita](https://depot.haiku-os.org/#!/pkg/krita_x86/haikuports/4/1/0/-/2/x86_gcc2?bcguid=bc235-EEIE){:target=_blank}, or the [Paladin IDE](https://depot.haiku-os.org/#!/pkg/paladin/haikuports/1/4/-/git/4/x86_gcc2?bcguid=bc271-SYVI){:target=_blank}, among many others. 
 
-![Haiku R1/beta1 - the new HaikuDepot package manager]({filename}/images/2018/haikur1beta1/haikudepot.png)
+![Haiku R1/beta1 - the new HaikuDepot package manager]({static}/images/2018/haikur1beta1/haikudepot.png)
 
 And, of course, if you feel specially nostalgic, you can still stare longly at the good old spinning teapot demo.
 
-![Haiku R1/beta1 - the classic GLTeapot demo application]({filename}/images/2018/haikur1beta1/haiku_glteapot_demo.png)
+![Haiku R1/beta1 - the classic GLTeapot demo application]({static}/images/2018/haikur1beta1/haiku_glteapot_demo.png)
 
 Another big improvement is [WebPositive](https://www.haiku-os.org/docs/userguide/en/applications/webpositive.html){:target=_blank}, the new WebKit based web browser that replaces the old NetPositive. Compared to what we used to have in BeOS R5, this is a massive upgrade, with support for many of the modern technologies that enable current websites. It means that you are now able, for instance, to watch YouTube videos, check Facebook updates or help translating the Haiku user interface in the [Pootle Translation Server](https://i18n.haiku-os.org/pootle/){:target=_blank}. Even with the majority of the improvements being under the hood, anyone who has used BeOS to access the web in the old times will certainly understand how significant this will be for any user.
 
 The Network preferences panel is completely new and very easy to use. In addition to the selection and configuration of wired and/or wireless network connections, it supports VPNs and allows to manage services like DNS, FTP SSH and Telnet servers.
 
-![Haiku R1/beta1 - The new Network preflet]({filename}/images/2018/haikur1beta1/haiku_network.png)
+![Haiku R1/beta1 - The new Network preflet]({static}/images/2018/haikur1beta1/haiku_network.png)
 
 There are other improvements that are less noticeable at first glance, but that add up to a better experience overall. You can find more detailed information in the [release notes](https://www.haiku-os.org/get-haiku/release-notes/){:target=_blank}.
 
@@ -97,11 +97,11 @@ I must say, however, that the operating system itself seems to be very stable an
 
 With regard to development tools, if you want to contribute directly to the Haiku code base or to port or build drivers or applications for it, you will probably need to use C++, especially if you want to work with the native API. You can find a few IDE's in HaikuDepot, like  [Paladin IDE](https://depot.haiku-os.org/#!/pkg/paladin/haikuports/1/4/-/git/4/x86_gcc2?bcguid=bc271-SYVI){target=_blank}, [MonkeyStudio](https://depot.haiku-os.org/#!/pkg/monkeystudio_x86/haikuports/1/9/0.4/-/10/x86_gcc2?bcguid=bc66-JIYB){:target=_blank} and [Qt Creator](https://depot.haiku-os.org/#!/pkg/qt_creator_x86/haikuports/4/7/1/-/1/x86_gcc2?bcguid=bc101-BWRH){:target=_blank} (yes, you can also use [Qt](https://www.qt.io/){:target=_blank} in Haiku), and some powerful text editors, like [Pe](https://depot.haiku-os.org/#!/pkg/pe/haikuports/2/4/5/-/8/x86_gcc2?bcguid=bc184-OLGL){:target=_blank}, [QEmacs](https://depot.haiku-os.org/#!/pkg/qemacs/haikuports/0/4/1/pre20170225/4/x86_gcc2?bcguid=bc384-DETR){:target=_blank}, [Vim](https://depot.haiku-os.org/#!/pkg/vim/haikuports/8/0/1230/-/1/x86_gcc2?bcguid=bc501-YKWR){:target=_blank} or [Koder](https://depot.haiku-os.org/#!/pkg/koder_x86/haikuports/0/4/0/-/1/x86_gcc2?bcguid=bc577-RITP){:target=_blank}. There is also [Yab-IDE](http://yab.orgfree.com/){:target=_blank}, wich allows to develop GUI applications in yab (a BASIC-like programming language) using the [BeAPI](https://www.haiku-os.org/docs/api/){:target=_blank}.
 
-![Haiku R1/beta1 - The Paladin IDE]({filename}/images/2018/haikur1beta1/haiku_paladin_ide.png)
+![Haiku R1/beta1 - The Paladin IDE]({static}/images/2018/haikur1beta1/haiku_paladin_ide.png)
 
 The software repository has already a port of Python 3.6, wich is great, but there are still a lot of missing python packages tat require compilation, like Pillow, Pelican, Flask, Numpy or Pandas. You are able to install Requests and SQLalchemy, though. There is no `tkinter`/`ttk` at this time, but I believe that WxPython and PyQT are already available. And it will certainly get better in the future. 
 
-![Haiku R1/beta1 - Python]({filename}/images/2018/haikur1beta1/haiku_terminal_python.png)
+![Haiku R1/beta1 - Python]({static}/images/2018/haikur1beta1/haiku_terminal_python.png)
 
 `pip` seems to work but the process seems to hang after completion, not returning control to the shell. `git` works just fine, as expected, wich is great. If you speak Lua or Perl, you will be happy to know that they are also available in the HaikuPorts repository. 
 

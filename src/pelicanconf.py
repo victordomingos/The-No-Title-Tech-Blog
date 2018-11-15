@@ -63,8 +63,8 @@ DRAFT_SAVE_AS = 'drafts/{slug}/index.html'
 DEFAULT_DATE_FORMAT = '%d %B %Y'
 
 FEED_ALL_RSS = 'feeds/all_rss.xml'
-CATEGORY_FEED_RSS = 'feeds/%s_rss.xml'
-TAG_FEED_RSS = 'feeds/%s_rss.xml'
+CATEGORY_FEED_RSS = 'feeds/{slug}_rss.xml'
+TAG_FEED_RSS = 'feeds/{slug}_rss.xml'
 
 # global metadata to all the contents
 DEFAULT_METADATA = {'author': 'Victor Domingos'}
@@ -99,7 +99,8 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
 
 
 PLUGIN_PATHS = ['plugins/']
-PLUGINS = ['autostatic',
+PLUGINS = [
+	   'autostatic',
            'advthumbnailer',
            'related_posts',
            'neighbors',

@@ -18,7 +18,7 @@ While it certainly can't compare with other well-established image compression u
 
 *Bonus Tip: If, like me, you're using Pythonista to build and update a website (based on Pelican, Nikola, or any other tool), you can use the Workflow app (and maybe soon, Siri Shortcuts in iOS 12) to create a home screen shortcut that launches this script and optimizes all the images in your `output` folder in one single step:*
 
-![iPhone Workflow - Optimize Images]({filename}/images/2018/iPhone-workflow-optimize-images.jpeg)
+![iPhone Workflow - Optimize Images]({static}/images/2018/iPhone-workflow-optimize-images.jpeg)
 
 
 You can check out the development repository on GitHub:

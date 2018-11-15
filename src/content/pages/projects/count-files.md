@@ -4,7 +4,7 @@ Lang: en
 Status: hidden
 Cover: images/projects/count-files.png
 
-![Count Files]({filename}/images/projects/count-files.png)
+![Count Files]({static}/images/projects/count-files.png)
 A little command-line interface (CLI) utility written in Python to help you count files, grouped by extension, in a directory. By default, it will count files recursively in current working directory and all of its subdirectories, and will display a table showing the frequency for each file extension (e.g.: .txt, .py, .html, .css) and the total number of files found.
 
 Optionally, you can pass it a path to the directory to scan. If you prefer, you can leave that argument empty, and it will scan the current working directory.

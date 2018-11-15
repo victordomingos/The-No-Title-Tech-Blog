@@ -122,7 +122,7 @@ I created four Siri shortcuts for those same four actions for which I had create
 3. Optimize images
 4. Upload website
 
-![Setting up a custom Siri Shortcut in iOS 12 beta]({filename}/images/2018/ios12_beta_siri_shortcuts.jpg)
+![Setting up a custom Siri Shortcut in iOS 12 beta]({static}/images/2018/ios12_beta_siri_shortcuts.jpg)
 
 So, after I finish writing and preparing images, all it takes is 4 taps on the screen, or 4 voice commands to Siri. The iPhone does the rest of the magic, automatically.
 

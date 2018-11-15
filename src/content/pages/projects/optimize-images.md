@@ -4,7 +4,7 @@ Lang: en
 Status: hidden
 Cover: images/projects/optimize-images.png
 
-![Optimize Images]({filename}/images/projects/optimize-images.svg)
+![Optimize Images]({static}/images/projects/optimize-images.svg)
 
 A little command-line interface (CLI) utility written in (almost) pure Python to help you reduce the file size of images.
 

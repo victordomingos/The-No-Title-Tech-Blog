@@ -21,15 +21,15 @@ Regarding Python, well, it's a work in progress. We have Python 3.6 (no Python 3
 
 I decided to contribute with my own work and... ahem... expertise to the Haiku project. I am not a fluent C++ speaker, so doing development for this platform was out of the equation, but I am pretty comfortable with text editing, and with both English and Portuguese languages. Being a native Portuguese speaker/writer and a long time computer geek, I thought I could be the right person to make the Portuguese localization move forward.
 
-![Haiku operating system translation]({filename}/images/2018/translating-haiku/haiku_translation.png)
+![Haiku operating system translation]({static}/images/2018/translating-haiku/haiku_translation.png)
 
 At the time, Haiku had about 20% of its user interface translated to Portuguese, but was having no progress since a long time ago. I enlisted myself and started working on it. I reviewed all the pending translation suggestions (many of them had been pending for 4 years) and added many more. Right now, after 2 weeks, it's already 50% done, and many important sections are already fully completed: WebPositive, StyledEdit, PackageInstaller, HaikuDepot, Expander, DriveSetup, Installer... It's a matter of time until these translations get merged to the main Haiku distribution.
 
-![Translating Haiku using Haiku itself, Pootle Translation Server in WebPositive window]({filename}/images/2018/translating-haiku/haiku_translation_the_operating_system_on_haiku_itself.png)
+![Translating Haiku using Haiku itself, Pootle Translation Server in WebPositive window]({static}/images/2018/translating-haiku/haiku_translation_the_operating_system_on_haiku_itself.png)
 
 I have also been working on the translation of some third-party applications, like BePDF, BePodder, QuickLaunch, and others.
 
-![Translating third-party applications using Polyglot]({filename}/images/2018/translating-haiku/polyglot_haiku_apps_translation.png)
+![Translating third-party applications using Polyglot]({static}/images/2018/translating-haiku/polyglot_haiku_apps_translation.png)
 
 Meanwhile, it's worth noting that almost all of this work has been done using Haiku itself, which proves that it is possible to use it right now, even if it is still not quite ready for a production release. By using Haiku, I am able to get a better grasp at the current status of the ecosystem and to contribute in another way: detecting existing problems, doing some testing and submitting error reports.
 
