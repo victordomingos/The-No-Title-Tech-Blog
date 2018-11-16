@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # encoding: utf-8
 
 from __future__ import unicode_literals, print_function
@@ -156,7 +156,7 @@ class Thumbnailer(object):
 
 
 def find_image_urls_in_file(file_path, settings):
-    with open(file_path) as file_obj:
+    with open(file_path, encoding='utf-8') as file_obj:
         soup = BeautifulSoup(file_obj, "html.parser")
 
         imgs = soup.find_all("img")
