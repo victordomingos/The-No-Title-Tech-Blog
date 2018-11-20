@@ -49,10 +49,10 @@ PAGE_URL = '{category}/{slug}'
 PAGE_SAVE_AS = '{category}/{slug}/index.html'
 
 AUTHOR_URL = 'author/{slug}/'
-AUTHOR_SAVE_AS = 'author/{slug}/index.html'
+AUTHOR_SAVE_AS = ''
 
 YEAR_ARCHIVE_SAVE_AS = 'articles/{date:%Y}/index.html'
-MONTH_ARCHIVE_SAVE_AS = 'articles/{date:%Y}/{date:%m}/index.html'
+MONTH_ARCHIVE_SAVE_AS = ''
 
 TAG_URL = 'tag/{slug}'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
