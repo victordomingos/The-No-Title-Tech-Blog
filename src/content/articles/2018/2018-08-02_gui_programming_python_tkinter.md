@@ -193,3 +193,6 @@ These websites also contain lots of useful information:
 
 If you get stuck, [StackOverflow](https://stackoverflow.com/questions/tagged/tkinter){:target=_blank} probably can help. Sooner or later, you will probably get an insightful  answer from a guy named Brian Oakley, on some topic related to tkinter. You should trust his advice. :)
 
+
+**Post-Scriptum:** In case you find it useful, [this is the brief PDF]({static}/images/GUI_programming_python_tkinter.pdf) I made just to guide myself during the talk.
+
