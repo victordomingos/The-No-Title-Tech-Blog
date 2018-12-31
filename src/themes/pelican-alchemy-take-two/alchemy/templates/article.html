@@ -42,9 +42,13 @@
         <img id="cover" src="{{ SITEURL }}/{{ article.cover }}" alt="{{ article.title }}">
       </picture>
     {% endif %}
-    <div id="article-summary">
+    
+    {% if article.summary %}
+      <div id="article-summary">
 	    <p>{{ article.summary }}</p>
-    </div>
+      </div>
+    {% endif %}
+    
     <div class="content">
       {{ article.content }}
 
