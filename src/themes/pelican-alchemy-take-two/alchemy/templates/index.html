@@ -54,9 +54,16 @@
         <h4 class="title">
           <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
         </h4>
+        
         <div class="content">
-          {{ article.summary|striptags }}
+        {% if article.summary %}
+	      {{ article.summary|striptags }}
+        {% else %}
+          {{ article.content }}
+        {% endif %}
         </div>
+        
+        
       </div>
     </article>
     {% if not loop.last %}
