@@ -13,6 +13,8 @@ Summary: Going through a couple of other changes in my life, I have decided to r
 
 It goes back to 2011, when I built the first version of my personal website. At the time, I already had an unused [RapidWeaver](https://www.realmacsoftware.com/rapidweaver/) license, and after experimenting a little with it, it seemed to me like a nice way to build a nice looking website by using one of the built-in themes. But soon I would notice some of its shortcomings. The first one was that at that time most themes weren't responsive and didn't fit very well on small screens, like an iPhone. So, in 2014, I started using the [Solstice RapidWeaver Theme](https://themeflood.com/solstice/), by a developer named Will Woodgate, who, by the way, has always provided updates and very helpful techinal support. That new theme was responsive, it had some interesting new features and a fresher look. At that time I was complementing RapidWeaver's built-in features with that theme, and a few third-party plugins, like [Stacks](https://yourhead.com/stacks/), [Animagic](https://elixirgraphics.com/plugins/animagic), [Slot Machine](https://docs.joeworkman.net/rapidweaver/stacks/slot-machine), [SiteMap](http://www.yourhead.com/sitemap), [FaqMaker](http://yourhead.com/faqmaker), [PlusKit](http://yourhead.com/pluskit) and a few more.
 
+![RapidWeaver 7]({static}/images/2019/rapidweaver7.jpg)
+
 But then, the years go by and technology changes rapidly. RapidWeaver and its quite large third-party ecosystem is still on active development, with new versions being released every couple years. If you want to be on the cutting edge, you need to get the new version, and make sure you have licenses for the latest version of all the plugins and stacks. And, eventually, you may find out you also need to buy a new computer to be able to run a newer version of RapidWeaver. What was once a simple solution can sooner or later become an undesired expense, amounting to more than you may be willing to pay.
 
 This is not to say that RapidWeaver isn't cool anymore. It is still a very nice software, especially if you prefer a [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) interface and you manage to get a lower price in a software bundle, and it has an ecosystem that includes some very ingenious and talented third party developers. It really makes it easy to build some very good looking websites, but it also gets you stuck on that platform: you can only use a Mac computer, you can only use a computer that has RapidWeaver and all the needed themes and plugins, you can't easily update your website on the go, whenever you're away from your Mac, you can't easily customize the themes and templates, and eventually you will need to buy new software licences and new themes.
@@ -30,7 +32,9 @@ I also decided to adapt the existing PHP-based contact form, just by re-styling 
 
 Finaly, I took the opportunity to extend the biography page and I eliminated some less important content pages.
 
+In the process, I had some care about optimization, trying to make the site as fast and lightweight as possible, without compromising the way t appears on high resolution screens. There are a few additional steps that could be done to further reduce page load times. Some of them, however, are made a bit complicated by the way Pelican and some plugins handle certain HTML tags (e.g., the <tt><picture></tt> element). I was able to reduce by half the overal bandwidth required byt the main page and to reduce by 30% the number of requests, which has clearly resulted in faster load times.
 
+![GTMetrix]gtmetrix_optimization_history.png
 
 
 
