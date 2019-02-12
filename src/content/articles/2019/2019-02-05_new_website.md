@@ -6,7 +6,7 @@ Category: Programming
 Slug: new_website
 Author: Victor Domingos
 Cover: images/2019/new_website_haiku.jpg
-Summary: Going through a couple of other changes in my life, I have decided to redesign my other website, but this time using Pelican and other open source tools. The older version was starting to look a bit aged, especially on mobile devices, so it seemed to be like a good idea to start a complete makeover. As they use to say, new year... new website.
+Summary: Going through a couple of other changes in my life, I have decided to redesign [my other website](https://victordomingos.com/), but this time using Pelican and other open source tools. The older version was starting to look a bit aged, especially on mobile devices, so it seemed to be like a good idea to start a complete makeover. As they use to say, *new year... new website*.
 
 
 ## Why I decided to redesign the website and why I wanted to choose other tools
@@ -32,9 +32,9 @@ I also decided to adapt the existing PHP-based contact form, just by re-styling 
 
 Finaly, I took the opportunity to extend the biography page and I eliminated some less important content pages.
 
-In the process, I had some care about optimization, trying to make the site as fast and lightweight as possible, without compromising the way t appears on high resolution screens. There are a few additional steps that could be done to further reduce page load times. Some of them, however, are made a bit complicated by the way Pelican and some plugins handle certain HTML tags (e.g., the <tt><picture></tt> element). I was able to reduce by half the overal bandwidth required byt the main page and to reduce by 30% the number of requests, which has clearly resulted in faster load times.
+In the process, I had some care about optimization, trying to make the site as fast and lightweight as possible, without compromising the way t appears on high resolution screens. There are a few additional steps that could be done to further reduce page load times. Some of them, however, are made a bit complicated by the way Pelican and some plugins handle certain HTML tags (e.g., the <tt>picture</tt> element). I was able to reduce by half the overal bandwidth required byt the main page and to reduce by 30% the number of requests, which has clearly resulted in faster load times.
 
-![GTMetrix]gtmetrix_optimization_history.png
+![GTMetrix]({static}/images/2019/gtmetrix_optimization_history.png)
 
 
 
