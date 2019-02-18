@@ -43,7 +43,7 @@
 	    {% endif %}
 
       <a href="{{ SITEURL }}/{{ article.url }}">
-          <img class="article_list_img" src="{{ SITEURL}}/{{ article.cover | thumbnail("400x_") }}" width="100%"/>
+          <img alt="{{ article.title|striptags }}" class="article_list_img" src="{{ SITEURL}}/{{ article.cover | thumbnail("400x_") }}" width="100%"/>
       </a>
 
       </header>
