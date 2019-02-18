@@ -9,7 +9,7 @@ Cover: images/2019/new_website_haiku.jpg
 Summary: Going through a moment of change in my life, I have decided to redesign [my other website](https://victordomingos.com/){:target=blank}, using Pelican and other open source tools. The older version was starting to look a bit aged, especially on mobile devices, so it seemed like a good idea to start a complete makeover. As they use to say, *new year... new website*.
 
 
-### Why I decided to redesign the website and why I wanted to choose other tools
+### Why I decided to redesign the website, and why I wanted to choose other tools
 
 It goes back to 2011, when I built the first version of my personal website. At the time, I already had an unused [RapidWeaver](https://www.realmacsoftware.com/rapidweaver/){:target=blank} license, and after experimenting a little with it, it seemed to me like an easy way to build a nice looking website by using one of the built-in themes. 
 

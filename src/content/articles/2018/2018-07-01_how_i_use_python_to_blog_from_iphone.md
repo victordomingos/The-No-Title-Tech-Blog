@@ -9,7 +9,7 @@ Cover: images/2018/python_blog_iphone.jpg
 Summary: Over the last 12 years, I have been blogging almost uninterruptedly about different subjects (mostly on tech stuff), on different platforms and using a variety of devices and applications. First on desktop and laptop computers, and more recently from iPhone and iPad. This year I went on to try something new and decided to create this blog based on Pelican, a static site generator made with Python. And I got the whole process working even from my iPhone, which has become, arguably, my main personal computer. So, how do I publish new content to this blog from my iPhone?
 
 
-## 1. I write each article in Markdown
+### 1. I write each article in Markdown
 Markdown is a simple syntax that can be easily translated to HTML (and a bunch of other formats), but only requires a simple text editor and allows us to focus on the content. On my Mac, I tend to use either Ulysses, or BBEdit, or VIM, whatever comes to hand. On iPhone, currently, I use Ulysses, Drafts or Working Copy. I may start with Drafts or Ulysses, then copy to Working Copy and go on from there... 
 
 Pelican only requires that the header contains some standard metadata. Some of it is optional, but I try to always include the same set of fields. Here’s an example of the header I am using for this article:
@@ -29,13 +29,13 @@ Summary: Over the last 12 years, I have been blogging almost uninterruptedly abo
 Then I just leave a white line and write the rest of the article below.
 
 
-## 2. Sync with the cloud, I mean, commit to GitHub 
+### 2. Sync with the cloud, I mean, commit to GitHub 
 The source code for this website is hosted as an open source repository on GitHub. It’s a good way to share the experience with others, while keeping track of any changes and having them synced between devices on demand.
 
 I may start on iPhone and commit the changes to GitHub using Working Copy. Then, if I want, I may clone the repo or fetch the changes from iPad or Mac, do some further editing and commit again to GitHub.
 
 
-## 3. Build the website with Pelican
+### 3. Build the website with Pelican
 
 Usually you will use the shell to type a command like `pelican content/ -s publishconf.py` or `make html`. While on a desktop operating system it is an easy task, on mobile it is less than ideal. So, I created my own building script that I can use in Pythonista to generate all the HTML and image thumbnail files. Actually, I compiled a few scripts that do the whole process – as I want it to be done – just by tapping a few buttons. 
 
@@ -80,14 +80,14 @@ pelican = Pelican(settings)
 pelican.run()
 ```
 
-##  4. Optimize images
+###  4. Optimize images
 OK, if you follow this blog, you already know I have been exploring ways to automate my image optimization workflow. On my Mac, I like to export my images to PNG or JPEG (the image format will depend on the type of content), in the best suitable size. When possible, I try to offer images in 2x resolution for *Retina* displays. Then I use ImageOptim and JPEGmini to shrink the files.
 
 On iOS, I often use the Workflow app, when I have a picture on my photo library, to resize it and save it as a smaller JPEG. Or to combine 2, 3 or 4 iPhone screenshots into a single image, using just a few taps.
 
 But if I already have all the source images in their folders, after I build the site I do a final optimization step. It's still kind of experimental, but I have another home screen button that runs my  [Optimize Images]({filename}/pages/projects/optimize-images.md) Python application on the Pelican output folder. That way I can squeeze out a few more bytes from the thumbnails generated during the build process.
 
-## 5. Upload using FTP
+### 5. Upload using FTP
 Yeah, our old and beloved friend, FTP, an old solution that is still simple and efficient enough to keep deserving some usage in the present. The way I do it is by running a Python script that opens an FTP connection to my web server and uploads everything from the output folder:
 
 ```
@@ -131,5 +131,5 @@ Here is a small video of the whole build and deployment process being done direc
 [![iOS  automation - building and deploying a website from an iPhone using Python](http://img.youtube.com/vi/lPGnXdi7jXw/0.jpg)](http://www.youtube.com/watch?v=lPGnXdi7jXw "iOS  automation - building and deploying a website from an iPhone using Python")
 
 
-## What do you think?
+### What do you think?
 So, if you are also using Pelican and have come up with a better solution for these problems, please [let me know](https://victordomingos.com/contactos/). 

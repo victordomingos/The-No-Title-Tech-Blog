@@ -209,6 +209,10 @@ hr {
   margin-right: 10px;
 }
 
+.article h3 {
+  margin-top: 2.5rem;
+  font-size: 1.75rem;
+}
 
 .article #cover {
   max-width: 100%;
@@ -358,7 +362,7 @@ hr {
 
   h3 {
     font-size: 1.5rem;
-    margin-top: 3.2rem;
+    /* margin-top: 3.2rem; */
   }
 }
 
