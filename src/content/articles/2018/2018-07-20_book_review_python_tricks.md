@@ -21,7 +21,7 @@ Not an introductory tutorial book for beginners, but a good intermediate reading
 
 The author made a huge (and, in my opinion, successful) effort to present these slightly advanced "tricks" in a way that is both easy to understand and that allows to explore some important aspects of the Python language that may sometimes pass unnoticed. It may contribute to a better understanding of how Python works.
 
-On the other hand, as Mariatta Wijaya, a Python core developer, states in her foreword to this book, "mastering Python programming isn't just about grasping the theoretical aspects of the language", and as she explains, "it's just as much able t understanding and adopting the conventions and best practices used by its community". And that's another important focus of the author.
+On the other hand, as Mariatta Wijaya, a Python core developer, states in her foreword to this book, "mastering Python programming isn't just about grasping the theoretical aspects of the language", and as she explains, "it's just as much about understanding and adopting the conventions and best practices used by its community". And that's another important focus of the author.
 
 As a nice bonus, the author offers a pack of 12 Python tutorial videos (around 2 hours of content) to complement your reading.
 
