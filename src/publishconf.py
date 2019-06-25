@@ -13,7 +13,7 @@ from pelicanconf import *
 
 
 #SITEURL = ''
-RELATIVE_URLS = False
+RELATIVE_URLS = True
 
 
 PLUGINS = PLUGINS + ['sitemap',
