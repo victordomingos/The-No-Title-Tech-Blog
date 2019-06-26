@@ -29,3 +29,7 @@ This book won't replace reading the documentation for the Python language and fo
 
 **Get the book:**  
 [dbader.org/products/python-tricks-book](https://dbader.org/products/python-tricks-book/){:target=_blank}
+
+
+<hr >
+DISCLOSURE NOTICE: For this review, I bought myself a copy of the book, paying as a regular costumer. I do not personally know the author, and did not receive any other compensation. The link to the author’s website is provided as a reference only, I am not making any profit from it. 
