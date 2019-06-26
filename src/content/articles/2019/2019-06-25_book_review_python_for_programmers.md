@@ -82,5 +82,7 @@ The book will give you a bird's eye over some of the applications and give you s
 **Get the book:**  
 [www.amazon.com/dp/0135224330](https://www.amazon.com/dp/0135224330){:target=_blank}
 
-<hr >
-DISCLOSURE NOTICE: For this review, I received a free copy of the book from the publisher. I do not personally know the authors or the publishers, and did not receive any other compensation. The link to Amazon is provided as a reference only, I am not endorsing the company or making any profit from it. 
+<hr ><small>
+<strong>Disclosure Notice:  </strong>
+For this review, I received a free copy of the book from the publisher. I do not personally know the authors or the publishers, and did not receive any other compensation. The link to Amazon is provided as a reference only, I am not endorsing the company or making any profit from it. 
+</small>
