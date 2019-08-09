@@ -75,7 +75,7 @@ After pressing one those two keys, you just need to move the cursor and, to past
 
 You may also do a manual selection, character by character, instead of line by line. for that purpose, you must do the same, with the single difference of pressing lowercase `v` instead of uppercase. This will put Vim into Visual Mode, which means you may define a selection by moving the cursor around one character at a time, therefore allowing for more precise selections. The rest of the process is the same.
 
-You can even combine these commands to perform a quick "select all" action: `ggVG`. The `gg' part moves the cursor to the beginning of the file, `V` changes to Visual Line Mode, `G` moves the cursor to the end of the file, while selecting all the lines.
+You can even combine these commands to perform a quick "select all" action: `ggVG`. The `gg` part moves the cursor to the beginning of the file, `V` changes to Visual Line Mode, `G` moves the cursor to the end of the file, while selecting all the lines.
 
 Finally, if all you want is to delete or move a single line, there is a nice command for that, which is `dd`. You just press `dd` and the current line disappears. You may discard it or paste it in another position, as you wish.
 
