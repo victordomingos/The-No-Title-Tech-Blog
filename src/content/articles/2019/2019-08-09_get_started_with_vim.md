@@ -33,7 +33,7 @@ Please notice the presence of a colon at the beginning of the command. It is nee
 
 Now that you have created a file, then you entered Insert Mode and then you have written some text, you can save it by entering Command-Line Mode (`ESC :`) and using the command `:w`. You may specify the file name using `:w filename.txt`. Also, if you are editing an existing file and just want to save some changes you made and quit vim, you can write and quit in a single step using `:wq`. 
 
-If you just want to quit vim, as you at have guessed by now, you will use the command `:q. If you have unsaved changes that you want to discard, you may ignore them and exit Vim without saving, using `:q!`.
+If you just want to quit vim, as you at have guessed by now, you will use the command `:q`. If you have unsaved changes that you want to discard, you may ignore them and exit Vim without saving, using `:q!`.
 
 ## How to navigate through the text using the keyboard?
 
