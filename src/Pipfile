@@ -40,7 +40,7 @@ piexif = "==1.1.2"
 Jinja2 = "==2.10.1"
 Markdown = "==2.6.11"
 MarkupSafe = "==1.0"
-Pillow = "==6.0.0"
+Pillow = "==6.2.0"
 Pygments = "==2.4.2"
 Unidecode = "==1.1.1"
 
