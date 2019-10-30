@@ -59,7 +59,7 @@ and Swing, as well as the intrinsecacies of the MySQL connector and [JPARSEC](ht
 - **Table of hourly positions (Altitude/Azimuth).**
 
 
-Please take into consideration that there are still lots of features missing, like session saving and management, session notes, deep space targets listing, bookmarking favorite targets, filtering bookmarked and seen objects, and others. At this time, you can expect the application to display all the Solar System planets, the Moon and some of the natural satellites that can be seen from Earth.
+Please take into consideration that there are still lots of features missing, like session saving and management, session notes, deep space targets listing, bookmarking favorite targets, filtering bookmarked and seen objects, and others. For the moment, you can expect the application to display all the Solar System planets, the Moon and some of the natural satellites that can be seen from Earth.
 
 At this time, this application is still under development and requires a MySQL database server. The database must be manually created, for instance by "forward engineering" the provided file (docs/EER_diagram.mwb) using MySQL Workbench. In the future, it will probably progress into a more nicely integrated solution, like a built-in SQLite database.
 
