@@ -1,5 +1,5 @@
 Title: Get started with Git!
-Date: 2019-10-30 17:00
+Date: 2019-10-30 13:00
 Lang: en
 Tags: git, console, terminal, tutorial, shell, programming, version control
 Category: Tutorials
