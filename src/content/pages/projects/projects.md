@@ -11,6 +11,62 @@ Lang: en
 </article>
 
 
+
+<article class="row teaser">
+<header class="col-sm-3 text-muted"><a href="../nice-telescope-planner">
+    <img alt="Nice Telescope Planner - a" src="{static /images/projects/nice_telescope_planner.png thumb="320x_"}" class="article_list_img"/>
+  </a></header>
+
+<div class="col-sm-9">
+  <h4 class="title"><a href="../nice-telescope-planner">Nice Telescope Planner
+  </a></h4>
+  <div class="content">
+A cross-platform desktop utility for amateur astronomy hobbyists, written in Java. The aim is to provide an easy to use tool to help planning sky observation sessions, suggesting some of the interesting objects you may be able to watch at naked eye, or using amateur equipment (binoculars or small to medium size telescopes) in a given date/time and place.
+  </div>
+</div>
+</article>
+
+
+_____
+
+<article class="row teaser">
+<header class="col-sm-3">
+  <a href="../optimize-images">
+    <img alt="Optimize Images - a command-line interface utility written in Python to reduce the file size of images" src="{static /images/projects/optimize-images.png thumb="320x_"}" class="article_list_img">
+  </a>
+</header>
+<div class="col-sm-9">
+  <h4 class="title"><a href="../optimize-images">
+  Optimize Images
+  </a></h4>
+
+  <div class="content">
+A command-line interface (CLI) utility written in (almost) pure Python to help you reduce the file size of images. It can process a single file, a folder's root or all images in a folder, recursively. Multiple image processing tasks are automatically distributed to all available cores, getting the most of the specific device being used.
+  </div></div>
+</article>
+
+
+_____
+
+<article class="row teaser">
+<header class="col-sm-3">
+  <a href="../count-files">
+    <img alt="Count Files - a command-line interface utility written in Python to help you count files" src="{static /images/2018/count-files.png thumb="320x_"}" class="article_list_img">
+  </a>
+</header>
+<div class="col-sm-9">
+  <h4 class="title"><a href="../count-files">
+  Count Files
+  </a></h4>
+
+  <div class="content">
+A command-line interface (CLI) utility written in Python to help you count files, grouped by extension, in a directory. By default, it will count files recursively in current working directory and all of its subdirectories, and will display a table showing the frequency for each file extension (e.g.: .txt, .py, .html, .css) and the total number of files found.
+  </div></div>
+</article>
+
+_____
+
+
 <article class="row teaser">
 <header class="col-sm-3 text-muted"><a href="../repservice">
     <img alt="RepService - Database application for in-store registering of warranty and service/repair processes" src="{static /images/projects/repservice.jpg thumb="320x_"}" class="article_list_img"/>
@@ -39,25 +95,6 @@ PT-Tracking
 <div class="content">
 Simple database application allows to keep a register and automatically track online the shipments and registered mail sent through the portuguese mail companies CTT and CTT Expresso. It also helps in making sure that all checks for orders with payment on delivery are correctly received and deposited on the bank on the correct dates.
 </div></div></article>
-
-
-_____
-
-<article class="row teaser">
-<header class="col-sm-3">
-  <a href="../optimize-images">
-    <img alt="Optimize Images - a command-line interface utility written in Python to reduce the file size of images" src="{static /images/projects/optimize-images.png thumb="320x_"}" class="article_list_img">
-  </a>
-</header>
-<div class="col-sm-9">
-  <h4 class="title"><a href="../optimize-images">
-  Optimize Images
-  </a></h4>
-
-  <div class="content">
-A little command-line interface (CLI) utility written in (almost) pure Python to help you reduce the file size of images. It can process a single file, a folder's root or all images in a folder, recursively. Multiple image processing tasks are automatically distributed to all available cores, getting the most of the specific device being used.
-  </div></div>
-</article>
 
 _____
 
@@ -93,7 +130,12 @@ _____
   </a></h4>
     
   <div class="content">
-A set of two Python scripts made to automate a simple off-site backup operation in a headless Mac mini server using Dropbox. One script zips any new files/folders in a specified folder and then uploads the archive to Dropbox. The other (running in another machine with Dropbox sync enabled) removes the older archives, after a specified number of days. Why all tis work? Well, the regular Dropbox app didn't run anymore on such an old operating system (Snow Leopard), but Python and the Dropbox API did. Just added the main script to *launchd* and it worked like a charm!
+A set of two Python scripts made to automate a simple off-site backup operation in a headless
+Mac mini server using Dropbox. One script zips any new files/folders in a specified folder and
+then uploads the archive to Dropbox. The other (running in another machine with Dropbox
+sync enabled) removes the older archives, after a specified number of days. Why all tis work?
+Well, the regular Dropbox app didn't run anymore on such an old operating system (Snow
+Leopard), but Python and the Dropbox API did. Just added the main script to <b>launchd</b> and it worked like a charm!
   </div></div>
 </article>
 
@@ -112,25 +154,6 @@ _____
     
   <div class="content">
 A little fun project made in an iPhone using Pythonista. It's a nicely formatted console app that checks the weather forecast for the next few days. This version is custom made for iPhone, so it uses Pythonista 3. It makes use of the web API provided by openweathermap.org. It shows the current weather and the forecast for the next 5 days. 
-  </div></div>
-</article>
-
-
-_____
-
-<article class="row teaser">
-<header class="col-sm-3">
-  <a href="../count-files">
-    <img alt="Count Files - a command-line interface utility written in Python to help you count files" src="{static /images/2018/count-files.png thumb="320x_"}" class="article_list_img">
-  </a>
-</header>
-<div class="col-sm-9">
-  <h4 class="title"><a href="../count-files">
-  Count Files
-  </a></h4>
-
-  <div class="content">
-A little command-line interface (CLI) utility written in Python to help you count files, grouped by extension, in a directory. By default, it will count files recursively in current working directory and all of its subdirectories, and will display a table showing the frequency for each file extension (e.g.: .txt, .py, .html, .css) and the total number of files found.
   </div></div>
 </article>
 
