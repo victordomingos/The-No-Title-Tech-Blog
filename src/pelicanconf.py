@@ -17,7 +17,7 @@ DELETE_OUTPUT_DIRECTORY = True
 AUTHOR = u'Victor Domingos'
 SITENAME = u'The <strong>No&nbsp;Title<small><sup>&reg;</sup></small></strong> Tech&nbsp;Blog'
 SITEURL = u'https://no-title.victordomingos.com'
-BIO = u'Tales of an exploration on antigravity and other potentialy unrelated matters'
+BIO = u'Tales of an exploration on antigravity and other potentially unrelated matters'
 DESCRIPTION = u'A personal blog about learning programming technologies, including programming Python, Pelican, tkinter, HTML, CSS, SQL, Flask, and other stuff.'
 
 PATH = 'content'
@@ -77,7 +77,7 @@ DISPLAY_PAGES_ON_MENU = True
 RELATIVE_URLS = True
 
 THEME = "themes/pelican-alchemy-take-two/alchemy"
-SITESUBTITLE = 'Tales of an exploration on antigravity and other potentialy unrelated matters'
+SITESUBTITLE = 'Tales of an exploration on antigravity and other potentially unrelated matters'
 
 DISPLAY_DATE_ON_ARTICLE_LIST = False
 SITEIMAGE_FOLDER = 'images/avatars/x150'  # Images to be used randomly in the header

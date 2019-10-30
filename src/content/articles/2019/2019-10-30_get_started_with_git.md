@@ -1,28 +1,27 @@
 Title: Get started with Git!
-Date: 2019-10-30 13:00
+Date: 2019-10-30 22:00
 Lang: en
-Tags: git, console, terminal, tutorial, shell, programming, version control
+Tags: git, console, terminal, tutorial, shell, version control 
 Category: Tutorials
 Slug: get_started_with_git  
 Author: Victor Domingos
 Cover: images/2019/git.png
-Summary: When doing software or web development, you should have your code (and even other kinds of files) being managed by a version control system, so that you are able to backup meaningful changes, checkout a file from a previous version, or collaborate with your team more efficiently. Over the years there have been some tools that serve for this purpose, but these days Git seems to be the most popular version tracking system.
+Summary: When doing software or web development, you should have your code (and even other kinds of files) managed by a version control system, so that you are able to backup meaningful changes, checkout a file from a previous version, or collaborate with your team more efficiently. Over the years there have been some tools that serve for this purpose, but these days Git seems to be the most popular version tracking system.
 
 Basically, Git provides a way to manage multiple versions of the files in your project. With remote repositories, you'll have the additional benefits of a permanent off-site backup and powerful collaboration tools.
 
-Please keep in mind that, while there are a few famous online services that allows you to create remote git repositories (for instance, [GitHub](https://github.com), [GitLab](htts://gitlab.com), [Sourceforge](https://sourceforge.net), among others), they are not the same thing as Git, which is one of the many technologies they use. Git can also be used independently, but you may arrive to the conclusion that having a private or public remote repository can become very handy in a number of situations. And, in fact, those websites offer some additional features that are useful, like publicly accessible issue trackers for open source projects, easy to use web interfaces for code review and, perhaps even more important, great open source developer communities that help each other in a lot of cool projects.
+Please keep in mind that, while there are a few famous online services that allow you to create remote git repositories (for instance, [GitHub](https://github.com), [GitLab](htts://gitlab.com), [Sourceforge](https://sourceforge.net), among others), they are not the same thing as Git, which is one of the many technologies they use. Git can also be used independently, but you may arrive to the conclusion that having a private or public remote repository can become very handy in a number of situations. And, in fact, those websites offer some additional features that are useful, like publicly accessible issue trackers for open source projects, easy to use web interfaces for code review and, perhaps even more important, great open source developer communities that help each other in a lot of cool projects.
 
-## BEFORE YOU BEGIN: Install `git`
+### Before you begin: install `git`
 `git` is a command-line application which can be installed in most operating systems and which allows us to interact with git repositories. There are Integrated Development Environments (IDE) and other specialized applications that offer graphical user interfaces (GUI), but at this time it is enough to use the command-line shell, which by the way is often a more practical tool. 
 
 You can download the installers for the `git` command from the website [git-scm.com](https://git-scm.com/), where you can also find useful documentation on how to use it. If you work with Visual Studio on Windows, you can also install Git from the Visual Studio Installer application.
 
 
 
-## Repositories 
-### creating a local copy (clone) of a repository 
+### Creating a local copy (clone) of a repository 
 
-When we need to create a local copy of an existing remote repository, in order to be able to explore its code and documentation in our own computer, to compile and use an application, or in order to start collaborating with that project, we use the command `git clone`:
+When we need to create a local copy of an existing remote repository, in order to be able to explore its code and documentation in our own computer, to compile and use an application, or to start collaborating with that project, we use the command `git clone`:
 
 ```console
 $ git clone https://github.com/victordomingos/EFAProg2019
@@ -51,7 +50,7 @@ Initialized empty Git repository in C:/Users/victor/dev/Brinquedo6/.git/
 
 ### Creating a new local repository from an existing folder
 
-If you already have in your computer a folder that you want to transform into a repository, that's also possible. First, you need to initialize the repository with `git init` and then add all of its content `git add .` (this command adds all the content of the current folder into the staging area). The `git commit` command, which we will show in in a section below, will save that initial repository state.
+If you already have in your computer a folder that you want to transform into a repository, that's also possible. First, you need to initialize the repository with `git init` and then add all of its content `git add .` (this command adds all the content of the current folder into the staging area). The `git commit` command, which we will show in a section below, will save that initial repository state.
 
 
 
@@ -59,16 +58,16 @@ If you already have in your computer a folder that you want to transform into a 
 
 During software development it is very common to have files and folders that don't need to be added to the version control system. For instance, temporary files that are created when you compile an application, some generated binary executable files, and many others. The easiest way to automatically exclude all those files is to add a file named `.gitignore` to the project's root directory.
 
-The website [www.gitignore.io](https://www.gitignore.io) makes it very easy to generate that file based on your operating system, programming language and/or the IDE you are using. In [this GitHub repository](https://github.com/github/gitignore), there are also dozens of ready to use `.gitignore` files, incluindo one for [Visual Studio](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore).
+The website [www.gitignore.io](https://www.gitignore.io) makes it very easy to generate that file based on your operating system, programming language and/or the IDE you are using. In [this GitHub repository](https://github.com/github/gitignore), there are also dozens of ready to use `.gitignore` files, including one for [Visual Studio](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore).
 
 
 
 
-## Changing files in a repository 
+### Changing files in a repository 
 
 ### Getting the most recent changes from the remote repository
 
-In order to make sure you're working with the most recent version of the project, I mean, to be sure that the files in you local repository is synchronized with the remote repository, start by going into the repository folder and then use the `git fetch` command.
+In order to make sure you're working with the most recent version of the project, I mean, to be sure that the files in your local repository is synchronized with the remote repository, start by going into the repository folder and then use the `git fetch` command.
 
 ```console
 $ cd EFAProg2019/
@@ -180,6 +179,6 @@ To https://github.com/victordomingos/EFAProg2019
    c638269..cb2faf6  master -> master
 ```
 
-## Final thoughts
+### Final thoughts
 
 So, there you have it, a short guide to get started with Git, which is both powerful and pretty complex tool. There are many aspects of Git that couldn't fit in an introductory guide like this, and many other features that I confess I am still learning each day. However, by using these simple commands you can already make a basic use of Git in your own projects, and I hope it will help you by serving as a base to start using and learning it.
