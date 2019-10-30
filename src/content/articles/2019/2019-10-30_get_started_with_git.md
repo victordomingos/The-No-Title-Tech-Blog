@@ -61,10 +61,6 @@ During software development it is very common to have files and folders that don
 The website [www.gitignore.io](https://www.gitignore.io) makes it very easy to generate that file based on your operating system, programming language and/or the IDE you are using. In [this GitHub repository](https://github.com/github/gitignore), there are also dozens of ready to use `.gitignore` files, including one for [Visual Studio](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore).
 
 
-
-
-### Changing files in a repository 
-
 ### Getting the most recent changes from the remote repository
 
 In order to make sure you're working with the most recent version of the project, I mean, to be sure that the files in your local repository is synchronized with the remote repository, start by going into the repository folder and then use the `git fetch` command.
