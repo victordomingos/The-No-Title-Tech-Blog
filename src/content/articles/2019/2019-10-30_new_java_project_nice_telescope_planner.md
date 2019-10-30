@@ -1,5 +1,5 @@
 Title: New project: Nice Telescope Planner
-Date: 2019-10-29 9:30
+Date: 2019-10-30 00:30
 Lang: en
 Tags: java, python, gui, swing, swingx, jparsec, space, telescope, astronomy, desktop, astropy, skyfield, PyONGC, OpenNGC
 Category: Programming
