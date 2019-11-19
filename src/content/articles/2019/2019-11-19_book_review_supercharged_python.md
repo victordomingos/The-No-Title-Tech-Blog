@@ -6,10 +6,10 @@ Category: Programming
 Slug: book_review_supercharged_python
 Author: Victor Domingos
 Cover: images/2019/supercharged_python__book_cover.jpg
-Summary: If you have been following beginner or even intermediate guides on Python and are starting to feel the need for more advanced learning, this book may be the one you have been looking for. According to the authors, was written for those who already know the basics of Python, but want to deepen their knowledge and skills.
+Summary: If you have been following beginner or even intermediate guides on Python and are starting to feel the need for more advanced learning, this book may be the one you have been looking for.
 
 
-While being targeted to people who already know the fundamentals of Python, this book still includes a quick review in the first chapter. It goes briefly through the usual stuff, like variables, operators, data types, basic I/O, `if`/`else`, `while`, `for`, function definitions and arguments, lists, tuples, dictionaries, sets, and the distinction between global and local variables. This initial chapter is presented as being an optional reading, as its contents are pretty basic, but the authors recommend that the reader takes a minute or so on the last to pages, which cover the `global` statement.
+According to the authors, this book was written for those who already know the basics of Python, but want to deepen their knowledge and skills. While being targeted to people who already know the fundamentals of Python, it still includes a quick review in the first chapter. It goes briefly through the usual stuff, like variables, operators, data types, basic I/O, `if`/`else`, `while`, `for`, function definitions and arguments, lists, tuples, dictionaries, sets, and the distinction between global and local variables. This initial chapter is presented as being an optional reading, as its contents are pretty basic, but the authors recommend that the reader takes a minute or so on the last to pages, which cover the `global` statement.
 
 
 ### Some thoughts on the chapters’ internal structure
