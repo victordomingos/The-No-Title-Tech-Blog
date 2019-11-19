@@ -69,5 +69,5 @@ In my opinion, it may not be the most pleasing programming book I have ever read
 
 <hr ><small>
 <strong>Disclosure Notice:  </strong>
-For this review, I received a free copy of the book from the publisher. I do not personally know the authors or the publishers, and did not receive any other compensation. The link to Amazon is provided as a reference only, I am not endorsing the company or making any profit from it. 
+For this review, I received a free copy of the book from the publisher. I do not personally know the authors or the publishers, and did not receive any other compensation. The link to the publisher is provided as a reference only, I am not endorsing the company or making any profit from it. 
 </small>
