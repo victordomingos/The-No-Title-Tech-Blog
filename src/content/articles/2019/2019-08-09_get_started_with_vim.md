@@ -13,7 +13,7 @@ Whether you prefer to code in a simple steps editor or in full fledged IDE, the 
 In this tutorial, I will present you a few tips that I hope can get you started with the basics of
 this amazing tool. I won't cover the installation instructions, since they're widely available at a
 lot of places. If you're running some flavor of UNIX or UNIX-like operating system, chances are that
-you may already have some version of vim installed. If that's not your case, just head aver to [this
+you may already have some version of vim installed. If that's not your case, just head over to [this
 page](https://www.vim.org/download.php) and get the version you need. 
 
 Before we proceed, it might be worthwhile to mention that usually Vim is available in a command-line shell (especially useful if you're accessing remotely through ssh to adjust something in a server or something like that), but there are some versions that may run in a separate window if you prefer so. Choose as you like.
