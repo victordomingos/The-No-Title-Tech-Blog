@@ -13,7 +13,7 @@ Summary: Having experimented and used BeOS R5 Pro back in the early 2000’s, wh
 
 Back in 2000, the [BeOS](https://en.wikipedia.org/wiki/BeOS){:target=_blank} operating system was known  for its multiprocessing, multithreading capabilities, the way it handled multimedia, and its clean design. I still remember the surprisingly short time it would take to boot in my old computer, with an AMD K6-2 processor at 400MHz, or how most applications would launch almost instantaneously, without the lag I was used to see in Windows 98 or in the most common Linux distributions. I kind of fell in love with it, and have used it as much as I could for some time. There was a notorious lack of compatible software, in many areas, but [Gobe Productive](https://en.wikipedia.org/wiki/Gobe_Software){:target=_blank} and a few other apps were in fact powerfull enough to get a lot of work done.
 
-[BeOS R5 Pro]({static}/images/2018/haikur1beta1/beos_screenshot.jpg)
+![BeOS R5 Pro]({static}/images/2018/haikur1beta1/beos_screenshot.jpg)
 
 Then, in 2001, we started reading the news that  Be, Inc. was being sold to Palm, Inc. and soon it was shutting down all its operations. BeOS was dead!... 
 
