@@ -15,6 +15,7 @@ pelican-advthumbnailer==0.7.0
 pelican-autostatic==0.2.2
 pelican-minification==0.1.1
 pelican-minify==0.9
+pelican-readtime==0.2.0
 pelican-neighbors==1.0.0
 pyembed-markdown==1.1.0
 pyftpsync==2.1.0

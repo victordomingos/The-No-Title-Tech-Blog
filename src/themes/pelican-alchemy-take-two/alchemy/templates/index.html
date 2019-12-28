@@ -54,21 +54,31 @@
         <h3 class="title">
           <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
         </h3>
-        
+       
+
         <div class="content">
         {% if article.summary %}
 	      {{ article.summary|striptags }}
         {% else %}
           {{ article.content }}
         {% endif %}
+        
+        	<div class="extrainfo">
+	        	{% if article.readtime %} Reading time: {{ article.readtime_string }} {% endif %}
+        	</div>
         </div>
+        
+        
+        
         
         
       </div>
     </article>
+    <!--
     {% if not loop.last %}
       <hr>
     {% endif %}
+    -->
   {% endfor %}
   {% include 'include/pagination.html' %}
 {% endblock %}

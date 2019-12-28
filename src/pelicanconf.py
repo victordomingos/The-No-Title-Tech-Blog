@@ -100,12 +100,14 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
 
 PLUGIN_PATHS = ['plugins/']
 PLUGINS = [
-	   'autostatic',
+	       'autostatic',
            'advthumbnailer',
            'related_posts',
            'neighbors',
-           #'deadlinks',
+           'readtime',
           ]
+
+READTIME_WPM=180
 
 DEADLINK_VALIDATION = True
 DEADLINK_OPTS = {

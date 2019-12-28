@@ -185,6 +185,15 @@ hr {
   margin-bottom: .5rem;
 }
 
+
+.teaser .content .extrainfo {
+  font-size: .8rem;
+  color: #B6B6B6;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+
 .teaser .content {
   font-size: .94rem;
 }
@@ -471,6 +480,8 @@ hr {
     margin-left: 0;
     margin-right: 0;
   }
+  
+  
 }
 
 
