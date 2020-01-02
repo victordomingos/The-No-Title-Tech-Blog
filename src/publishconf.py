@@ -18,7 +18,7 @@ RELATIVE_URLS = True
 
 PLUGINS = PLUGINS + ['sitemap',
 		            #'deadlinks',
-                     'minify',  # this should be the last plugin affecting html
+                     'pelican-minify',  # this should be the last plugin affecting html
                      'minification', # idem...
                     ]
 
