@@ -35,7 +35,11 @@ The Deskbar now supports a new single line mini-mode that makes it fit in the di
 
 You get the system tray and two clickable buttons: the one with the blue leaf icon displays the main Deskbar menu, and the one with a little man standing at a green screen presents the list of current running applications.
 
-WebPositive, the builtin web browser, keeps getting more stable and more compatible. It is based on Webkit (not the most up to date version, though), the same engine that powers Apple's Safari, and it is able to process most websites. Sure, you will find some oddities here and there, especially on some heavy pages with special fonts, video, animations and so on, but most of the time it's just OK. And I can say that I have found some pages that now work better in WebPositive that they used to (like for instance the [Haiku Community](https://discuss.haiku-os.org/) forum). WebPositive seems to be mostly stable now, even though I have seen it crash once during this review.
+WebPositive, the builtin web browser, keeps getting more stable and more compatible. It is based on Webkit (not the most up to date version, though), the same engine that powers Apple's Safari, and it is able to process most websites. 
+
+![WebPositive]({static}/images/2020/haikur1beta2/webpositive.jpg)
+
+Sure, you will find some oddities here and there, especially on some heavy pages with special fonts, video, animations and so on, but most of the time it's just OK. And I can say that I have found some pages that now work better in WebPositive that they used to (like for instance the [Haiku Community](https://discuss.haiku-os.org/) forum). WebPositive seems to be mostly stable now, even though I have seen it crash once during this review.
 
 As you may have noticed, I also consider the user interface translation as an important new feature in this beta. While I am pretty comfortable with English, in most cases I prefer to use software in my native language (Portuguese), and I know that many other users feel the same about it. I have personally contributed as a volunteer on this translation effort, and it's good to see that the Haiku user interface and many of its builtin and third-party applications are now available in multiple languages, and Portuguese is one of those.
 
@@ -86,6 +90,8 @@ I used Haiku's builtin Screenshot application to make some screenshots and I ten
 
 The website is compiled or generated using my usual Python/Pelican setup in Terminal, where I also manage version control with Git. Except for the fact that it still does not display Emoji characters, I just love Haiku's Terminal. In order to make my Pelican project compile under Haiku, I had to create two separate dependency installation steps. Python 3 and some packages (like Pillow) must be installed first using `pkgman` or HaikuDepot. Then, most pure-python packages can be installed using `pip` as usual. This was not very difficult to me because I had already been very selective on dependencies to make sure this project would also work on iOS/Pythonista.
 
+For the upload, I simply used FtpPositive, an FTP client with a simple GUI.
+
 For web browsing and to check the results of Pelican output, I used both WebPositive and Otter-Browser.
 
-When I configure a new Haiku system, I always make sure I install QuickLaunch and then I go to **Preferences** > **Shortcuts** to define a keyboard shortcut. This alows me to have a quick application launching method similar to Spotlight on macOS. But I also like to set a few additional keyboard shortcuts for launching the most commonly used apps, like Terminal, WebPositive, HaikuDepot, or SoftwareUpdater, which is for me the simplest and quickest way to get into some task.
+When I configure a new Haiku system, I always make sure I install QuickLaunch and then I go to **Preferences > Shortcuts** to define a keyboard shortcut. This allows me to have a quick application launching method similar to Spotlight on macOS. But I also like to set a few additional keyboard shortcuts for launching the most commonly used apps, like Terminal, WebPositive, HaikuDepot, or SoftwareUpdater, which is for me the simplest and quickest way to get into some task.
