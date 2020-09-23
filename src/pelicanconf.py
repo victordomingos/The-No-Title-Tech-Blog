@@ -21,9 +21,9 @@ BIO = u'Tales of an exploration on antigravity and other potentially unrelated m
 DESCRIPTION = u'A personal blog about learning programming technologies, including programming Python, Pelican, tkinter, HTML, CSS, SQL, Flask, and other stuff.'
 
 PATH = 'content'
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'pdf']
 PAGE_PATHS = ['pages']
-ARTICLE_PATHS = ['articles']
+ARTICLE_PATHS = ['articles']    
 DEFAULT_PAGINATION = 6
 DEFAULT_ORPHANS = 2
 

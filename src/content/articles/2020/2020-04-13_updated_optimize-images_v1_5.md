@@ -1,4 +1,4 @@
-Title: Just updated - Optimize Images v1.5
+Title: Just updated - Optimize Images v1.3.5
 Date: 2020-04-13 22:37
 Lang: en
 Tags: python, images, optimization, PIL, Pillow, piexif, cli, Pythonista, JPEG
