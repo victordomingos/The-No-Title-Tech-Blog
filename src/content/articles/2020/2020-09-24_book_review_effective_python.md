@@ -67,7 +67,7 @@ _______
 
 - [effectivepython.com](https://effectivepython.com){:target=_blank}  
  
-- [www.pearson.com/store/p/effective-python-90-specific-ways-to-write-better-python/P100001064508](https://www.pearson.com/store/p/effective-python-90-specific-ways-to-write-better-python/P100001064508){:target=_blank}
+- [www.informit.com/store/effective-python-90-specific-ways-to-write-better-python-9780134853987](https://www.informit.com/store/effective-python-90-specific-ways-to-write-better-python-9780134853987){:target=_blank}
 
 <hr ><small>
 <strong>Disclosure Notice:  </strong>
