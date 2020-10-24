@@ -2,7 +2,7 @@ Title: Book review – Supercharged Python, by Brian Overland and John Bennet
 Date: 2019-11-19 01:27
 Lang: en
 Tags: python, books, Brian Overland, John Bennet, learning, Numpy, Regular Expressions
-Category: Programming
+Category: Book Reviews
 Slug: book_review_supercharged_python
 Author: Victor Domingos
 Cover: images/2019/supercharged_python__book_cover.jpg

@@ -2,7 +2,7 @@ Title: [Late] Book review – Python Tricks: The Book, by Dan Bader
 Date: 2018-07-20 09:00
 Lang: en
 Tags: python, books, Dan Bader, learning
-Category: Programming
+Category: Book Reviews
 Slug: book_review_python_tricks
 Author: Victor Domingos
 Cover: images/2018/python_tricks_book_cover.png

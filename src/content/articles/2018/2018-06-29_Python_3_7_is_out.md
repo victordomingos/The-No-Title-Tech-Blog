@@ -2,7 +2,7 @@ Title: Python 3.7 is out!
 Date: 2018-06-28 22:55
 Lang: en
 Tags: python, updates, performance, tkinter
-Category: Programming
+Category: News
 Slug: Python_3_7_is_out
 Author: Victor Domingos
 Cover: images/2018/python37.jpg

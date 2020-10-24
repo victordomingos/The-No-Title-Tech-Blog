@@ -2,7 +2,7 @@ Title: Book review - Machine Learning with Python for Everyone, By Mark E. Fenne
 Date: 2020-02-26 02:10
 Lang: en
 Tags: python, books, Mark E. Fenner, machine learning, learning, Scikit-learn, data science, Numpy, Pandas,
-Category: Programming
+Category: Book Reviews
 Slug: book_review_machine_learning_with_python
 Author: Victor Domingos
 Cover: images/2020/machine_learning_with_python__book_cover.jpg

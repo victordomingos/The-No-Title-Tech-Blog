@@ -2,7 +2,7 @@ Title: Book review – Effective Python, by Brett Slatkin (and a free chapter fo
 Date: 2020-09-24 00:04
 Lang: en
 Tags: python, books, Slatkin, effective, learning, code quality, pythonic, best practices, performance
-Category: Programming
+Category: Book Reviews
 Slug: book_review_effective_python
 Author: Victor Domingos
 Cover: images/2020/effective_python_book_cover.jpg

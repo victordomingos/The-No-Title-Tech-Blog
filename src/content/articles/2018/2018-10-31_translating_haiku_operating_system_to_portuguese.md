@@ -2,7 +2,7 @@ Title: Translating Haiku operating system to Portuguese, and other stories
 Date: 2018-10-31 23:30
 Lang: en
 Tags: haiku, beos, operating systems, UI, user interface, localization, translation, portuguese, open source
-Category: Reviews
+Category: Software Reviews
 Slug: translating_haiku_operating_system_to_portuguese
 Author: Victor Domingos
 Cover: images/2018/translating-haiku/pootle_translation_server_haiku.png

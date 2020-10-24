@@ -2,7 +2,7 @@ Title: Book review – Python for Programmers, by Paul Deitel and Harvey Deitel
 Date: 2019-06-25 20:21
 Lang: en
 Tags: python, books, Deitel, learning, AI, Natural Language Processing (NLP), Data Mining, Machine Learning, Deep Learning, Big Data, IBM Watson, scikit-learn, Keras, Hadoop, Spark, NoSQL, Data Science, Numpy, Pandas, SciPy, NLTK, TextBlob, MatPlotLi, Seaborn, Folium
-Category: Programming
+Category: Book Reviews
 Slug: book_review_python_for_programmers
 Author: Victor Domingos
 Cover: images/2019/python_for_programmers_book_cover.jpg
