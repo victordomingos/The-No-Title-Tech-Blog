@@ -2,7 +2,7 @@ Title: Optimize Images v1.2 – new features and finally available on PyPI!
 Date: 2018-08-27 23:25
 Lang: en
 Tags: python, images, optimization, PIL, Pillow, piexif, cli, Pythonista, multiprocessing, multithreading, argparse, pypi
-Category: Programming
+Category: News
 Slug: optimize-images_v1_2_available_on_pypi
 Author: Victor Domingos
 Cover: images/2018/optimize-images_v1.1_screenshots.jpg

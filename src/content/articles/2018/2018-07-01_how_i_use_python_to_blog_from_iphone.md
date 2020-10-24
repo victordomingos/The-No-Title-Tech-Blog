@@ -2,7 +2,7 @@ Title: How I use Python to blog from my iPhone
 Date: 2018-07-01 01:00
 Lang: en
 Tags: python, iPhone, iPad, iOS, Pythonista, blogging, workflow, Siri, automation, Siri shortcuts, iOS 12, pelican, static website, static website generator, images, optimization, html, web development
-Category: Programming
+Category: Tutorials
 Slug: how_i_use_python_to_blog_from_iphone
 Author: Victor Domingos
 Cover: images/2018/python_blog_iphone.jpg

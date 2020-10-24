@@ -2,7 +2,7 @@ Title: Enabling the pelican-minify plugin in Pythonista (iOS)
 Date: 2018-04-07 09:20
 Lang: en
 Tags: pelican, minify, Python, plugins, debugging, iOS, Pythonista, web development, static site generator
-Category: Programming
+Category: Tutorials
 Slug: pelican_minify_pythonista_iOS
 Author: Victor Domingos
 Cover: images/2018/pelican_logo.png

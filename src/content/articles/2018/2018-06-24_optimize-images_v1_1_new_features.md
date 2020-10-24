@@ -2,7 +2,7 @@ Title: Optimize Images v1.1 – new features
 Date: 2018-06-24 19:55
 Lang: en
 Tags: python, images, optimization, PIL, Pillow, piexif, cli, Pythonista, multiprocessing, multithreading, argparse
-Category: Programming
+Category: News
 Slug: optimize-images_v1_1_new_features
 Author: Victor Domingos
 Cover: images/2018/optimize-images_v1.1_screenshots.jpg

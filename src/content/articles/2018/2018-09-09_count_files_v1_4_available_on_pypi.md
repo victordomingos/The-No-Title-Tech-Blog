@@ -2,7 +2,7 @@ Title: Count Files v1.4 – new features and finally available on PyPI!
 Date: 2018-09-09 16:25
 Lang: en
 Tags: python, cli, files, file management, file count, file extension, argparse, pypi
-Category: Programming
+Category: News
 Slug: count_files_v1_4_available_on_pypi
 Author: Victor Domingos
 Cover: images/2018/count-files_1_4_haiku.png

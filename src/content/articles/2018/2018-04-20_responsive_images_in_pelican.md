@@ -2,7 +2,7 @@ Title: Serving responsive and optimized images in a Pelican static website
 Date: 2018-04-21 00:35
 Lang: en
 Tags: python, pelican, static website, static website generator, images, optimization, responsive, html, jinja2, plugins, Pythonista, web development
-Category: Programming
+Category: Tutorials
 Slug: responsive_images_in_pelican
 Author: Victor Domingos
 Cover: images/avatars/x300/avatar4.png

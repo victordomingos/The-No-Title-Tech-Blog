@@ -2,7 +2,7 @@ Title: New project: Nice Telescope Planner
 Date: 2019-10-30 00:30
 Lang: en
 Tags: java, python, gui, swing, swingx, jparsec, space, telescope, astronomy, desktop, astropy, skyfield, PyONGC, OpenNGC
-Category: Programming
+Category: News
 Slug: new_java_project_nice_telescope_planner
 Author: Victor Domingos
 Cover: images/projects/nice_telescope_planner.png
