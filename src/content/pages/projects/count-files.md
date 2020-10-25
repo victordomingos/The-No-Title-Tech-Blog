@@ -11,13 +11,10 @@ Optionally, you can pass it a path to the directory to scan. If you prefer, you 
 
 Want to know more about this project? Check out its [full story]({filename}/articles/2018/2018-05-01_new_project_count_files.md) in the blog.
 
-<hr>
+___
 
-<small>
 **Current Status: <span style="color:green">stable</span>**  
 **Main toolset: ** [Python 3.6+](https://www.python.org){target=:_blank}  
 **Source code: ** [**Fork it on GitHub**](https://github.com/victordomingos/Count-files){target=:_blank}  
 **Documentation: ** [English](https://countfiles.readthedocs.io/en/latest/){target=:_blank}, [Portugu&ecirc;s](https://github.com/victordomingos/Count-files/blob/master/docs/Documentation_PT.md){target=:_blank}, [&#x420;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;](https://github.com/victordomingos/Count-files/tree/master/docs/documentation_ru/README.md){target=:_blank}, [&#x423;&#x43A;&#x440;&#x430;&#x457;&#x43D;&#x441;&#x44C;&#x43A;&#x430;](https://github.com/victordomingos/Count-files/blob/master/docs/README_UA.md){target=:_blank}
-
-</small>
 

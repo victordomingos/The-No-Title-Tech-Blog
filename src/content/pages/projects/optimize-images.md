@@ -21,10 +21,9 @@ Despite the limitations imposed by the scope of this project (keeping compatibil
 
 Want to know more about this project? Check out its [full story of its begining]({filename}/articles/2018/2018-06-15_new_python_project_optimize-images.md)  in the blog.
 
-<hr>
+___
 
-<small>
 **Current Status: <span style="color:green">development</span>**  
 **Main toolset: ** [Python 3.6+](https://www.python.org){target=:_blank}, [Pillow](http://python-pillow.org/){target=:_blank}, [Pythonista 3](http://omz-software.com/pythonista/){target=:_blank}    
 **Source code: ** [**Fork it on GitHub**](https://github.com/victordomingos/optimize-images){target=:_blank}
-</small>
+

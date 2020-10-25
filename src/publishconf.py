@@ -16,10 +16,13 @@ from pelicanconf import *
 RELATIVE_URLS = True
 
 
+#JINJA2CONTENT_TEMPLATES = ['article-ads.html']
+
 PLUGINS = PLUGINS + ['sitemap',
-		            #'deadlinks',
-                     'pelican-minify',  # this should be the last plugin affecting html
-                     'minification', # idem...
+                    #'jinja2content',
+     	            #'deadlinks',
+                    'pelican-minify',  # this should be the last plugin affecting html
+                    'minification', # idem...
                     ]
 
 SITEMAP = {

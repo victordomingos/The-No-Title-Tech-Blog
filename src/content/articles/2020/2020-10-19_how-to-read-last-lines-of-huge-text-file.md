@@ -29,3 +29,4 @@ The number of lines you specify (counting backwards from the end of file) will b
 Now, if you are responsible for writing or maintaining the code that has been generating those gigantic multi-gigabyte or multi-terabyte log files, it may be a good time to consider implementing a [log rotation scheme](https://en.wikipedia.org/wiki/Log_rotation){:target=_blank}. In fact, there are even ready-to-use implementations available for most programming languages, so it should not be a daunting task.
 
 Your future self, and maybe other people that also need to interact with your system, will deeply appreciate! 😉
+

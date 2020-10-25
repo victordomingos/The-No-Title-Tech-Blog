@@ -12,11 +12,10 @@ Why all tis work? Well, the regular Dropbox app didn't run anymore on such an ol
 
 Want to know more about this project? Check out its [full story]({filename}/articles/2018/2018-04-12_python_to_the_rescue.md) in the blog.  
 
-<hr>
+___
 
-<small>
 **Current Status: <span style="color:green">stable</span>**  
 **Main toolset: ** [Python 3.5+](https://www.python.org){target=:_blank}, [Dropbox API](https://www.dropbox.com/developers/documentation/http/documentation){target=:_blank}, [Requests](http://docs.python-requests.org/en/master/){target=:_blank}  
 **Source code: ** [**Fork it on GitHub**](https://github.com/victordomingos/NPK-Backup){target=:_blank}
-</small>
+
 
