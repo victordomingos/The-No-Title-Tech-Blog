@@ -1,14 +1,14 @@
 <h4>Recently</h4>
-<ul id="recent-posts">
 
+<table class="recent_posts">
 {% set recent_articles = articles if not all_articles else all_articles %}
 
 {% for a in recent_articles %}
   {% if loop.index <= 6 %}
-    <li>
+    <tr><td>
       <a href="{{ SITEURL }}/{{ a.url }}">{{ a.title }}</a>
-    </li>
+    </td></tr>
   {% endif %}
 {% endfor %}
 
-</ul>
+</table>

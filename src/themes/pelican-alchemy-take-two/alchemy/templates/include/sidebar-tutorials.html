@@ -1,13 +1,13 @@
 <H4>Tips & tutorials</H4>
 
-<ul id="tutorials">
+<table id="tutorials">
 
 {% set posts = articles if not all_articles else all_articles %}
 
 {% for post in posts if post.category.name == 'Tutorials' %}
-  <li>
+  <tr><td>
     <a href="{{ SITEURL }}/{{ post.url }}">{{ post.title }}</a>
-  </li>
+  </td></tr>
 {% endfor %}
 
-</ul>
+</table>

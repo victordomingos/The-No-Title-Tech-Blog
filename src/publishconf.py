@@ -21,7 +21,7 @@ RELATIVE_URLS = True
 PLUGINS = PLUGINS + ['sitemap',
                     #'jinja2content',
      	            #'deadlinks',
-                    'pelican-minify',  # this should be the last plugin affecting html
+                    'minify',  # this should be the last plugin affecting html
                     'minification', # idem...
                     ]
 
