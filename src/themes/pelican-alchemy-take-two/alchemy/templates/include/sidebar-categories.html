@@ -1,0 +1,20 @@
+<H4>Sections</H4>
+
+<table class="categories-table"">
+{% set n = 1 %}
+{% for category, _ in categories %}
+   {% if loop.index % 2 != 0 %}
+  	<tr>
+      <td>
+	    <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>
+	  </td>
+  {% else %}
+  	<td>
+	  <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>
+	</td>
+	</tr>
+  {% endif %}
+	
+  {% set n = n + 1 %}
+{% endfor %}
+</table>

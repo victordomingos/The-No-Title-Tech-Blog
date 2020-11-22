@@ -82,4 +82,4 @@ In other places, like in the [Projects]({filename}/pages/projects/projects.md) p
 
 
 ## Have a better idea?
-So, if you are also using Pelican and have come up with a better solution for these problems, please [let me know](https://victordomingos.com/contactos/). 
+So, if you are also using Pelican and have come up with a better solution for these problems, please [let me know](https://victordomingos.com/info/contactos.php). 

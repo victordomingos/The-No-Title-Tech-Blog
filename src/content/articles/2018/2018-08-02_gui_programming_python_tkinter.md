@@ -185,7 +185,7 @@ These websites also contain lots of useful information:
 
  - [An Introduction To Tkinter](http://effbot.org/tkinterbook/tkinter-index.htm){:target=_blank} - Lots of information, not exhaustive, but will certainly appear on Google when your searching for something related to tkinter, and probably the answer you need is there.
 
-- [Tkinter 8.5 reference: a GUI for Python](http://infohost.nmt.edu/tcc/help/pubs/tkinter/tkinter.pdf){:target=_blank} - some code may be outdated, but still a useful resource to learn the basics and find some answers.
+- [Tkinter 8.5 reference: a GUI for Python](https://tkdocs.com/shipman/tkinter.pdf){:target=_blank} - some code may be outdated, but still a useful resource to learn the basics and find some answers.
 
 
 ...and if you know Tcl/Tk and can translate from Tcl to Python, you will probably feel at home using tkinter, and the [Tcl/Tk docs](https://www.tcl.tk/man/tcl8.6/){:target=_blank} may be a helpful resource (for more information, check out [this section of Python docs](https://docs.python.org/3/library/tkinter.html#a-very-quick-look-at-tcl-tk){:target=_blank}).

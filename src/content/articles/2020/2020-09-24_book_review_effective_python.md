@@ -1,4 +1,4 @@
-Title: Book review – Effective Python, by Brett Slatkin (and a free chapter for download)
+Title: Book review — Effective Python, by Brett Slatkin (and a free chapter for download)
 Date: 2020-09-24 00:04
 Lang: en
 Tags: python, books, Slatkin, effective, learning, code quality, pythonic, best practices, performance

@@ -1,0 +1,24 @@
+<H4>Book reviews</H4>
+
+
+
+{% set posts = articles if not all_articles else all_articles %}
+
+<table>
+  {% for post in posts if post.category.name == 'Book Reviews' %}
+	 <tr>
+		<td>
+			<a href="{{ SITEURL }}/{{ post.url }}">
+				<img class="sidebar-book" width="70px" src="{{ SITEURL }}/{{post.cover | thumbnail("_x140") }}" alt="{{ post.title }}">
+			</a>
+		</td>
+		<td>
+			<a href="{{ SITEURL }}/{{ post.url }}">
+				{{ post.title.replace('—', '-').replace('–', '-').replace('Book review - ', '') }}
+			</a>
+		</td>
+	</tr>
+  {% endfor %}
+</table>
+
+

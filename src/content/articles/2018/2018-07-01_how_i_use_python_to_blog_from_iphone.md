@@ -132,4 +132,4 @@ Here is a small video of the whole build and deployment process being done direc
 
 
 ### What do you think?
-So, if you are also using Pelican and have come up with a better solution for these problems, please [let me know](https://victordomingos.com/contactos/). 
+So, if you are also using Pelican and have come up with a better solution for these problems, please [let me know](https://victordomingos.com/info/contactos.php). 

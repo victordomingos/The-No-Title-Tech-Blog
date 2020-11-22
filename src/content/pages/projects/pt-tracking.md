@@ -11,6 +11,6 @@ Simple database application allows to keep a register and automatically track on
 ___
 
 **Current Status: <span style="color:green">stable</span>**    
-**Main toolset: ** [Python 3.6+](https://www.python.org){target=:_blank}, [SQLite](https://www.sqlite.org/about.html){target=:_blank}, [tkinter](https://docs.python.org/3.7/library/tkinter.html){target=:_blank}, [ttk](https://docs.python.org/3/library/tkinter.ttk.html#module-tkinter.ttk){target=:_blank}, [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/){target=:_blank}, [Requests](http://docs.python-requests.org/en/master/){target=:_blank}  
+**Main toolset: ** [Python 3.6+](https://www.python.org){target=:_blank}, [SQLite](https://www.sqlite.org/about.html){target=:_blank}, [tkinter](https://docs.python.org/3.7/library/tkinter.html){target=:_blank}, [ttk](https://docs.python.org/3/library/tkinter.ttk.html#module-tkinter.ttk){target=:_blank}, [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/){target=:_blank}, [Requests](https://requests.readthedocs.io/en/master/){target=:_blank}  
 **Source code: ** [**Fork it on GitHub**](https://github.com/victordomingos/PT-Tracking){target=:_blank}
 

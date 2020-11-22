@@ -43,7 +43,11 @@
 	    {% endif %}
 
       <a href="{{ SITEURL }}/{{ article.url }}">
-          <img alt="{{ article.title|striptags }}" class="article_list_img" src="{{ SITEURL}}/{{ article.cover | thumbnail("400x_") }}" width="100%"/>
+        <img alt="{{ article.title|striptags }}" 
+             class="article_list_img" 
+             src="{{ SITEURL}}/{{ article.cover | thumbnail("680x_") }}"  
+             width="100%"
+             />
       </a>
 
       </header>
@@ -67,8 +71,6 @@
 	        	{% if article.readtime %} Reading time: {{ article.readtime_string }} {% endif %}
         	</div>
         </div>
-        
-        
         
         
         

@@ -1,4 +1,4 @@
-Title: Book review - Machine Learning with Python for Everyone, By Mark E. Fenner
+Title: Book review — Machine Learning with Python for Everyone, By Mark E. Fenner
 Date: 2020-02-26 02:10
 Lang: en
 Tags: python, books, Mark E. Fenner, machine learning, learning, Scikit-learn, data science, Numpy, Pandas,

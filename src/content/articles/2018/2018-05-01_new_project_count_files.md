@@ -69,4 +69,4 @@ You can download the source code and read a more complete description of this ap
 
 
 ## Have a better idea?
-If you have come up with a better solution for these problems, please [let me know](https://victordomingos.com/contactos/).
+If you have come up with a better solution for these problems, please [let me know](https://victordomingos.com/info/contactos.php).

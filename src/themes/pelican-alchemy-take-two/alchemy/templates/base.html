@@ -65,13 +65,23 @@
     </div>
   </header>
 
+
+
   <div class="main">
     <div class="container">
       <h2>{% block page_header %}{% endblock %}</h2>
       <hr>
+      
       {% block content %}{% endblock %}
     </div>
+
+    <div class="sidebar">
+	  {% include 'include/sidebar.html' %}
+    </div>
+
   </div>
+
+
 
 <!--  <div id="searchbox">
 	<script async src='https://cse.google.com/cse.js?cx=a86cc9b4ba82dc66e'></script>
@@ -80,9 +90,9 @@
 -->
 
   <footer class="footer">
-    <div class="container">
+    
       {% include 'include/footer.html' %}
-    </div>
+    
 
   </footer>
 

@@ -1,0 +1,34 @@
+<div class="sidebar-card">
+  {% include 'include/sidebar-categories.html' %}
+</div>
+
+{% if article or page %}
+<div class="sidebar-card">
+  {% include 'include/sidebar-recent.html' %}
+</div>
+{% endif %}
+
+
+<div class="sidebar-card">
+  {% include 'include/sidebar-books.html' %}
+</div>
+
+
+<div class="sidebar-card">
+  {% include 'include/sidebar-tutorials.html' %}
+</div>
+
+
+
+<!--
+
+<div class="sidebar-card">
+  {% include 'include/sidebar-ads.html' %}
+</div>
+
+
+<div class="sidebar-card">
+{% include 'include/sidebar-top-articles.html' %}
+</div>
+
+-->

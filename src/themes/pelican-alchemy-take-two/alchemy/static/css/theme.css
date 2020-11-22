@@ -1,14 +1,115 @@
 /* ----------------------- Page structure and header ----------------------- */
 
 body {
-  background-color: #f5f5f5;
+  background-color: #FFF;
   font-size: 18px;
   color: #5c5c5c;
 }
 
 
 .container {
-  max-width: 800px;
+  /*max-width: 800px;*/
+  float: left;
+  margin-right: 0;
+  max-width: 1000px;
+}
+
+.sidebar {
+  max-width: 320px;
+  min-width: 320px;
+  margin-top: 0;
+  margin-left: 50px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  position: relative;
+  overflow: auto;
+  padding: 0px;
+  padding-top: 0;
+}
+
+col-sm-3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 30%;
+  flex: 0 0 30%;
+  max-width: 300px;
+}
+
+.article_list_img {
+  margin-top: 3px;
+  margin-bottom: 35px;
+}
+
+.categories-table {
+  width: 100%;
+}
+
+.sidebar-card ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.sidebar-card li {
+  margin-bottom: 10px;
+}
+
+.sidebar-card {
+  font-size: .94rem;
+}
+
+.sidebar-card {
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  border: 1px #EEE solid;
+  border-radius: 7px;
+  padding: 8px;
+}
+
+.sidebar-card h4 {
+  border-bottom: 0.5px solid #EEE;
+}
+
+.sidebar-book {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+
+  .main { 
+    display: block; 
+  
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sidebar a {float: left;} 
+  
+  div.content {margin-left: 0;} 
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .header{
@@ -144,6 +245,7 @@ body {
 .main {
   background-color: #fff;
   padding: 8rem 0 3rem 0;
+  display: flex;
 }
 
 ::selection {
@@ -207,6 +309,10 @@ hr {
   max-width: 100%;
 }
 /* ---------------------------- Article section ---------------------------- */
+
+.article .teaser {
+  margin-top: 40px;
+}
 
 .article header ul,
 .article header li {
@@ -366,6 +472,7 @@ hr {
 
   h2 {
     font-size: 2rem;
+    
   }
 
 
@@ -417,7 +524,42 @@ hr {
 
   .main {
      padding: 14.9rem 0 3rem 0;
+     display: block; 
+
   }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    float: none;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .col-sm-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+
+  .article_list_text {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+
+  .sidebar a {float: left;} 
+  
+  div.content {  
+  	margin-left: 0;
+  	margin-right: 0;  
+  } 
 
   .header .title {
     font-size: 1.7rem;
@@ -474,6 +616,7 @@ hr {
     width: 100%;
     max-width: 200px;
     max-height: 200px;
+    margin-bottom: 10px;
   }
 
   .row {
@@ -485,6 +628,25 @@ hr {
 }
 
 
+
+@media (max-width: 540px) {
+
+  
+.col-sm-3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.article_list_text {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+ .pagination { display: ruby; }
 
 /* Pygments theme (autumn)*/
 .highlight pre .hll{background-color:#ffc}.highlight pre{background:#fff}.highlight pre .c{color:#aaa;font-style:italic}.highlight pre .err{color:#f00;background-color:#faa}.highlight pre .k{color:#00a}.highlight pre .ch{color:#aaa;font-style:italic}.highlight pre .cm{color:#aaa;font-style:italic}.highlight pre .cp{color:#4c8317}.highlight pre .cpf{color:#aaa;font-style:italic}.highlight pre .c1{color:#aaa;font-style:italic}.highlight pre .cs{color:#00a;font-style:italic}.highlight pre .gd{color:#a00}.highlight pre .ge{font-style:italic}.highlight pre .gr{color:#a00}.highlight pre .gh{color:#000080;font-weight:bold}.highlight pre .gi{color:#0a0}.highlight pre .go{color:#888}.highlight pre .gp{color:#555}.highlight pre .gs{font-weight:bold}.highlight pre .gu{color:#800080;font-weight:bold}.highlight pre .gt{color:#a00}.highlight pre .kc{color:#00a}.highlight pre .kd{color:#00a}.highlight pre .kn{color:#00a}.highlight pre .kp{color:#00a}.highlight pre .kr{color:#00a}.highlight pre .kt{color:#0aa}.highlight pre .m{color:#099}.highlight pre .s{color:#a50}.highlight pre .na{color:#1e90ff}.highlight pre .nb{color:#0aa}.highlight pre .nc{color:#0a0;text-decoration:underline}.highlight pre .no{color:#a00}.highlight pre .nd{color:#888}.highlight pre .ni{color:#800;font-weight:bold}.highlight pre .nf{color:#0a0}.highlight pre .nn{color:#0aa;text-decoration:underline}.highlight pre .nt{color:#1e90ff;font-weight:bold}.highlight pre .nv{color:#a00}.highlight pre .ow{color:#00a}.highlight pre .w{color:#bbb}.highlight pre .mb{color:#099}.highlight pre .mf{color:#099}.highlight pre .mh{color:#099}.highlight pre .mi{color:#099}.highlight pre .mo{color:#099}.highlight pre .sb{color:#a50}.highlight pre .sc{color:#a50}.highlight pre .sd{color:#a50}.highlight pre .s2{color:#a50}.highlight pre .se{color:#a50}.highlight pre .sh{color:#a50}.highlight pre .si{color:#a50}.highlight pre .sx{color:#a50}.highlight pre .sr{color:#099}.highlight pre .s1{color:#a50}.highlight pre .ss{color:#00a}.highlight pre .bp{color:#0aa}.highlight pre .vc{color:#a00}.highlight pre .vg{color:#a00}.highlight pre .vi{color:#a00}.highlight pre .il{color:#099}
