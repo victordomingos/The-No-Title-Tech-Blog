@@ -1,13 +1,24 @@
 <H4>Tips & tutorials</H4>
 
-<table id="tutorials">
+<table id="tutorials" class="imagelinkstable">
 
 {% set posts = articles if not all_articles else all_articles %}
 
 {% for post in posts if post.category.name == 'Tutorials' %}
-  <tr><td>
-    <a href="{{ SITEURL }}/{{ post.url }}">{{ post.title }}</a>
-  </td></tr>
+  {% if loop.index <= 4 %}
+  <tr>
+    <td>
+	  <a href="{{ SITEURL }}/{{ post.url }}">
+	    <img class="sidebar-book" width="70px" src="{{ SITEURL }}/{{post.cover | thumbnail("_x140") }}" alt="{{ post.title }}">
+      </a>
+	</td>
+	<td class="linkcell">
+	  <a href="{{ SITEURL }}/{{ post.url }}">{{ post.title }}</a>
+    </td>
+  </tr>
+  {% endif %}
 {% endfor %}
 
 </table>
+
+<a class="sidebar_readmore" href="{{ SITEURL }}/category/tutorials.html">See more tips & tutorials</a>

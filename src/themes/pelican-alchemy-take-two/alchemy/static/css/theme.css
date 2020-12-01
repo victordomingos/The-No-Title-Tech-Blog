@@ -60,9 +60,8 @@ col-sm-3 {
 
 .sidebar-card {
   font-size: .94rem;
-}
-
-.sidebar-card {
+  display: inline-block;
+  width: 100%;
   margin-top: 10px;
   margin-right: 5px;
   margin-bottom: 30px;
@@ -79,6 +78,18 @@ col-sm-3 {
   display: block;
   position: relative;
   top: 0px;
+}
+
+.sidebar .imagelinkstable {
+  border-bottom: 0.5px solid #EEE;
+}
+
+a.sidebar_readmore {
+  text-align: center;
+  font-weight: 700;
+  display: block;
+  padding-top: 5px;
+  margin-bottom: 0px;
 }
 
 .sidebar-book {

@@ -1,14 +1,22 @@
 <h4>Recently</h4>
 
-<table class="recent_posts">
+<table class="recent_posts imagelinkstable">
 {% set recent_articles = articles if not all_articles else all_articles %}
 
-{% for a in recent_articles %}
-  {% if loop.index <= 6 %}
-    <tr><td>
-      <a href="{{ SITEURL }}/{{ a.url }}">{{ a.title }}</a>
-    </td></tr>
+{% for post in recent_articles %}
+  {% if loop.index <= 3 %}
+  <tr>
+    <td>
+	  <a href="{{ SITEURL }}/{{ post.url }}">
+	    <img class="sidebar-book" width="70px" src="{{ SITEURL }}/{{post.cover | thumbnail("_x140") }}" alt="{{ post.title }}">
+      </a>
+	</td>
+	<td class="linkcell">
+	  <a href="{{ SITEURL }}/{{ post.url }}">{{ post.title }}</a>
+    </td>
+  </tr>
   {% endif %}
 {% endfor %}
-
 </table>
+
+<a class="sidebar_readmore" href="{{ SITEURL }}">See more recent posts</a>

@@ -1,11 +1,10 @@
 <H4>Book reviews</H4>
 
-
-
 {% set posts = articles if not all_articles else all_articles %}
 
-<table>
+<table class="imagelinkstable">
   {% for post in posts if post.category.name == 'Book Reviews' %}
+    {% if loop.index <= 4 %}
 	 <tr>
 		<td>
 			<a href="{{ SITEURL }}/{{ post.url }}">
@@ -18,7 +17,9 @@
 			</a>
 		</td>
 	</tr>
+	{% endif %}
   {% endfor %}
 </table>
 
+<a class="sidebar_readmore" href="{{ SITEURL }}/category/book-reviews.html">See more book reviews</a>
 
