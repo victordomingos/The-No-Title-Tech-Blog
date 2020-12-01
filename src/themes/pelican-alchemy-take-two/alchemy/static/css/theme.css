@@ -75,6 +75,12 @@ col-sm-3 {
   border-bottom: 0.5px solid #EEE;
 }
 
+.sidebar .linkcell {
+  display: block;
+  position: relative;
+  top: 0px;
+}
+
 .sidebar-book {
   height: 70px;
   width: 70px;
