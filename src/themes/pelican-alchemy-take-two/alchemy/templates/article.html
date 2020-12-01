@@ -46,8 +46,8 @@
     </header>
     {% if article.cover %}
       <picture>
-        <source id="cover" media="(min-width: 650px)" srcset="{{ SITEURL }}/{{ article.cover | thumbnail("1300x_") }}" alt="{{ article.title }}">
-        <source id="cover" media="(min-width: 465px)" srcset="{{ SITEURL }}/{{ article.cover | thumbnail("650x_") }}" alt="{{ article.title }}">
+        <source id="cover" media="(min-width: 650px)" srcset="{{ SITEURL }}/{{ article.cover | thumbnail("1600x_") }}" alt="{{ article.title }}">
+        <source id="cover" media="(min-width: 465px)" srcset="{{ SITEURL }}/{{ article.cover | thumbnail("800x_") }}" alt="{{ article.title }}">
         <img id="cover" src="{{ SITEURL }}/{{ article.cover }}" alt="{{ article.title }}">
       </picture>
     {% endif %}

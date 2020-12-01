@@ -18,7 +18,7 @@ body {
   max-width: 320px;
   min-width: 320px;
   margin-top: 0;
-  margin-left: 50px;
+  margin-left: 30px;
   margin-right: auto;
   margin-bottom: 0px;
   position: relative;
@@ -266,7 +266,7 @@ a.sidebar_readmore {
 
 .main {
   background-color: #fff;
-  padding: 8rem 0 3rem 0;
+  padding: 8rem 1.5rem 3rem 0;
   display: flex;
 }
 
@@ -352,8 +352,10 @@ hr {
 }
 
 .article #cover {
-  max-width: 100%;
+  /* 
+max-width: 100%;
   max-height: 360px;
+ */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -643,7 +645,7 @@ header .col-sm-7 {
 
   .article #cover {
     max-width: 100%;
-    max-height: 280px;
+    /* max-height: 280px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
