@@ -2,11 +2,11 @@ beautifulsoup4==4.9.3
 blinker==1.4
 bs4==0.0.1
 certifi==2020.11.8
-cffi==1.14.3
+cffi==1.14.4
 chardet==3.0.4
 colorama==0.4.4
 count-files==1.5.0
-cryptography==3.1.1
+cryptography==3.2.1
 csscompressor==0.9.5
 docutils==0.16
 entrypoints==0.3
@@ -17,8 +17,8 @@ importlib-metadata==2.0.0
 jeepney==0.4.3
 Jinja2==2.11.2
 joblib==0.17.0
-keyring==21.4.0
-Markdown==3.3.2
+keyring==21.5.0
+Markdown==3.3.3
 MarkupSafe==1.1.1
 more-itertools==8.5.0
 olefile==0.46
@@ -41,7 +41,7 @@ pyembed-markdown==1.1.0
 pyftpsync==3.1.0
 Pygments==2.6.1
 python-dateutil==2.8.1
-pytz==2020.1
+pytz==2020.4
 PyYAML==5.3.1
 requests==2.25.0
 six==1.15.0
