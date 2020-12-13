@@ -26,7 +26,7 @@ Tkinter has some limitations, but I believe that many developers ignore its pote
 
 However, when you use `ttk`, which is a themed widget set, it blends with the native OS theme, so it looks very similar to a native app. And, in fact, it's not that bad, in my opinion. Let me show you my first Python/tkinter app, [PT Tracking]({filename}/pages/projects/pt-tracking.md):
 
-[!embed?max_width=740](https://www.youtube.com/watch?v=t-iBO8xAjO8&t=58s)
+<iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/t-iBO8xAjO8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 It definitely needs some extra care in packaging and some other details, but hey, it has been working well for me and my team for the last two years.
 
@@ -38,7 +38,7 @@ Now, notice what I did. I spent some time reading through Apple's Human Interfac
 
 In case you are worried that it can't scale up from a simple single window application into something more elaborated, don't be. Please, take a look this other tkinter project I have been working on:
 
-[!embed?max_width=740](https://www.youtube.com/watch?v=ai51wUk5MrU)
+<iframe width="900" height="500" src="https://www.youtube-nocookie.com/embed/ai51wUk5MrU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Once again, it's also a desktop database application, this time backed by [SQLAlchemy](https://sqlalchemy.org){:target=_blank}. It starts with a login box and then spreads into several windows that have different designs, according to their respective purpose. Despite the fact that this project is still under development, still with some rough edges, you will certainly notice some intentional interface familiarity, in terms of what a Mac user would expect. Did you notice, for instance, that short animation in the login box, when the user enters some invalid login credentials? Tkinter does not provide any animation primitives, but it's relatively easy to use the `place()` geometry mechanism to generate simple animations like these.
 
