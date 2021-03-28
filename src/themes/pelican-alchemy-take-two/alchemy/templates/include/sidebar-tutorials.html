@@ -5,11 +5,11 @@
 {% set posts = articles if not all_articles else all_articles %}
 
 {% for post in posts if post.category.name == 'Tutorials' %}
-  {% if loop.index <= 4 %}
+  {% if loop.index <= 5 %}
   <tr>
     <td>
 	  <a href="{{ SITEURL }}/{{ post.url }}">
-	    <img class="sidebar-book" width="70px" src="{{ SITEURL }}/{{post.cover | thumbnail("_x140") }}" alt="{{ post.title }}">
+	    <img class="sidebar-book" width="70" src="{{ SITEURL }}/{{post.cover | thumbnail("_x140") }}" alt="{{ post.title }}">
       </a>
 	</td>
 	<td class="linkcell">
