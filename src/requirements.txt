@@ -51,6 +51,6 @@ smartypants==2.0.1
 soupsieve==2.1
 typogrify==2.0.7
 Unidecode==1.1.2
-urllib3==1.26.3
+urllib3==1.26.4
 watchdog==1.0.2
 zipp==3.4.0
