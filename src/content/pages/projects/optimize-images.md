@@ -6,7 +6,7 @@ Cover: images/projects/optimize-images.png
 
 ![Optimize Images]({static}/images/projects/optimize-images.svg)
 
-A little command-line interface (CLI) utility written in (almost) pure Python to help you reduce the file size of images.
+A command-line interface (CLI) utility written in (almost) pure Python to help you reduce the file size of images.
 
 You must explicitly pass it a path to the source image file or to the directory containing the image files to be processed. By default, it will go through all of its subdirectories and try to optimize the images found. You may however choose to process the specified directory only, without recursion.
 
@@ -21,9 +21,11 @@ Despite the limitations imposed by the scope of this project (keeping compatibil
 
 Want to know more about this project? Check out its [full story of its begining]({filename}/articles/2018/2018-06-15_new_python_project_optimize-images.md)  in the blog.
 
+If you were just looking for the graphical user interface (GUI) version of this application, it's a separate project:  [Optimize Images X]({filename}/pages/projects/optimize-images-x.md) .
+
 ___
 
-**Current Status: <span style="color:green">development</span>**  
+**Current Status: <span style="color:green">stable</span>**  
 **Main toolset: ** [Python 3.7+](https://www.python.org){target=:_blank}, [Pillow](http://python-pillow.org/){target=:_blank}, [Watchdog](https://github.com/gorakhargosh/watchdog){target=:_blank}, [Pythonista 3](http://omz-software.com/pythonista/){target=:_blank}    
 **Source code: ** [**Fork it on GitHub**](https://github.com/victordomingos/optimize-images){target=:_blank}
 

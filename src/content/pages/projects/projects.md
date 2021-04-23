@@ -13,17 +13,19 @@ Lang: en
 
 
 <article class="row teaser">
-<header class="col-sm-3 text-muted"><a href="../nice-telescope-planner">
-    <img alt="Nice Telescope Planner - a" src="{static /images/projects/nice_telescope_planner.png thumb="320x_"}" class="article_list_img"/>
-  </a></header>
-
+<header class="col-sm-3">
+  <a href="../optimize-images-x">
+    <img alt="Optimize Images X - a desktop app with easy to use graphical interface written in Python to reduce the file size of images" src="{static /images/projects/optimize-images-x.png thumb="320x_"}" class="article_list_img">
+  </a>
+</header>
 <div class="col-sm-9">
-  <h4 class="title"><a href="../nice-telescope-planner">Nice Telescope Planner
+  <h4 class="title"><a href="../optimize-images-x">
+  Optimize Images X
   </a></h4>
+
   <div class="content">
-A cross-platform desktop utility for amateur astronomy hobbyists, written in Java. The aim is to provide an easy to use tool to help planning sky observation sessions, suggesting some of the interesting objects you may be able to watch at naked eye, or using amateur equipment (binoculars or small to medium size telescopes) in a given date/time and place.
-  </div>
-</div>
+A desktop app written in Python, that exposes and unlocks the full power of Optimize Images in a nice graphical user interface, to help you reduce the file size of images. Just like its CLI companion app, it can process a single file, a folder's root or all images in a folder, recursively. Multiple image processing tasks are automatically distributed to all available CPU cores. Additionally, it includes a "watch folder" feature that continuously monitors a specified folder for new image files and processes them right after they're created or placed in that folder.
+  </div></div>
 </article>
 
 
@@ -41,7 +43,7 @@ _____
   </a></h4>
 
   <div class="content">
-A command-line interface (CLI) utility written in (almost) pure Python to help you reduce the file size of images. It can process a single file, a folder's root or all images in a folder, recursively. Multiple image processing tasks are automatically distributed to all available cores, getting the most of the specific device being used.
+A command-line interface (CLI) utility written in (almost) pure Python to help you reduce the file size of images. It can process a single file, a folder's root or all images in a folder, recursively. Multiple image processing tasks are automatically distributed to all available cores, getting the most of the specific device being used. Additionally, it includes a "watch folder" feature that continuously monitors a specified folder for new image files and processes them right after they're created or placed in that folder.
   </div></div>
 </article>
 
@@ -62,6 +64,23 @@ _____
   <div class="content">
 A command-line interface (CLI) utility written in Python to help you count files, grouped by extension, in a directory. By default, it will count files recursively in current working directory and all of its subdirectories, and will display a table showing the frequency for each file extension (e.g.: .txt, .py, .html, .css) and the total number of files found.
   </div></div>
+</article>
+
+
+_____
+
+<article class="row teaser">
+<header class="col-sm-3 text-muted"><a href="../nice-telescope-planner">
+    <img alt="Nice Telescope Planner - a" src="{static /images/projects/nice_telescope_planner.png thumb="320x_"}" class="article_list_img"/>
+  </a></header>
+
+<div class="col-sm-9">
+  <h4 class="title"><a href="../nice-telescope-planner">Nice Telescope Planner
+  </a></h4>
+  <div class="content">
+A cross-platform desktop utility for amateur astronomy hobbyists, written in Java. The aim is to provide an easy to use tool to help planning sky observation sessions, suggesting some of the interesting objects you may be able to watch at naked eye, or using amateur equipment (binoculars or small to medium size telescopes) in a given date/time and place.
+  </div>
+</div>
 </article>
 
 _____

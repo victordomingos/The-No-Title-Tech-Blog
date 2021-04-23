@@ -10,7 +10,7 @@ A little fun project made in an iPhone using Pythonista. It's a nicely formatted
 
 ___
 
-**Current Status: <span style="color:green">stable</span>**  
+**Current Status: <span style="color:chocolate">not maintained anymore</span>**  
 **Main toolset: ** [Python 3.6+](https://www.python.org){target=:_blank}, [Pythonista for iOS](http://omz-software.com/pythonista/){target=:_blank}, [Requests](https://requests.readthedocs.io/en/master/){target=:_blank}, [OpenWeatherMap.org API](https://openweathermap.org/api){target=:_blank}, [JSON](https://www.json.org){target=:_blank}  
 **Source code: ** [**Fork it on GitHub**](https://github.com/victordomingos/Pythonista-tools){target=:_blank}
 

@@ -12,7 +12,7 @@ A cross-platform desktop utility for amateur astronomy hobbyists, written in Jav
 
 ____
 
-**Current Status: <span style="color:chocolate">under development</span>**  
+**Current Status: <span style="color:chocolate">not maintained anymore</span>**  
 **Main toolset: ** [Java](https://www.java.com){target=:_blank}, [Swing](https://docs.oracle.com/javase/8/docs/technotes/guides/swing/){target=:_blank}, [MySQL](https://www.mysql.com/){target=:_blank}, [JPARSEC](http://conga.oan.es/~alonso/jparsec/doc/index.html){target=:_blank}  
 **Source code: ** [**Fork it on GitHub**](https://github.com/victordomingos/NiceTelescopePlanner){target=:_blank}
 

@@ -14,7 +14,7 @@ Want to know more about this project? Check out its [full story]({filename}/arti
 
 ___
 
-**Current Status: <span style="color:green">stable</span>**  
+**Current Status: <span style="color:chocolate">not maintained anymore</span>**  
 **Main toolset: ** [Python 3.5+](https://www.python.org){target=:_blank}, [Dropbox API](https://www.dropbox.com/developers/documentation/http/documentation){target=:_blank}, [Requests](https://requests.readthedocs.io/en/master/){target=:_blank}  
 **Source code: ** [**Fork it on GitHub**](https://github.com/victordomingos/NPK-Backup){target=:_blank}
 
