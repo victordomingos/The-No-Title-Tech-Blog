@@ -183,7 +183,7 @@ These websites also contain lots of useful information:
  - [Graphical User Interfaces with Tk](https://docs.python.org/3/library/tk.html){:target=_blank} (official Python docs)
  - [TkDocs](https://tkdocs.com){:target=_blank} - some basic Tk examples explained in 4 programming languages, including Python.
 
- - [An Introduction To Tkinter](http://effbot.org/tkinterbook/tkinter-index.htm){:target=_blank} - Lots of information, not exhaustive, but will certainly appear on Google when your searching for something related to tkinter, and probably the answer you need is there.
+ - [An Introduction To Tkinter](https://web.archive.org/web/20200329151747/https://effbot.org/tkinterbook/){:target=_blank} - Lots of information, not exhaustive, but will certainly appear on Google when your searching for something related to tkinter, and probably the answer you need is there.
 
 - [Tkinter 8.5 reference: a GUI for Python](https://tkdocs.com/shipman/tkinter.pdf){:target=_blank} - some code may be outdated, but still a useful resource to learn the basics and find some answers.
 
