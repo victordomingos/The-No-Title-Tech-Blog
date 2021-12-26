@@ -10,7 +10,7 @@ charset-normalizer==2.0.9
 colorama==0.4.4
 commonmark==0.9.1
 count-files==1.5.0
-cryptography==3.3.1
+cryptography==3.3.2
 csscompressor==0.9.5
 docutils==0.18.1
 entrypoints==0.3
