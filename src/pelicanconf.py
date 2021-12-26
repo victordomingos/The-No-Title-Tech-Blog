@@ -1,4 +1,3 @@
-
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
@@ -10,9 +9,7 @@ try:
 except ImportError:
     from pathlib2 import Path
 
-
 DELETE_OUTPUT_DIRECTORY = True
-
 
 AUTHOR = u'Victor Domingos'
 SITENAME = u'The <strong>No&nbsp;Title<small><sup>&reg;</sup></small></strong> Tech&nbsp;Blog'
@@ -23,7 +20,7 @@ DESCRIPTION = u'A personal blog about learning programming technologies, includi
 PATH = 'content'
 STATIC_PATHS = ['images', 'pdf']
 PAGE_PATHS = ['pages']
-ARTICLE_PATHS = ['articles']    
+ARTICLE_PATHS = ['articles']
 DEFAULT_PAGINATION = 6
 DEFAULT_ORPHANS = 2
 
@@ -43,7 +40,6 @@ TAGS_SAVE_AS = 'tags/index.html'
 
 ARTICLE_URL = 'articles/{date:%Y}/{slug}'
 ARTICLE_SAVE_AS = 'articles/{date:%Y}/{slug}/index.html'
-
 
 PAGE_URL = '{category}/{slug}'
 PAGE_SAVE_AS = '{category}/{slug}/index.html'
@@ -72,7 +68,6 @@ SLUGIFY_SOURCE = 'basename'
 DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_PAGES_ON_MENU = True
 
-
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
@@ -82,13 +77,11 @@ SITESUBTITLE = 'Tales of an exploration on antigravity and other potentially unr
 DISPLAY_DATE_ON_ARTICLE_LIST = False
 SITEIMAGE_FOLDER = 'images/avatars/x150'  # Images to be used randomly in the header
 
-
-SITEIMAGES = [ Path(*Path(img).parts[1:])
-               for img in glob('{}/{}/*.png'.format(PATH,SITEIMAGE_FOLDER))]
+SITEIMAGES = [Path(*Path(img).parts[1:])
+              for img in glob('{}/{}/*.png'.format(PATH, SITEIMAGE_FOLDER))]
 
 SITEIMAGE_SIZE = 'width=100% height=100%'
-SITEIMAGE = '/images/avatars/x150/avatar1.png' # Default Image that appears in the header
-
+SITEIMAGE = '/images/avatars/x150/avatar1.png'  # Default Image that appears in the header
 
 # Social widget
 ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
@@ -97,26 +90,25 @@ ICONS = (('facebook', 'https://www.facebook.com/escritorvictordomingos/'),
          ('github', 'https://github.com/victordomingos'),
          ('stack-overflow', 'https://stackoverflow.com/users/6167478/victor-domingos'),)
 
-
 PLUGIN_PATHS = ['plugins/']
-PLUGINS = [
-           'autostatic',
-           'advthumbnailer',
-           'related_posts',
-           'neighbors',
-           'readtime',
-          ]
 
-READTIME_WPM=180
+PLUGINS = [
+    'advthumbnailer',
+    'related_posts',
+    'neighbors',
+    'readtime',
+]
+
+READTIME_WPM = 180
 
 DEADLINK_VALIDATION = True
 DEADLINK_OPTS = {
-        'archive': True,
-        'classes': [],
-        'labels': False,
-        'timeout_duration_ms': 1000,
-        'timeout_is_error': False,
-    }
+    'archive': True,
+    'classes': [],
+    'labels': False,
+    'timeout_duration_ms': 1000,
+    'timeout_is_error': False,
+}
 
 RELATED_POSTS_MAX = 3
 
@@ -130,14 +122,14 @@ MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.codehilite': {'css_class': 'highlight',
                                            'linenums': True,
-                                          },
+                                           },
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
         'markdown.extensions.smarty': {},
         'pyembed.markdown': {},
         # 'markdown.extensions.tables':{},
-        },
+    },
     'output_format': 'html5',
-    }
+}
 
 PYGMENTS_STYLE = "autumn"

@@ -15,7 +15,7 @@ Lang: en
 <article class="row teaser">
 <header class="col-sm-3">
   <a href="../optimize-images-x">
-    <img alt="Optimize Images X - a desktop app with easy to use graphical interface written in Python to reduce the file size of images" src="{static /images/projects/optimize-images-x.png thumb="320x_"}" class="article_list_img">
+    <img alt="Optimize Images X - a desktop app with easy to use graphical interface written in Python to reduce the file size of images" src="../../images/projects/optimize-images-x.png" class="article_list_img">
   </a>
 </header>
 <div class="col-sm-9">
@@ -34,7 +34,7 @@ _____
 <article class="row teaser">
 <header class="col-sm-3">
   <a href="../optimize-images">
-    <img alt="Optimize Images - a command-line interface utility written in Python to reduce the file size of images" src="{static /images/projects/optimize-images.png thumb="320x_"}" class="article_list_img">
+    <img alt="Optimize Images - a command-line interface utility written in Python to reduce the file size of images" src="../../images/projects/optimize-images.png" class="article_list_img">
   </a>
 </header>
 <div class="col-sm-9">
@@ -53,7 +53,7 @@ _____
 <article class="row teaser">
 <header class="col-sm-3">
   <a href="../count-files">
-    <img alt="Count Files - a command-line interface utility written in Python to help you count files" src="{static /images/2018/count-files.png thumb="320x_"}" class="article_list_img">
+    <img alt="Count Files - a command-line interface utility written in Python to help you count files" src="../../images/2018/count-files.png" class="article_list_img">
   </a>
 </header>
 <div class="col-sm-9">
@@ -71,7 +71,7 @@ _____
 
 <article class="row teaser">
 <header class="col-sm-3 text-muted"><a href="../nice-telescope-planner">
-    <img alt="Nice Telescope Planner - a" src="{static /images/projects/nice_telescope_planner.png thumb="320x_"}" class="article_list_img"/>
+    <img alt="Nice Telescope Planner - a" src="../../images/projects/nice_telescope_planner.png" class="article_list_img"/>
   </a></header>
 
 <div class="col-sm-9">
@@ -88,7 +88,7 @@ _____
 
 <article class="row teaser">
 <header class="col-sm-3 text-muted"><a href="../repservice">
-    <img alt="RepService - Database application for in-store registering of warranty and service/repair processes" src="{static /images/projects/repservice.jpg thumb="320x_"}" class="article_list_img"/>
+    <img alt="RepService - Database application for in-store registering of warranty and service/repair processes" src="../../images/projects/repservice.jpg" class="article_list_img"/>
   </a></header>
 
 <div class="col-sm-9">
@@ -104,7 +104,7 @@ _____
 
 <article class="row teaser">
 <header class="col-sm-3"><a href="../pt-tracking">
-    <img alt="PT-Tracking - Parcel tracking application for CTT and CTT Expresso" src="{static /images/projects/pt-tracking.png thumb="320x_"}" class="article_list_img">
+    <img alt="PT-Tracking - Parcel tracking application for CTT and CTT Expresso" src="../../images/projects/pt-tracking.png" class="article_list_img">
   </a></header>
 
 <div class="col-sm-9"><h4 class="title"><a href="../pt-tracking">
@@ -121,7 +121,7 @@ _____
 <article class="row teaser">
 <header class="col-sm-3">
   <a href="../contar-dinheiro">
-    <img alt="Count Money - A single-window utility to help you count money" src="{static /images/projects/contar-dinheiro.png thumb="_x400"}" class="article_list_img">
+    <img alt="Count Money - A single-window utility to help you count money" src="../../images/projects/contar-dinheiro.png" class="article_list_img">
   </a>
 </header>
 <div class="col-sm-9">
@@ -140,7 +140,7 @@ _____
 <article class="row teaser">
 <header class="col-sm-3">
   <a href="../npk-backup">
-    <img alt="NPK Backup - A set of two Python scripts made to automate a simple off-site backup operation" src="{static ../../images/2018/npk-backup.png thumb="320x_"}" class="article_list_img">
+    <img alt="NPK Backup - A set of two Python scripts made to automate a simple off-site backup operation" src="../../images/2018/npk-backup.png" class="article_list_img">
   </a>
 </header>
 <div class="col-sm-9">
@@ -163,7 +163,7 @@ _____
 <article class="row teaser">
 <header class="col-sm-3">
   <a href="../openweather">
-    <img alt="OpenWeather - Check the weather in your iPhone using a Python app" src="{static /images/projects/openweather.png thumb="320x_"}" class="article_list_img">
+    <img alt="OpenWeather - Check the weather in your iPhone using a Python app" src="../../images/projects/openweather.png" class="article_list_img">
   </a>
 </header>
 <div class="col-sm-9">
@@ -182,7 +182,7 @@ _____
 <article class="row teaser">
 <header class="col-sm-3">
   <a href="/">
-    <img alt="The No Title® Tech Blog" src="{static /images/projects/no-title-screenshot.png thumb="320x_"}" class="article_list_img">
+    <img alt="The No Title® Tech Blog" src="../../images/projects/no-title-screenshot.png" class="article_list_img">
   </a>
 </header>
 <div class="col-sm-9">

@@ -5,7 +5,7 @@ Cover: /images/projects/contar-dinheiro.png
 Status: hidden
 
 
-![Count Money - A single-window utility to help you count money]({filename}/images/projects/contar-dinheiro.png)
+![Count Money - A single-window utility to help you count money]({static}/images/projects/contar-dinheiro.png)
 Every programmer makes one of these at some point, like while learning a language or a new GUI toolkit. Just a single-window utility to help you count all those bills and coins.  
 
 ___
