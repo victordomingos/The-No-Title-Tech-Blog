@@ -35,7 +35,8 @@ Then I was hired by a very young start-up company, [Lojamac.com](https://web.arc
 
 Since I had been been studying many topics on computer science and software development on my own for some time, I then decided to take a gap year between jobs in order to finally get some formal training in computer programming. It was a great opportunity to fill some earlier learning gaps and get even more curious about stuff. 
 
-Currently, I work as developer at Slim Busines Solutions, a company specialized in enterprise applications.
+Currently, I work as a developer at Slim Business Solutions, a company specialized in enterprise applications. It is an ongoing opportunity to acquire many new skills and to improve existing ones, within a very friendly and collaborative team. Some of the main projects I have been involved in are related to payroll and human resources management. 
+
 <a name="literature">&nbsp;</a>
 
 
