@@ -18,11 +18,11 @@ RELATIVE_URLS = True
 
 #JINJA2CONTENT_TEMPLATES = ['article-ads.html']
 
-PLUGINS = PLUGINS + ['sitemap',
+PLUGINS = PLUGINS + [
+                    #'sitemap',
                     #'jinja2content',
      	            #'deadlinks',
-                    'minify',  # this should be the last plugin affecting html
-                    'minification', # idem...
+                    #'minify',  # this should be the last plugin affecting html                    
                     ]
 
 SITEMAP = {
@@ -39,11 +39,16 @@ SITEMAP = {
         }
 }
     
-MINIFY = {
-      'remove_comments': True,
-      'remove_all_empty_space': True,
-      'remove_optional_attribute_quotes': False,
-}
+#CSS_MIN = True
+#HTML_MIN = True
+#INLINE_CSS_MIN = True
+#INLINE_JS_MIN = True
+
+#MINIFY = {
+#      'remove_comments': True,
+#      'remove_all_empty_space': True,
+#      'remove_optional_attribute_quotes': False,
+#}
 
 
 #DISQUS_SITENAME = ""
