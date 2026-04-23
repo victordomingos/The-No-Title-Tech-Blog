@@ -3,7 +3,7 @@ beautifulsoup4==4.9.3
 blinker==1.4
 bpyutils==0.2.0
 bs4==0.0.1
-certifi==2020.12.5
+certifi==2022.12.7
 cffi==1.14.4
 chardet==3.0.4
 charset-normalizer==2.0.9
