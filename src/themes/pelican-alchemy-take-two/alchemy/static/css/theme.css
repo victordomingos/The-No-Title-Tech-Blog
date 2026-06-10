@@ -555,8 +555,12 @@ footer .row {
 
   .main {
      padding: 14.9rem 0 3rem 0;
-     display: block; 
+     display: block;
+  }
 
+  .container {
+    float: none;
+    max-width: 100%;
   }
 
   .sidebar {
