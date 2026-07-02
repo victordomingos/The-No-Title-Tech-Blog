@@ -18,6 +18,10 @@ logger = logging.getLogger(__name__)
 
 try:
     from PIL import Image, ImageOps
+    try:
+        REAMOSTRAGEM_LANCZOS = Image.Resampling.LANCZOS  # Pillow >= 9.1
+    except AttributeError:
+        REAMOSTRAGEM_LANCZOS = REAMOSTRAGEM_LANCZOS           # Pillow < 9.1
     enabled = True
 except ImportError:
     logging.warning("Unable to load PIL, disabling thumbnailer")
@@ -70,12 +74,12 @@ class Thumbnailer(object):
         if image_w < w and image_h < h and not forced:
             return image
 
-        retval = ImageOps.fit(image, (w,h), Image.ANTIALIAS)
+        retval = ImageOps.fit(image, (w,h), REAMOSTRAGEM_LANCZOS)
         return retval
 
     def _aspect_resize(self, w, h, image, forced=False):
         retval = image.copy()
-        retval.thumbnail((w, h), Image.ANTIALIAS)
+        retval.thumbnail((w, h), REAMOSTRAGEM_LANCZOS)
 
         return retval
 

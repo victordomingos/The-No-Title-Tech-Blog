@@ -126,7 +126,7 @@ MARKDOWN = {
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
         'markdown.extensions.smarty': {},
-        'pyembed.markdown': {},
+        # 'pyembed.markdown': {},
         # 'markdown.extensions.tables':{},
     },
     'output_format': 'html5',
