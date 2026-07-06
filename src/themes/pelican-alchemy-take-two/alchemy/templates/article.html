@@ -2,7 +2,7 @@
 
 {% block head %}
   {{ super() }}
-  <meta name="description" content="{{ article.summary|striptags }}">
+  <meta name="description" content="{{ article.summary|striptags|e }}">
 {% endblock %}
 
 {% block title %}
@@ -46,15 +46,15 @@
     </header>
     {% if article.cover %}
       <picture>
-        <source id="cover" media="(min-width: 650px)" srcset="{{ SITEURL }}/{{ article.cover | thumbnail("1600x_") }}" alt="{{ article.title }}">
-        <source id="cover" media="(min-width: 465px)" srcset="{{ SITEURL }}/{{ article.cover | thumbnail("800x_") }}" alt="{{ article.title }}">
-        <img id="cover" src="{{ SITEURL }}/{{ article.cover }}" alt="{{ article.title }}">
+        <source id="cover" media="(min-width: 650px)" srcset="{{ SITEURL }}/{{ article.cover | thumbnail("1600x_") }}" alt="{{ article.title|striptags|e }}">
+        <source id="cover" media="(min-width: 465px)" srcset="{{ SITEURL }}/{{ article.cover | thumbnail("800x_") }}" alt="{{ article.title|striptags|e }}">
+        <img id="cover" src="{{ SITEURL }}/{{ article.cover }}" alt="{{ article.title|striptags|e }}">
       </picture>
     {% endif %}
     
     {% if article.summary %}
       <div id="article-summary">
-	    <p>{{ article.summary }}</p>
+	    {{ article.summary }}
       </div>
     {% endif %}
     
@@ -87,7 +87,7 @@
              <tr>
                 <td>
                     <a href="{{ SITEURL }}/{{ related_post.url }}">
-                        <img height="40px" src="{{ SITEURL }}/{{related_post.cover | thumbnail("_x80") }}" alt="{{ related_post.title }}">
+                        <img height="40px" src="{{ SITEURL }}/{{related_post.cover | thumbnail("_x80") }}" alt="{{ related_post.title|striptags|e }}">
                     </a>
                 </td>
                 <td>
