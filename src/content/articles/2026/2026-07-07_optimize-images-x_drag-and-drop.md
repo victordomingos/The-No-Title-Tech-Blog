@@ -1,4 +1,4 @@
-Title: Optimize Images X now supports WEBP and drag and drop
+Title: Optimize Images X now supports Webp and drag and drop
 Date: 2026-07-07 20:00
 Lang: en
 Tags: python, images, optimization, gui, tkinter, desktop, webp, exif, metadata, drag and drop, pyinstaller, Windows, macOS, Linux
